@@ -1,0 +1,1285 @@
+[
+    {
+        "name": "Celtic Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Celtic Culture]>",
+                    "Gain a free [Walls] [in capital]",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+                    "Cannot build [Archer] units",
+//                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+//                    "Cannot build [Swordsman] units",
+//                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+                    "Cannot build [Trireme] units",
+                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Rottary Mill",
+                "uniques": [
+                    "[+1 Food] [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Trimarchisia",
+                "uniques": [
+                    "[+15]% Strength <for [Mounted] units> <when adjacent to a [Mounted] unit>"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Celtic Chainmail",
+                "uniques": [
+                    "[+25]% Production when constructing [Heavy Spearman] units [in all cities]",
+                    "[+25]% Production when constructing [Cavalry] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Trimarchisia"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Naked Fanatics",
+                "uniques": [
+                    "[+25]% Production when constructing [Swordsman] units [in all cities]",
+                    "[+1 Happiness] [in all cities] <when at war>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Druidic Circles",
+                "uniques": [
+                    "[+1 Science] from every [Temple]",
+                    "[+1 Science] from every [Garden]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Naked Fanatics"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Celtic Culture Complete",
+                "uniques": [
+                    "[+2 Happiness] from every [Dyes]",
+                    "[+2 Happiness] from every [Gold Ore]",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Eastern Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Eastern Culture]>",
+                    "Provides a [Market] in your first [3] cities for free",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+                    "Cannot build [Horseman] units",
+//                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+//                    "Cannot build [Cataphract] units",
+//                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Royal Herd",
+                "uniques": [
+                    "[+25]% Production when constructing [Mounted] units [in capital]",
+                    "Free [Cavalry] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Parthian Tactics",
+                "uniques": [
+                    "[+25]% Strength <vs [Sword] units> <for [Horse Archer] units>",
+                    "Free [Horse Archer] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Trade Caravans",
+                "uniques": [
+                    "[+2 Gold, +1 Science] from every [Market]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+
+            {
+                "name": "Spice Road",
+                "requires": ["Trade Caravans"],
+                "uniques": [
+                    "Provides [2] [Spices]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Silk Road",
+                "requires": ["Spice Road"],
+                "uniques": [
+                    "Provides [2] [Silk]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Eastern Culture Complete",
+                "uniques": [
+                    "[+1 Happiness] [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Germanic Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Germanic Culture]>",
+                    "[+15]% Strength <for [Sword] units> <when fighting in [Forest] tiles>",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+//                    "Cannot build [Swordsman] units",
+                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+                    "Cannot build [Trireme] units",
+                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "The Great Hunt",
+                "uniques": [
+                    "[+1 Food, +1 Culture] from every [Deer]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Sacred Groves",
+                "uniques": [
+                    "[+1 Culture, +1 Faith] from every [Forest]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Great Hunt"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Beast Warriors",
+                "uniques": [
+                    "All newly-trained [Mounted] units [in all cities] receive the [Morale] promotion",
+                    "All newly-trained [Swordsman] units [in all cities] receive the [Morale] promotion",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Sacred Groves"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Shield Wall",
+                "uniques": [
+                    "[+15]% Strength <for [Spearman] units> <when adjacent to a [Spearman] unit>"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Shieldmaidens",
+                "uniques": [
+                    "[+25]% Production when constructing [Spearman] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Shield Wall"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Germanic Culture Complete",
+                "uniques": [
+                    "[-25]% maintenance costs <for [Land] units>",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hellenic Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Hellenic Culture]>",
+                    "[-50]% Culture cost of natural border growth [in capital]"
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+                    "Cannot build [Archer] units",
+//                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+//                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+//                    "Cannot build [Hemiola] units",
+//                    "Cannot build [Hexere] units",
+//                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Army Reform",
+                "uniques": [
+                    "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
+                    "[+50]% Production when constructing [Skirmisher Barracks] buildings [in capital]",
+                    "[+50]% Production when constructing [Cavalry Barracks] buildings [in capital]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Freedom of The Greeks",
+                "uniques": [
+                    "[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Local Hegemony",
+                "uniques": [
+                    "+30% Strength when fighting City-State units and cities",
+                    "[+2 Production] [in capital]"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Army Reform","Freedom of The Greeks"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Hellenic Colonists",
+                "uniques": [
+                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "Free [Settler] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Thalassocracy",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[+1] Movement <for [Water] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Hellenic Colonists"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Hellenic Culture Complete",
+                "uniques": [
+                    "[+25]% Great Person generation [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hellenistic Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Hellenistic Culture]>",
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "[+25]% Production when constructing [Settler] units [in all cities]",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+                    "Cannot build [Spearman] units",
+//                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+                    "Cannot build [Heavy Spearman] units",
+//                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+//                    "Cannot build [Cataphract] units",
+//                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+//                    "Cannot build [Hemiola] units",
+//                    "Cannot build [Hexere] units",
+//                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Military Colonies",
+                "uniques": [
+                    "[+2 Production] from every [Clerouchia]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "The Grand Fleet",
+                "uniques": [
+                    "[+1 Production] from every [Harbor]",
+                    "[+25]% Production when constructing [Decere] units [in all cities]",
+                    "[+25]% Production when constructing [Hexere] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Euergetes",
+                "uniques": [
+                    "Gifts of Gold to City-States generate [+25]% more Influence",
+                    "[+1 Science] from every [Library]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Military Colonies"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Soter",
+                "uniques": [
+                    "[+33]% Strength <vs [Barbarian] units>",
+                    "Notified of new Barbarian encampments"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Military Colonies"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Nikator",
+                "uniques": [
+                    "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Military Colonies"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Hellenistic Culture Complete",
+                "uniques": [
+                    "Free [Great General] appears",
+                    "[+2] Movement <for [Great General] units>",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Iberian Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Iberian Culture]>",
+                    "[+25]% Production when constructing [Walls] buildings [in all cities]",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+                    "Cannot build [Archer] units",
+//                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+//                    "Cannot build [Swordsman] units",
+                   "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+                    "Cannot build [Trireme] units",
+                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Skirmish Tactics",
+                "uniques": [
+                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Hill] tiles>",
+                    "[+15]% Strength <for [Slinger] units> <when fighting in [Hill] tiles>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "The Falcata",
+                "uniques": [
+                    "[+15]% Production when constructing [Sword] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Toledo Steel",
+                "uniques": [
+                    "All newly-trained [Sword] units [in all cities] receive the [Morale] promotion",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Falcata"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Iberian Horses",
+                "uniques": [
+                    "New [Mounted] units start with [10] Experience [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Cantabrian Circle",
+                "uniques": [
+                    "All healing effects doubled <for [Horseman] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Iberian Horses"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Iberian Culture Complete",
+                "uniques": [
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Illyrian Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Illyrian Culture]>",
+                    "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+                    "Cannot build [Archer] units",
+//                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+//                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+                    "Cannot build [Trireme] units",
+                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "The Right to Plunder",
+                "uniques": [
+                    "No movement cost to pillage <for [All] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Liburnes",
+                "uniques": [
+                    "[-50]% maintenance costs <for [Galley] units>",
+                    "[+1] Movement <for [Galley] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Right to Plunder"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Illyrian Pirates",
+                "uniques": [
+                    "[+25]% Strength <for [Water] units> <vs cities>"
+                    "[1] Movement point cost to disembark <for [Military] units>",
+                    "[1] Movement point cost to embark <for [Military] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Right to Plunder"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Imported Armor",
+                "uniques": [
+                    "[+25]% Production when constructing [Sword] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Tribal Stronghold",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Imported Armor", "Illyrian Pirates"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Illyrian Culture Complete",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <during a Golden Age>",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Latin Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Latin Culture]>",
+                    "[+50]% Production when constructing [Sword] units [in capital]",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+                    "Cannot build [Archer] units",
+//                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+//                    "Cannot build [Swordsman] units",
+                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+//                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+//                    "Cannot build [Hexere] units",
+//                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Manipular Legion",
+                "uniques": [
+                    "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
+//                    "[+25]% Production when constructing [Army Barracks] buildings [in all cities]",
+                    "Free [Swordsman] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Socii",
+                "uniques": [
+                    "Military Units gifted from City-States start with [+15] XP",
+                    "[-25]% City-State Influence degradation",
+                    "Free [Swordsman] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Foederati",
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "Free [Swordsman] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Socii","Manipular Legion"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Gladiatorial Games",
+                "uniques": [
+                    "[+25]% Production when constructing [Arena] buildings [in all cities]",
+                    "Gain a free [Arena] [in capital]"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Bread and Circuses",
+                "uniques": [
+                    "[+25]% Production when constructing [Colosseum] buildings [in all cities]",
+                    "[+25]% Production when constructing [Circus Maximus] buildings [in all cities]",
+                    "[+1 Happiness] from every [Arena]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Gladiatorial Games"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Latin Culture Complete",
+                "uniques": [
+                    "[+25]% Production when constructing [Sword] units [in all cities]",
+                    "[+50]% Golden Age length",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Numidian Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Numidian Culture]>",
+                    "[+1] Sight <for [Land] units>",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+//                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+//                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Desert Traders",
+                "uniques": [
+                    "[+1 Gold] from every [Market]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Grain Exports",
+                "uniques": [
+                    "[+2 Gold] from every [Wheat]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Desert Traders"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Numidian Warfare",
+                "uniques": [
+                    "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+25]% Strength <for [Scout] units> <when fighting in [Desert] tiles>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Mass Recruitment",
+                "uniques": [
+                    "[+15]% Production when constructing [Land] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Numidian Warfare"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Infantry Reform",
+                "uniques": [
+                    "[+15]% Production when constructing [Heavy Spearman] units [in all cities]",
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Mass Recruitment"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Numidian Culture Complete",
+                "uniques": [
+                    "[+15]% Production when constructing [All] buildings [in capital]",
+                    "[+1] Movement <for [Land] units>",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Punic Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Punic Culture]>",
+                    "[+1] Sight <for [All] units>",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+                    "Cannot build [Swordsman] units",
+//                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+//                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+//                    "Cannot build [Trireme] units",
+//                    "Cannot build [Quinquereme] units",
+                    "Cannot build [Hemiola] units",
+//                    "Cannot build [Hexere] units",
+//                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+            {
+                "name": "Triple Walls",
+                "uniques": [
+                    "Gain a free [Wall Towers] [in capital]",
+                    "[+25]% Production when constructing [Military] units [in capital]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Phoenician Traders",
+                "uniques": [
+                    "[+2 Gold] from every [Harbor]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mercenary Armies",
+                "uniques": [
+                    "[Gold] cost of purchasing [Military] units [-33]%",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Numidian Auxiliaries",
+                "uniques": [
+                    "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+25]% Strength <for [Scout] units> <when fighting in [Desert] tiles>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Mercenary Armies"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Mercenary Reform",
+                "uniques": [
+                    "[+25]% Production when constructing [Heavy Spearman] units [in all cities]",
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Mercenary Armies"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Punic Culture Complete",
+                "uniques": [
+                    "[+1] Movement <for [All] units> <on foreign continents>",
+                    "[+1] Movement <for [Embarked] units>",
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Thracian Culture",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Thracian Culture]>",
+                    "[+2 Gold, +1 Happiness] from every [Mint]",
+                    "[+1 Happiness] [in capital]",
+//                    "Cannot build [Skirmisher] units",
+//                    "Cannot build [Archer] units",
+                    "Cannot build [Slinger] units",
+//                    "Cannot build [Spearman] units",
+                    "Cannot build [Pike Phalanx] units",
+//                    "Cannot build [Swordsman] units",
+                    "Cannot build [Heavy Spearman] units",
+                    "Cannot build [Royal Phalanx] units",
+//                    "Cannot build [Horseman] units",
+                    "Cannot build [Horse Archer] units",
+//                    "Cannot build [Cavalry] units",
+                    "Cannot build [Cataphract] units",
+                    "Cannot build [War Elephant] units",
+//                    "Cannot build [Ballista] units",
+//                    "Cannot build [Galley] units",
+                    "Cannot build [Trireme] units",
+                    "Cannot build [Quinquereme] units",
+//                    "Cannot build [Hemiola] units",
+                    "Cannot build [Hexere] units",
+                    "Cannot build [Decere] units"
+        ],
+        "policies": [
+             {
+                "name": "The Hill Tribes",
+                "uniques": [
+                    "[+15]% Production when constructing [Skirmisher] units [in all cities]",
+                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Rough terrain] tiles>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "The Rhomphia",
+                "uniques": [
+                    "Double quantity of [Iron] produced",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Hill Tribes"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Heroic Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Mounted] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+
+            {
+                "name": "Royal Gifts",
+                "uniques": [
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "[+50]% [Happiness] from City-States",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Heroic Tradition"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "The Great Kingdom",
+                "uniques": [
+                    "Receive triple Gold from Barbarian encampments and pillaging Cities",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Heroic Tradition"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Thracian Culture Complete",
+                "uniques": [
+                    "[+25]% City Strength from defensive buildings",
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tribal Federation",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50
+        },
+        "uniques": [
+            "Only available <before adopting [Land Reform]>",
+            "Only available <before adopting [Centralization]>",
+//            "Only available <before adopting [Celtic Culture]>",
+//            "Only available <before adopting [Eastern Culture]>",
+//            "Only available <before adopting [Germanic Culture]>",
+            "Only available <before adopting [Hellenistic Culture]>",
+            "Only available <before adopting [Hellenic Culture]>",
+//            "Only available <before adopting [Iberian Culture]>",
+//            "Only available <before adopting [Illyrian Culture]>",
+            "Only available <before adopting [Latin Culture]>",
+            "Only available <before adopting [Punic Culture]>",
+//            "Only available <before adopting [Thracian Culture]>",
+            "[-25]% maintenance cost for buildings [in all cities]",
+            "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Tribal Levy",
+                "uniques": [
+                    "New [Melee] units start with [10] Experience [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Mutual Protection",
+                "uniques": [
+                    "[+50]% Strength <vs [Barbarian] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "The Grand Warchief",
+                "uniques": [
+                    "Free [Great General] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Tribal Levy","Mutual Protection"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Shared Rituals",
+                "uniques": [
+                    "[+1 Happiness] from every [Mountain]",
+                    "[+1 Happiness] from every [Forest]",
+                    "[+1 Happiness] from every [Jungle]",
+                    "[+1 Happiness] from every [Oasis]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Trade Centers",
+                "uniques": [
+                    "[+2 Gold] from every [Market]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Shared Rituals"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Tribal Federation Complete",
+                "uniques": [
+                    "[+1 Culture, +1 Science] [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Centralization",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50
+        },
+        "uniques": [
+            "Only available <after discovering [Social Reforms]>",
+            "Only available <before adopting [Land Reform]>",
+            "Only available <before adopting [Tribal Federation]>",
+            "[+1 Gold] from every [Mine]",
+            "[+1 Gold] from every [Plantation]",
+            "[+1 Gold] from every [Farm]",
+            "[-1 Happiness] [in all cities]",
+            "[+1 Happiness] [in capital]"
+
+        ],
+        "policies": [
+            {
+                "name": "Sponsored Philosophers",
+                "uniques": [
+                    "[+1 Happiness] from every [Academy]",
+                    "[+1 Happiness] from every [Library]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Urbanization",
+                "uniques": [
+                     "[+25]% Production towards any buildings that already exist in the Capital",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Imperial Army",
+                "uniques": [
+                    "[+1 Happiness] [in all cities] <with a garrison>",
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mass Culture",
+                "uniques": [
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Sponsored Philosophers","Urbanization","Imperial Army"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Ruler Deification",
+                "uniques": [
+                    "[+6 Gold] [in capital]"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Mass Culture"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Centralization Complete",
+                "uniques": [
+                    "Free [Great Prophet] appears",
+                    "May choose [1] additional [Founder] beliefs when [founding] a religion",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Land Reform",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50
+        },
+        "uniques": [
+            "Only available <after discovering [Social Reforms]>",
+            "Only available <before adopting [Centralization]>",
+            "Only available <before adopting [Tribal Federation]>",
+            "[-1 Happiness] from every [Plantation]",
+            "[-1 Happiness] from every [Mine]",
+            "[-1 Happiness] from every [Stable]",
+            "[+1 Happiness] [in all cities]",
+            "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Free Speech",
+                "uniques": [
+                    "[+1 Culture] per [2] population [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Constitutional Reform",
+                "uniques": [
+                    "[-10]% Culture cost of adopting new Policies",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Extended Citizenship",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Citizen Levy",
+                "requires": ["Extended Citizenship"],
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Land Redistribution",
+                "requires": ["Citizen Levy"],
+                "uniques": [
+                    "[+1 Happiness] per [2] population [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Land Reform Complete",
+                "uniques": [
+                    "[+1 Food] from every [Farm]",
+                    "[+1 Food] from every [Pasture]",
+                    "[+1 Food] from every [Fishing Boats]",
+                    "[+1 Happiness] [in capital]"                 
+                ]
+            }
+        ]
+    }
+]

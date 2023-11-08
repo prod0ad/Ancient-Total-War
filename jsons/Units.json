@@ -1,0 +1,767 @@
+[
+
+	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+
+	/* Civilians */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Shipbuilding",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Navigation]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	/* Scouts */
+	{
+		"name": "Skirmisher",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"requiredTech": "Warrior Class",
+//		"upgradesTo": "Peltast",
+//		"obsoleteTech": "Combined Arms",
+		"uniques": ["May withdraw before melee ([25]%)"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit", //arrow
+		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
+	}
+	{
+		"name": "Caetratus",
+		"unitType": "Scout",
+		"replaces": "Skirmisher",
+		"uniqueTo": "The Lusitani",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Warrior Class",
+		"uniques": ["May withdraw before melee ([50]%)","Invisible to non-adjacent units"],
+		"promotions": ["Ignore terrain cost","Scouting I"],
+		"attackSound": "arrow",
+		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
+	},
+	{
+		"name": "Thracian Peltast",
+		"unitType": "Scout",
+		"replaces": "Skirmisher",
+		"uniqueTo": "The Odrysians",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Warrior Class",
+		"uniques": ["May withdraw before melee ([50]%)"],
+		"promotions": ["Ignore terrain cost","Drill I"],
+		"attackSound": "arrow",
+		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
+	},
+	/* Archers */
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 45,
+		"requiredTech": "Archery",
+//		"obsoleteTech": "Auxiliaries",
+//		"upgradesTo": "Cretan Archer",
+		"uniques": [
+		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+//		"Only available <in cities with a [Archery Range]>"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 45,
+		"requiredTech": "Archery",
+//		"obsoleteTech": "Auxiliaries",
+//		"upgradesTo": "Cretan Archer",
+		"uniques": [
+		"[+25]% Strength <vs [Archery] units>",
+//		"Only available <in cities with a [Archery Range]>"
+		]		,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Balearic Slinger",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "The Carthaginians",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 45,
+		"requiredTech": "Archery",
+//		"obsoleteTech": "Auxiliaries",
+//		"upgradesTo": "Cretan Archer",
+		"uniques": [
+		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+		"[+25]% Strength <vs [Archery] units>",
+//		"Only available <in cities with a [Archery Range]>"
+		]		,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Cretan Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 12,
+		"cost": 90,
+		"requiredTech": "Mercenaries",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles> <when defending>","Unbuildable","Can be purchased with [Gold] [in all cities]","Can move immediately once bought"],
+		"attackSound": "arrow"
+	},
+	/* Infantry I */
+	{
+		"name": "Mercenary Hoplite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Mercenaries",
+//		"upgradesTo": "Pike Phalanx",
+//		"obsoleteTech": "Military Settlers",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Unbuildable","Can be purchased with [Gold] [in all cities]","Can move immediately once bought"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Infantry Training",
+//		"requiredResource": "Copper",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Iphicratian Hoplite",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "The Athenians",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Infantry Training",
+		"upgradesTo": "Heavy Spearman",
+		"obsoleteTech": "Military Reforms",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"promotions": ["Drill I","Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spartan Hoplite",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "The Spartans",
+		"movement": 2,
+		"strength": 14,
+		"cost": 56,
+		"requiredTech": "Infantry Training",
+		"requiredResource": "Copper",
+		"upgradesTo": "Spartan Phalanx",
+		"obsoleteTech": "Military Reforms",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs [Sword] units>",
+//		"Only available <in cities with a [Barracks]>"
+		], // Fear aura instead of vs Sword?
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Noble Hoplite",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "The Dardanians",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"requiredTech": "Infantry Training",
+		"requiredResource": "Copper",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pike Phalanx",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Infantry Training",
+		"requiredResource": "Copper", // Timber
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs [Sword] units>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>"
+//		"Only available <in cities with a [Barracks]>",
+		"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	/* Infantry II */
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+//		"Only available <in cities with a [Barracks]>",
+		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gaesatae",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Insubres",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+//		"Only available <in cities with a [Barracks]>",
+		"Can move immediately once bought"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Bastarnae",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+50]% Strength <vs [Sword] units>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Thracian Warband",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Odrysians",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+25]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dacian Falxman",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Getae",
+		"movement": 2,
+		"strength": 12,
+		"cost": 70,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+50]% Strength <vs [Sword] units>",
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Scutarius",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Celtiberians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Legion",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Romans",
+		"movement": 2,
+		"strength": 17,
+		"cost": 70,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+//		"Only available <in cities with a [Barracks]>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Royal Phalanx",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Copper",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs [Sword] units>",
+		"Only available <in cities with a [Palace]>"
+		"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	/* Infantry III */
+	{
+		"name": "Heavy Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "Military Reforms",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+//		"Only available <in cities with a [Barracks]>",
+		"Never appears as a Barbarian unit"
+		],
+//		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Solduros",
+		"unitType": "Sword",
+		"replaces": "Heavy Spearman",
+		"uniqueTo": "The Arverni",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+25]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Army Barracks]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Libyan Infantry",
+		"unitType": "Sword",
+		"replaces": "Heavy Spearman",
+		"uniqueTo": "The Carthaginians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "Military Reforms",
+		"requiredResource": "Iron",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spartan Phalanx",
+		"unitType": "Sword",
+		"replaces": "Heavy Spearman",
+		"uniqueTo": "The Spartans",
+		"movement": 2,
+		"strength": 18,
+		"cost": 75,
+		"requiredTech": "Military Reforms",
+		"requiredResource": "Copper",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs [Sword] units>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+//		"Only available <in cities with a [Army Barracks]>",
+		],
+		"attackSound": "metalhit"
+	},
+	/* Cavalry */
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 10,
+		"cost": 70,
+		"requiredTech": "Light Cavalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"May withdraw before melee ([75]%)",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Stable]>"
+		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Horse Archer",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Light Cavalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"May withdraw before melee ([75]%)",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Stable]>"
+		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Celtic Chariot",
+		"unitType": "Mounted",
+		"uniqueTo": "The Belgae",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Warrior Class",
+		"requiredResource": "Horses",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"Rough terrain penalty",
+		"[-25]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Stable]>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Equestrian Class",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-25]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit",
+//		"Only available <in cities with a [Cavalry Barracks]>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cataphract",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+		"[-25]% Strength <vs cities> <when attacking>",
+		"No defensive terrain bonus",
+		"Never appears as a Barbarian unit",
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Armenian Noble",
+		"unitType": "Mounted",
+		"uniqueTo": "The Armenians",
+		"replaces": "Cataphract",
+		"movement": 3,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+		"[-25]% Strength <vs cities> <when attacking>",
+//		"Only available <in cities with a [Cavalry Barracks]>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sacred Squadron",
+		"unitType": "Mounted",
+		"uniqueTo": "The Macedonians",
+		"replaces": "Cataphract",
+		"movement": 4,
+		"strength": 12,
+		"cost": 90,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"Only available <in cities with a [Palace]>"
+		],
+		"promotions": ["Cover I"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ptolemaic Agema",
+		"unitType": "Mounted",
+		"uniqueTo": "The Ptolemies",
+		"replaces": "Cataphract",
+		"movement": 4,
+		"strength": 12,
+		"cost": 90,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"Only available <in cities with a [Palace]>"
+		],
+		"promotions": ["Cover I"],
+		"attackSound": "horse"
+	},
+	/* Elephants */
+	{
+		"name": "War Elephant",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 12,
+		"cost": 90,
+		"requiredTech": "Equestrian Class",
+		"requiredResource": "Ivory",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[+50]% Strength <vs [Mounted] units>",
+//		"Only available <in cities with a [Cavalry Barracks]>",
+		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Armored Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "The Seleucids",
+		"replaces": "War Elephant",
+		"movement": 3,
+		"strength": 15,
+		"cost": 110,
+		"requiredTech": "Equestrian Class",
+		"requiredResource": "Ivory",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[+50]% Strength <vs [Mounted] units>",
+//		"Only available <in cities with a [Cavalry Barracks]>",
+		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	/* Navy */
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"requiredTech": "Shipbuilding",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","May capture killed [Water] units"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Shipbuilding",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","May capture killed [Water] units", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Navigation",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","May capture killed [Water] units","Only available <in cities with a [Harbor]>", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Hemiola",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Navigation",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","May capture killed [Water] units","Ignores Zone of Control", "May withdraw before melee ([50]%)","Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Hexere",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 90,
+		"requiredTech": "Naval Artillery",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","Only available <in cities with a [Seaport]>", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Decere",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Naval Artillery",
+		"requiredResource": "Timber",
+		"uniques": ["Cannot enter ocean tiles","Only available <in cities with a [Seaport]>","Limited to [1] per Civilization","Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	/* Siege */
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Engineering",
+		"requiredResource": "Timber",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	/* Great people */
+
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+//		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-25]% Strength <vs cities> <when attacking>",
+//		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]", "Unbuildable"],
+		"attackSound": "horse"
+	},
+]

@@ -1,0 +1,31 @@
+{
+  "Great Generals": [
+    "Hannibal Barca",
+    "Epaminondas",
+    "Gaius Marius",
+    "Leonidas",
+    "Lysander",
+    "Pompey",
+    "Pyrrhus",
+    "Scipio Africanus",
+    "Spartacus",
+    "Vercingetorix",
+  ],
+  "Great Scientists": [
+    "Euclid",
+    "Hypatia",
+    "Ptolemy",
+    "Plato",
+    "Socrates"
+  ],
+  "Great Merchants": [
+    "Carthalo"
+  ],
+  "Great Artists": [
+    "Aristophanes",
+    "Homer"
+  ],
+  "Great Engineers": [
+    "Archimedes"
+  ]
+}

@@ -1,0 +1,1927 @@
+[
+//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0]
+	},
+// Italy
+	{
+		"name": "The Romans",
+		"leaderName": "Biggus Dickus",
+		"adjective": ["Roman"],
+	        "startBias":["Coast","Hill"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Romans are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Biggus Dickus, Consul of Rome, and I welcome you on behalf of the SPQR.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [164,20,20],
+		"innerColor": [255,255,41],
+		"style": "Roman",
+		"uniqueName": "We Come as Friends",
+		"uniques": [
+		"[+1 Happiness] from every [Barracks] <when at war>",
+		"[+2 Happiness] from every [Army Barracks] <when at war>",
+		"Starts with [Infantry Training]",
+		"Starts with [Latin Culture] adopted"
+		],
+		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Segesta","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
+	},
+	{
+		"name": "The Insubres",
+		"leaderName": "Britomaris",
+		"adjective": ["Insubrian"],
+	        "startBias":["Avoid [Coast]","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Insubres are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Aneroestes, Warchief of the Insubres, and I welcome you to my Tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [115,55,40],
+		"innerColor": [225,225,225],
+		"style": "Celtic",
+		"uniqueName": "Mercenary Contacts",
+		"uniques": [
+                "[Gold] cost of purchasing [Military Land] units [-33]%",
+		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted"
+		],
+		"cities": [
+		"Mediolanum","Comum","Bergomum","Vercelae","Ticinium","Acerrae","Taurini","Bononia","Cennomani",
+		"Lingones","Sennones","Laevi","Marici","Libici","Orumbovii","Salassi","Leponti","Venonetes"
+		]
+	},
+// Egypt
+	{
+		"name": "The Ptolemies",
+		"leaderName": "Ptolemy",
+		"adjective": ["Ptolemaic"],
+	        "startBias":["Coast","Desert","River"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Ptolemies are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Ptolemy, Pharaoh of Egypt, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [255,255,140],
+		"innerColor": [0,0,0],
+		"style": "Egyptian",
+		"uniqueName": "Riches of the Nile",
+		"uniques": [
+		"Gain a free [The Great Lighthouse] [in capital]",
+		"Starts with [Colonization]",
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"cities": [
+		"Alexandreia","Pelousion","Leukaspis","Diospolis","Hermopolis","Aphroditoupolis","Heliopolis","Hierapolis","Oxyrinchos","Philadelphia","Herakleopolis","Panopolis",
+		"Philoteras","Berenike","Ptolemais","Kynopolis","Lykopolis","Latopolis","Paretonion"
+		]
+	},
+	{
+		"name": "The Cyreneans",
+		"leaderName": "Magas",
+		"adjective": ["Cyrenean"],
+	        "startBias":["Coast","Desert"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Cyreneans are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Magas, King of Cyrene, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [35,95,175],
+		"innerColor": [240,220,180],
+		"style": "Egyptian",
+		"uniqueName": "Silphium Monopoly",
+		"uniques": [
+		"Gain a free [Silphium Trader] [in capital]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"cities": ["Cyrene","Barke","Euesperides","Apollonia Cyrenaike","Darnis","Taucheiria","Antipirgus","Katabathmos","Boreon","Paretonion","Berenike","Ptolemais"]
+	},
+// Anatolia
+	{
+		"name": "The Mithridatids",
+		"leaderName": "Mithridates",
+		"adjective": ["Mithridatid"],
+	        "startBias":["Hill","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Mithridatids are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Mithridates, King of Pontos, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [48,147,216],
+		"innerColor": [123,3,0],
+		"style": "Eastern",
+		"uniqueName": "The Pontic Levy",
+		"uniques": [
+		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+		"[+25]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
+		"Starts with [Light Cavalry]",
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"cities": ["Amaseia","Amisos","Zela","Komana","Koloneia","Polemonion","Sebastopolis","Sebasteia","Nikopolis","Kerasous"]
+	},
+	{
+		"name": "The Pergamenes",
+		"leaderName": "Attalos",
+		"adjective": ["Pergamene"],
+		"startBias": ["Hill","River"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... Pergamos is gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Attalos, King of Pergamos, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [10,39,117],
+		"innerColor": [255,255,255],
+		"style": "Hellenistic",
+		"uniqueName": "The Treasury of Lysimachos",
+		"uniques": [
+		"Gain a free [National Treasury] [in capital]",
+		"Starts with [Entertainment]",
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"cities": ["Pergamos","Elaia","Attaleia","Hadramytteion","Attea","Assos","Parion","Abydos","Lampsakos","Cyzicos","Thyateira","Magnesia"]
+	},
+//Asia
+	{
+		"name": "The Seleucids",
+		"leaderName": "Antiochos",
+		"adjective": ["Seleucid"],
+	        "startBias":["Coast","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Seleucids are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Antiochos, Lord of Asia, and I welcome you in my Empire.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [155,128,128],
+		"innerColor": [255,255,255],
+		"style": "Seleucid",
+		"uniqueName": "Lords of Asia",
+		"uniques": [
+		"[-75]% unhappiness from the number of cities",
+		"[+25]% Strength <for [Cavalry] units> <vs [Sword] units>",
+		"[+25]% Strength <for [Cataphract] units> <vs [Sword] units>",
+		"Starts with [Light Cavalry]",
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"cities": [
+		"Antioch","Seleucia Pieria","Apameia","Laodikea Paralos","Beroia","Chalkis","Nicephorion","Hierapolis Bambyke","Dura Europos","Zeugma","Edessa","Emessa","Epiphania"
+		]
+	},
+	{
+		"name": "The Armenians",
+		"leaderName": "Tigranes",
+		"adjective": ["Armenian"],
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Armenians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Tigranes, King of Armenia, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [32,115,85],
+		"innerColor": [150,215,255],
+		"style": "Eastern",
+		"uniqueName": "Caucasian Stronghold",
+		"uniques": [
+                "[+15]% Strength <for [Military Land] units> <when fighting in [Friendly Land] tiles>",
+		"[-25]% maintenance costs <for [Military Land] units> <after discovering [Military Infrastructure]>",
+		"Starts with [Archery]",
+		"Starts with [Eastern Culture] adopted"
+		],
+		"cities": [
+		"Armavir","Yervandashat","Artashat","Gorneae","Arxata","Daranissa","Tigranocerta","Vagharshapat","Dvin","Balalesa","Arsamosata","Carcathiocerta","Satala","Elegeia","Amida"
+		]
+	},
+	{
+		"name": "The Arsacids",
+		"leaderName": "Arsaces",
+		"adjective": ["Arsacid"],
+	        "startBias":["Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Parthians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Arsaces, King of Parthians, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [168,62,154],
+		"innerColor": [255,255,141],
+		"style": "Parthian",
+		"uniqueName": "Parthian Horselords",
+		"uniques": [
+		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
+		"New [Cataphract] units start with [10] Experience [in all cities]", 
+		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted"
+		],
+		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Ctesiphon","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
+	},
+// Scythia
+	{
+		"name": "The Scythians",
+		"leaderName": "Ateas",
+		"adjective": ["Scythian"],
+	        "startBias":["Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Scythians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Ateas, King of the Scythians, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [215,115,25],
+		"innerColor": [255,255,139],
+		"style": "Scythian",
+		"uniqueName": "Royal Scythians",
+		"uniques": [
+		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
+		"[+50]% Happiness from luxury resources gifted by City-States",
+		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted"
+		],
+		"cities": [
+		"Gerrhos","Hylaia","Gelonos","Neapolis Scythike",
+		"Budini","Geloni","Alazones","Agathyrsi","Androphagi","Melanchlaeni","Neuri","Tauri","Spali","Auchetae","Athernei","Asampatae","Kallipidae"
+		"Achaei","Arimaspi","Cimmeri","Abii","Cadusii","Gelae","Legae","Hamaxobii","Sindi","Zygii","Thyssagetae","Massagetae","Amyrgii"
+		]
+	},
+	{
+		"name": "The Roxolani",
+		"leaderName": "Tasius",
+		"adjective": ["Roxolanian"],
+	        "startBias":["Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Roxolani are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Tasius, King of the Roxolani, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [245, 230, 55],
+		"innerColor": [177, 8, 3],
+		"style": "Scythian",
+		"uniqueName": "Sarmatian Nomads",
+		"uniques": [
+		"[+25]% Production when constructing [Cataphract] units [in all cities]",
+		"[+1 Happiness] from every [Pasture]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted",
+		],
+		"cities": [
+		"Roxolani","Alani","Aorsi","Iazyges","Sindi","Dandarii","Toreatae","Agri","Arrechi","Tarpetes","Obidiaceni","Sittaceni","Dosci","Aragantes","Cissianti",
+		"Limigantes","Phoristae","Rimphaces","Serboi","Spondolici","Yancai","Spali"
+		]
+	},
+// Africa
+	{
+		"name": "The Carthaginians",
+		"leaderName": "Hannibal",
+		"adjective": ["Carthaginian"],
+	        "startBias":["Coast","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Carthaginians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Hannibal, Suffet of Carthage, and I welcome you in my great City.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [255,255,255],
+		"innerColor": [40,100,50],
+		"style": "Punic",
+		"uniqueName": "Phoenician Heritage",
+		"uniques": [
+		"Gain a free [Harbor] [in all coastal cities]",
+		"[+1 Gold] from every [Harbor]",
+		"Starts with [Colonization]",
+		"Starts with [Punic Culture] adopted"
+		],
+		"cities": [
+		"Carthage","Utica","Hadr","Thapsus","Hippo Regius","Lilibeo","Kerkouane","Eryx","Panormos","Rusicade","Iol","Cartenna","Russadir","Sala","Sexi","Ibosim","Carales",
+		"Hippo Diarrhytus","Thabraca","Leptis Minor","Tacapae"
+		]
+	},
+	{
+		"name": "The Massylii",
+		"leaderName": "Massanisa",
+		"adjective": ["Massylii"],
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Massylii are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Massanisa, King of the Massylii, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [55,80,90],
+		"innerColor": [225,215,200],
+		"style": "Punic",
+		"uniqueName": "East Numidians",
+		"uniques": [
+		"New [Horseman] units start with [10] Experience [in all cities]",
+		"[+2 Gold] from every [Wheat]",
+		"Starts with [Light Cavalry]"
+		"Starts with [Numidian Culture] adopted"
+		],
+		"cities": ["Cirta","Thamugadi","Lambaesis","Theveste","Thelepte","Capsa","Sitifis","Mascula","Sicca","Tubunae","Vescera","Gemelae","Chullu",]
+	},
+	{
+		"name": "The Masaesyli",
+		"leaderName": "Syphax",
+		"adjective": ["Masaesyli"],
+	        "startBias":["Coast","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Massylii are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Massanisa, King of the Massylii, and I welcome you in my Kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [191,189,145],
+		"innerColor": [8,40,117],
+		"style": "Punic",
+		"uniqueName": "West Numidians",
+		"uniques": [
+		"New [Horseman] units start with [10] Experience [in all cities]",
+		"[+1 Gold] from every [Market]",
+		"Starts with [Light Cavalry]"
+		"Starts with [Numidian Culture] adopted"
+		],
+		"cities": ["Siga","Auzia","Uzinaza","Sufasar","Zucchabar","Tigava","Mina","Quiza","Altava","Bida","Tipasa"]
+	},
+// Iberia
+	{
+		"name": "The Lusitani",
+		"leaderName": "Viriato",
+		"adjective": ["Lusitanian"],
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Lusitani are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Viriato, Warchief of the Lusitani, and I welcome you to my Tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [135,110,60],
+		"innerColor": [240,230,190],
+		"style": "Iberian",
+		"uniqueName": "Irregular Warfare",
+		"uniques": [
+		"[+25]% XP gained from combat <for [Scout] units>",
+		"[+25]% XP gained from combat <for [Sword] units>",
+		"Starts with [Infantry Training]",
+		"Starts with [Iberian Culture] adopted"
+		],
+		"cities": [
+		"Scallabis",
+		"Elbocori","Tapori","Paesuri","Arabrigenses","Araocelenses","Aravi","Colarni","Interamnienses","Lancienses","Meidubrigenses","Petravioi","Tangi","Igaeditani",
+		"Talures","Veaminicori","Talures","Vissaieici", // Lusitani
+		"Coerenses","Calontienses","Palanti","Caluri","Capara","Obila","Mirobriga","Turgalium","Alea","Bletisa","Tamusia","Ocelon","Cottaeobriga","Lancia"// Vettones
+		]
+	},
+	{
+		"name": "The Celtiberians",
+		"leaderName": "Carus",
+		"adjective": ["Celtiberian"],
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Lusitani are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Viriato, Warchief of the Lusitani, and I welcome you to my Tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [248,183,29],
+		"innerColor": [165,20,20],
+		"style": "Iberian",
+		"uniqueName": "Hillfort Kings",
+		"uniques": [
+		"[+25]% XP gained from combat <for [Mounted] units>",
+		"Gain a free [Walls] [in capital]",
+		"[+1 Production, +1 Gold] from every [Walls]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Iberian Culture] adopted"
+		],
+		"cities": [
+		"Numantia","Clunia","Okilis","Pallantia","Salmantica","Toletum","Segobriga","Belia","Turiaso","Nertobriga","Titum","Segovia","Segontia","Bilbilis","Celsa",
+		"Arbucala","Pincia","Intercatia","Cauca","Septimanca","Rauda","Dessobriga","Autraca","Calagurris","Cascantum","Burzao","Carabis","Complega",
+		"Savia","Aregrada","Arenetum","Quelia","Contrebia","Viscintium","Lutia","Olibia","Varia","Segeda","Contrebia Belaisca","Beligiom","Lesera","Belgeda","Osicerda","Orosis",
+		"Iplacea","Titulcia","Consabura","Barnacis","Laminium","Alce","Lutiaca","Cortona","Arcobriga","Aratis","Titiakos","Comfluenta","Tucris","Mallia","Lagni","Colenda"
+		]
+	},
+// Gaul
+	{
+		"name": "The Arverni",
+		"leaderName": "Vercingetorix",
+		"adjective": ["Arverni"],
+	        "startBias":["Hill","Grassland","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [24, 63, 28],
+		"innerColor": [255, 36, 36],
+		"style": "Celtic",
+		"uniqueName": "Gallic Traders",
+		"uniques": [
+                "[+15]% [Gold] [in all cities]",
+		"Starts with [Infantry Training]",
+		"Starts with [Celtic Culture] adopted"
+		],
+		"cities": [
+		"Gergovia",// Cities
+		"Vellavi","Gabali","Ruteni","Cadurci","Segusiavi","Ambarri","Petrocorii","Nitiobroges","Lemovices" //Tribes
+		]
+	},
+	{
+		"name": "The Belgae",
+		"leaderName": "Diviciacus", // Suessiones
+		"adjective": ["Belgae"],
+	        "startBias":["Grassland"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [95,125,190],
+		"innerColor": [215,235,250],
+		"style": "Celtic",
+		"uniqueName": "Brave Belgae",
+		"uniques": [
+                "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
+		"[+15]% Strength <for [Sword] units> <when fighting in [Forest] tiles>",
+		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted"
+		],
+		"cities": [
+		"Noviodunum","Samarobriva","Durocortorum","Bibrax","Nemetocena","Bratupantium","Tervanna","Gesoriacum","Augum","Briga","Bononia","Rotomagus","Aduatuca", //Cities
+		"Ambiani","Atrebates","Bellovaci","Suessiones","Viromandui","Caleti","Veliocassi","Menapii","Morini","Catuslugi","Nervii","Remi","Catuslugi","Eburones","Meldi" //Tribes
+		]
+	},
+	{
+		"name": "The Boii",
+		"leaderName": "Boiorix",
+		"adjective": ["Boian"],
+		"startBias": ["Grassland","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [245,248,185],
+		"innerColor": [18,84,30],
+		"uniqueName": "Celtic Pastoralists",
+		"uniques": [
+                "[-25]% maintenance costs <for [Mounted] units>",
+                "[+1 Gold] from every [Pasture]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": [
+		"Boihaem","Vindobona","Cetium","Carnuntum","Lauriacum","Aquinqum","Aquilia","Virunum","Neviodunum","Savaria","Scabarantia","Gorsium","Brigetio","Casurgis","Istros", //Cities
+		"Cotini","Hercuni","Eravisci","Sevaci","Taurisci","Carni","Latoboces" //Tribes
+		]
+	},
+// Germania
+	{
+		"name": "The Bastarnae",
+		"leaderName": "Clondicus",
+		"adjective": ["Bastarnae"],
+	        "startBias":["Forest","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [88,21,38],
+		"innerColor": [255,255,255],
+		"style": "Germanic",
+		"uniqueName": "Migratory Tribe",
+		"uniques": [
+		"[+15]% Production when constructing [Settler] units [in all cities]",
+                "No movement cost to pillage <for [Land] units>",
+		"Starts with [Light Cavalry]",
+		"Starts with [Germanic Culture] adopted"
+		],
+		"cities": ["Bastarni","Scirii","Atmonia","Sidoni","Peucini","Carpi","Costoboces"]
+	},
+//Greece
+	{
+		"name": "The Macedonians",
+		"leaderName": "Philip",
+		"adjective": ["Macedonian"],
+	        "startBias":["River","Hill"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Macedonians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Philip, King of The Macedonians, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [120, 48, 150],
+		"innerColor": [255, 255, 41],
+		"style": "Macedonian",
+		"uniqueName": "Call to Power",
+		"uniques": [
+		"[+1 Happiness] from every [Strategic resource]",
+		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
+		"[+25]% Production when constructing [Ballista] units [in all cities]",
+		"Starts with [Infantry Training]",
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"cities": ["Pella","Aegae","Bergina","Beroiea","Edessa","Europos","Aiane","Lynkestis","Kassandreia","Philippoi","Philipoupolis","Alexandreia","Thessalonike","Dion","Pydna"]
+	},
+	{
+		"name": "The Spartans",
+		"leaderName": "Cleomenes",
+		"adjective": ["Spartan"],
+	        "startBias":["River","Hill","Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Spartans are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Cleomenes, King of The Spartans. My co-ruler Agis and I welcome you in our kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [165, 20, 20],
+		"innerColor": [237, 234, 179],
+		"style": "Spartan",
+		"uniqueName": "Warriors and Helots",
+		"uniques": [
+		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+		"[+25]% Production when constructing [Worker] units [in all cities]"
+		"Starts with [Infantry Training]",
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"cities": ["Sparta","Gytheion","Epidauros Limera","Tainaron","Prassiai","Selassia"]
+	},
+//Thrace
+	{
+		"name": "The Odrysians",
+		"leaderName": "Seutes",
+		"adjective": ["Odrysian"],
+	        "startBias":["Grassland","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Odrysians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Seutes, King of The Odrysians. What gifts do you bare?",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [115,195,195],
+		"innerColor": [0,0,0],
+		"style": "Thracian",
+		"uniqueName": "Thracian Horselords",
+		"uniques": [
+		"[-33]% maintenance costs <for [Mounted] units>",
+		"Starts with [Light Cavalry]",
+		"Starts with [Thracian Culture] adopted"
+		],
+		"cities": ["Seuthopolis","Beroe","Kabyle","Drizipera","Uscudama","Teradea","Tylis","Tilataioi","Coelaletes","Haemoi","Nipsaioi","Tranipsai","Dentheletes","Philipoupolis"]
+	},
+	{
+		"name": "The Getae",
+		"leaderName": "Dromichates",
+		"adjective": ["Getae"],
+	        "startBias":["Grassland","Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Getae are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Dromichates, King of The Getae. What gifts do you bare?",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [115,75,40],
+		"innerColor": [255,255,41],
+		"style": "Thracian",
+		"uniqueName": "Reknown Horsemen",
+		"uniques": [
+		"New [Mounted] units start with [10] Experience [in all cities]",
+		"[+1 Production] from every [Stable]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Thracian Culture] adopted"
+		],
+		"cities": ["Argedava","Sucidava","Nentidava","Acidava","Buridava","Cumidava","Arcidava","Capidava","Giridava","Singidava","Ziridava","Patridava","Tamasidava","Clepidava",]
+	},
+//Illyria
+	{
+		"name": "The Dardanians",
+		"leaderName": "Bato",
+		"adjective": ["Dardanian"],
+	        "startBias":["Avoid [Coast]","Forest","Grassland"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Dardanians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Bardylis, King of Dardania, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [85,135,65],
+		"innerColor": [255,250,200],
+		"style": "Illyrian",
+		"uniqueName": "Legacy of Bardylis",
+		"uniques": [
+		"[+2 Happiness] <when at war>",
+		"New [Sword] units start with [10] Experience [in all cities]",
+		"Starts with [Infantry Training]",
+		"Starts with [Illyrian Culture] adopted"
+		],
+		"cities": ["Dardanike","Naissos","Theranda","Margoi","Metalloi","Gallabrioi","Thunates","Ulpiana","Dardapara","Scupi","Bargala","Stobi","Bylazora"]
+	},
+	{
+		"name": "The Scordisci",
+		"leaderName": "Cerethrius",
+		"adjective": ["Scordiscian"],
+	        "startBias":["Avoid [Coast]","Grassland"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "BLAH BLAH",
+		"startIntroPart2": "BLAH BLAH",
+		"declaringWar": "Your nation has no place here. I declare war.",
+		"attacked": "War? You think you can stand us?",
+		"defeated": "So... The Dardanians are gone. I hope we will be remembered.",
+		"introduction": "Hello there. I am Bardylis, King of Dardania, and I welcome you in my kingdom.",
+		"neutralHello": "Hello, friend.",
+		"hateHello": "Oh, you. What is it?",
+		"tradeRequest": "Let's have a trade. What do you say?",
+		"outerColor": [123,3,0],
+		"innerColor": [40,179,79],
+		"style": "Celtic",
+		"uniqueName": "Celtic Raiders",
+		"uniques": [
+		"New [Melee] units start with [10] Experience [in all cities]",
+		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted",
+		],
+		"cities": ["Singidunon","Sirmium","Domavium","Viminiacum","Tibiscum","Maluesa","Dierna","Bassiana","Cibalae","Mursa"]
+	},
+//City States - Personalities?
+
+// Italy
+	{
+		"name": "The Samnites",
+		"adjective": ["Samnite"],
+		"cityStateType": "Militaristic",
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100,175,225],
+		"uniques": [
+		"Starts with [Latin Culture] adopted",
+		"Cannot build [Cavalry] units"
+		],
+		"style": "Italic",
+		"cities": ["Bovianum"]
+	},
+	{
+		"name": "The Syracusans",
+		"adjective": ["Syracusan"],
+		"cityStateType": "Maritime",
+	        "startBias":["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,225,0],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Syracuse"]
+	},
+	{
+		"name": "The Tarentines",
+		"adjective": ["Tarentine"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,100,25],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Taras"]
+	},
+	{
+		"name": "The Etruscans",
+		"adjective": ["Etruscan"],
+		"cityStateType": "Cultured",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,75,175],
+		"uniques": [
+		"Starts with [Latin Culture] adopted",
+		"Cannot build [Cavalry] units"
+		],
+		"style": "Italic",
+		"cities": ["Arretiun"]
+	},
+	{
+		"name": "The Veneti",
+		"adjective": ["Venetic"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [75,125,175],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Patavium"]
+	},
+	{
+		"name": "The Nori",
+		"adjective": ["Noric"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,125,50],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Iuvavum"]
+	},
+// Egypt
+	{
+		"name": "The Libyans",
+		"adjective": ["Libyan"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 155, 50],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted"
+		],
+		"style": "Egyptian",
+		"cities": ["Siwa"]
+	},
+	{
+		"name": "The Thebans",
+		"adjective": ["Theban"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert","River","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200, 150, 0],
+		"uniques": [
+		"Starts with [Hellenistic Culture] adopted"
+		],
+		"style": "Egyptian",
+		"cities": ["Thebes"]
+	},
+//Anatolia
+	{
+		"name": "The Rhodians",
+		"adjective": ["Rhodian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,100],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"Gain a free [Colossus] [in capital]"
+		],
+		"style": "Greek",
+		"cities": ["Rhodos"]
+	},
+	{
+		"name": "The Cilicians",
+		"adjective": ["Cilician"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,100,0],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Tarsos"]
+	},
+	{
+		"name": "The Pamphylians",
+		"adjective": ["Pamphylian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [75,200,25],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Hellenistic",
+		"cities": ["Side"]
+	},
+	{
+		"name": "The Lydians",
+		"adjective": ["Lydian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["River","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,200,0],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Hellenistic",
+		"cities": ["Sardes"]
+	},
+	{
+		"name": "The Ionians",
+		"adjective": ["Ionian"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [50,125,150],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"Gain a free [Mausoleum of Halicarnassus] [in capital]",
+		"Gain a free [Temple of Artemis] [in capital]"
+		],
+		"style": "Greek",
+		"cities": ["Ephesos"]
+	},
+	{
+		"name": "The Bithynians",
+		"adjective": ["Bithynian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Forest","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,50,175],
+		"uniques": [
+		"Starts with [Thracian Culture] adopted"
+		],
+		"style": "Thracian",
+		"cities": ["Nikomedia"]
+	},
+	{
+		"name": "The Sinopians",
+		"adjective": ["Sinopian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,200,25],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Sinope"]
+	},
+	{
+		"name": "The Trapezountians",
+		"adjective": ["Trapezountian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,100,50],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Trapezous"]
+	},
+	{
+		"name": "The Galatians",
+		"adjective": ["Galatian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Avoid [Coast]","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100,150,75],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Ancyra"]
+	},
+	{
+		"name": "The Cappadocians",
+		"adjective": ["Cappadocian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Avoid [Coast]","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,150,50],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Mazaka"]
+	},
+//Levant
+	{
+		"name": "The Phoenicians",
+		"adjective": ["Phoenician"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains","Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,100,150],
+		"uniques": [
+		"Starts with [Punic Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Sidon"]
+	},
+	{
+		"name": "The Palmyrans",
+		"adjective": ["Palmyran"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,50],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Palmyra"]
+	},
+	{
+		"name": "The Arameans",
+		"adjective": ["Aramean"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,75,150],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Bosra"]
+	},
+	{
+		"name": "The Judeans",
+		"adjective": ["Judean"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Avoid [Coast]","Plains","Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,175,225],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Jerusalem"]
+	},
+	{
+		"name": "The Quedarites",
+		"adjective": ["Quedarite"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175,100,25],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Dumatha"]
+	},
+	{
+		"name": "The Nabateans",
+		"adjective": ["Nabatean"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,100,0],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Petra"]
+	},
+//Asia
+	{
+		"name": "The Assyrians",
+		"adjective": ["Assyrian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert","River","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,225,100],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Hatra"]
+	},
+	{
+		"name": "The Babylonians",
+		"adjective": ["Babylonian"],
+		"cityStateType": "Cultured",
+		"startBias": ["River","Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,50,225],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted",
+		"Gain a free [Hanging Gardens] [in capital]"
+		],
+		"style": "Eastern",
+		"cities": ["Babylon"]
+	},
+	{
+		"name": "The Elamites",
+		"adjective": ["Elamite"],
+		"cityStateType": "Militaristic",
+		"startBias": ["River","Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,50,125],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Susa"]
+	},
+	{
+		"name": "The Medes",
+		"adjective": ["Median"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,50],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Ecbatana"]
+	},
+	{
+		"name": "The Atropatines",
+		"adjective": ["Atropatine"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,125,175],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Gazaka"]
+	},
+	{
+		"name": "The Albanians",
+		"adjective": ["Albanian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,75,25],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Kabalaka"]
+	},
+	{
+		"name": "The Iberians",
+		"adjective": ["Iberian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,100,125],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Meskheta"]
+	},
+	{
+		"name": "The Colchians",
+		"adjective": ["Colchian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,225,150],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Eastern",
+		"cities": ["Kotais"]
+	},
+//Scythia
+	{
+		"name": "The Bosphorans",
+		"adjective": ["Bosphoran"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,25,150],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Panticapeon"]
+	},
+	{
+		"name": "The Olbians",
+		"adjective": ["Olbian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,255,50],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Olbia"]
+	},
+	{
+		"name": "The Siraces",
+		"adjective": ["Siracean"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,150,0],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted"
+		],
+		"style": "Scythian",
+		"cities": ["Siracena"]
+	},
+//Greece
+	{
+		"name": "The Athenians",
+		"adjective": ["Athenian"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coast","Plains","Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [50,200,150],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Athens"]
+	},
+	{
+		"name": "The Epirots", // + Tymphaians, Paraueans
+		"adjective": ["Epirot"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,175,100],
+		"uniques": [
+		"Starts with [Hellenistic Culture] adopted",
+		"Gain a free [The Oracle of Dodona] [in capital]"
+		],
+		"style": "Greek",
+		"cities": ["Passaron"]
+	},
+	{
+		"name": "The Cretan Pirates",
+		"adjective": ["Cretan"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100,150,0],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Hierapytna"]
+	},
+	{
+		"name": "The Achaeans",
+		"adjective": ["Achaean"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Plains","Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,225,50],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Corinth"]
+	},
+	{
+		"name": "The Aetolians",
+		"adjective": ["Aetolian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,100,0],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"Gain a free [The Oracle] [in capital]"
+		],
+		"style": "Greek",
+		"cities": ["Thermon"]
+	},
+//Thrace
+	{
+		"name": "The Paeonians",
+		"adjective": ["Paeonian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175,225,0],
+		"uniques": [
+		"Starts with [Thracian Culture] adopted"
+		],
+		"style": "Thracian",
+		"cities": ["Bylazora"]
+	},
+	{
+		"name": "The Byzantines",
+		"adjective": ["Byzantine"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,125,175],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Byzantion"]
+	},
+//Illyria
+	{
+		"name": "The Ardiaei",
+		"adjective": ["Ardiaean"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,100,175],
+		"uniques": [
+		"Starts with [Illyrian Culture] adopted"
+		],
+		"style": "Illyrian",
+		"cities": ["Lissos"]
+	},
+	{
+		"name": "The Dalmatae",
+		"adjective": ["Dalmatian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,100,75],
+		"uniques": [
+		"Starts with [Illyrian Culture] adopted"
+		],
+		"style": "Illyrian",
+		"cities": ["Delminion"]
+	},
+	{
+		"name": "The Liburnians",
+		"adjective": ["Liburnian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast","Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,50,100],
+		"uniques": [
+		"Starts with [Illyrian Culture] adopted"
+		],
+		"style": "Illyrian",
+		"cities": ["Idassa"]
+	},
+//Germania
+	{
+		"name": "The Lugii",
+		"adjective": ["Lugian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175,50,100],
+		"uniques": [
+		"Starts with [Germanic Culture] adopted"
+		],
+		"style": "Germanic",
+		"cities": ["Budorgis"]
+	},
+	{
+		"name": "The Chatti",
+		"adjective": ["Lugian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,75,75],
+		"uniques": [
+		"Starts with [Germanic Culture] adopted"
+		],
+		"style": "Germanic",
+		"cities": ["Tulifurdum"]
+	},
+	{
+		"name": "The Treveri",
+		"adjective": ["Treveran"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,75,100],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Treverorum"]
+	},
+	{
+		"name": "The Mediomatrici",
+		"adjective": ["Mediomatrician"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,200,0],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Dividorum"]
+	},
+//Gaul
+	{
+		"name": "The Aedui",
+		"adjective": ["Aeduian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,125,25],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Bibracte"]
+	},
+	{
+		"name": "The Bituriges",
+		"adjective": ["Biturigian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,200,100],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Avaricum"]
+	},
+	{
+		"name": "The Carnutes",
+		"adjective": ["Carnutian"],
+		"cityStateType": "Religious",
+		"startBias": ["Forest","Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [75, 175, 25],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Cenabum"]
+	},
+	{
+		"name": "The Allobroges",
+		"adjective": ["Allobrogian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,100,125],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Solonion"]
+	},
+	{
+		"name": "The Aquitani",
+		"adjective": ["Aquitanian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Grassland","Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,255,100],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Burdigala"]
+	},
+	{
+		"name": "The Volcae",
+		"adjective": ["Volcan"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland","Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,200,0],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Tolosa"]
+	},
+	{
+		"name": "The Massalians",
+		"adjective": ["Massalian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [25,175,200],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted"
+		],
+		"style": "Greek",
+		"cities": ["Massalia"]
+	},
+//Iberia
+	{
+		"name": "The Ilergetes",
+		"adjective": ["Ilergetian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,200,25],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted"
+		],
+		"style": "Iberian",
+		"cities": ["Ilerda"]
+	},
+	{
+		"name": "The Edetani",
+		"adjective": ["Edetanian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,150,200],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted"
+		],
+		"style": "Iberian",
+		"cities": ["Saguntum"]
+	},
+	{
+		"name": "The Oretani",
+		"adjective": ["Oretanian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,125,50],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted"
+		],
+		"style": "Iberian",
+		"cities": ["Castulum"]
+	},
+	{
+		"name": "The Cantabri",
+		"adjective": ["Cantabrian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,75,50],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Aracilum"]
+	},
+	{
+		"name": "The Gallaeci",
+		"adjective": ["Gallaecian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,225,50],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted"
+		],
+		"style": "Celtic",
+		"cities": ["Bracara"]
+	},
+	{
+		"name": "The Gadirans",
+		"adjective": ["Gadiran"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175,175,225],
+		"uniques": [
+		"Starts with [Punic Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Gader"]
+	},
+//Africa
+	{
+		"name": "The Mauritani",
+		"adjective": ["Mauritanian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill","Plains","Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,100],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Volubilis"]
+	},
+	{
+		"name": "The Iolians",
+		"adjective": ["Iolian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,150,150],
+		"uniques": [
+		"Starts with [Punic Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Iol"]
+	},
+	{
+		"name": "The Gaetuli",
+		"adjective": ["Gaetulian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200, 125, 0],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Dimmidi"]
+	},
+	{
+		"name": "The Garamantes",
+		"adjective": ["Hadrumetan"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,75],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Garama"]
+	},
+	{
+		"name": "The Leptians",
+		"adjective": ["Leptian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast","Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,200],
+		"uniques": [
+		"Starts with [Punic Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Leptis Magna"]
+	},
+//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185, 12, 12],
+		"style": "Barbarian",
+		"uniques": ["Can only heal by pillaging"]
+	}
+]
