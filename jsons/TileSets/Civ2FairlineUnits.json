@@ -1,1 +1,4 @@
-
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": ["AbsoluteUnits"]
+}
