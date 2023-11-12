@@ -44,7 +44,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Insubres are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Aneroestes, Warchief of the Insubres, and I welcome you to my Tribe.",
+		"introduction": "Hello there. I am Britomaris, Warchief of the Insubres, and I welcome you to my Tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -140,7 +140,7 @@
 		"uniqueName": "The Pontic Levy",
 		"uniques": [
 		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-		"[+25]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
+		"[+15]% Production when constructing [Military] units [in all cities] <after discovering [Military Reforms]>",
 		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -390,7 +390,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Massylii are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Massanisa, King of the Massylii, and I welcome you in my Kingdom.",
+		"introduction": "Hello there. I am Syphax, King of the Massylii, and I welcome you in my Kingdom.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -427,8 +427,8 @@
 		"style": "Iberian",
 		"uniqueName": "Irregular Warfare",
 		"uniques": [
-		"[+25]% XP gained from combat <for [Scout] units>",
-		"[+25]% XP gained from combat <for [Sword] units>",
+		"[+25]% XP gained from combat <for [Skirmisher] units>",
+		"[+25]% XP gained from combat <for [Swordsman] units>",
 		"Starts with [Infantry Training]",
 		"Starts with [Iberian Culture] adopted"
 		],
@@ -450,7 +450,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Lusitani are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Viriato, Warchief of the Lusitani, and I welcome you to my Tribe.",
+		"introduction": "Hello there. I am Carus, Warchief of the Celtiberians, and I welcome you to my Tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -513,7 +513,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"introduction": "Hello there. I am Diviciacus, Warchief of the Belgae, and I welcome you to my tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -523,7 +523,7 @@
 		"uniqueName": "Brave Belgae",
 		"uniques": [
                 "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
-		"[+15]% Strength <for [Sword] units> <when fighting in [Forest] tiles>",
+		"[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
 		"Starts with [Light Cavalry]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -543,7 +543,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"introduction": "Hello there. I am Boiorix, Warchief of the Boii, and I welcome you to my tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -574,7 +574,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Arverni are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Vercingetorix, Warchief of the Arverni, and I welcome you to my tribe.",
+		"introduction": "Hello there. I am Clondicus, Warchief of the Bastarnae, and I welcome you to my tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -712,7 +712,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Dardanians are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Bardylis, King of Dardania, and I welcome you in my kingdom.",
+		"introduction": "Hello there. I am Bato, King of Dardania, and I welcome you in my kingdom.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -722,7 +722,7 @@
 		"uniqueName": "Legacy of Bardylis",
 		"uniques": [
 		"[+2 Happiness] <when at war>",
-		"New [Sword] units start with [10] Experience [in all cities]",
+		"New [Spear] units start with [10] Experience [in all cities]",
 		"Starts with [Infantry Training]",
 		"Starts with [Illyrian Culture] adopted"
 		],
@@ -739,7 +739,7 @@
 		"declaringWar": "Your nation has no place here. I declare war.",
 		"attacked": "War? You think you can stand us?",
 		"defeated": "So... The Dardanians are gone. I hope we will be remembered.",
-		"introduction": "Hello there. I am Bardylis, King of Dardania, and I welcome you in my kingdom.",
+		"introduction": "Hello there. I am Cerethrius, Warchief of the Scordisci, and I welcome you to my tribe.",
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
@@ -774,6 +774,24 @@
 		],
 		"style": "Italic",
 		"cities": ["Bovianum"]
+	},
+	{
+		"name": "The Bruttii",
+		"adjective": ["Bruttian"],
+		"cityStateType": "Militaristic",
+	        "startBias":["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,100,175],
+		"uniques": [
+		"Starts with [Latin Culture] adopted",
+		"Cannot build [Cavalry] units"
+		],
+		"style": "Italic",
+		"cities": ["Consentia"]
 	},
 	{
 		"name": "The Syracusans",
@@ -1411,6 +1429,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100,150,0],
 		"uniques": [
+		"Gain a free [Pirate Haven] [in capital]",
 		"Starts with [Hellenic Culture] adopted"
 		],
 		"style": "Greek",
@@ -1446,7 +1465,7 @@
 		"innerColor": [200,100,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Gain a free [The Oracle] [in capital]"
+		"Gain a free [The Oracle of Delphi] [in capital]"
 		],
 		"style": "Greek",
 		"cities": ["Thermon"]
@@ -1866,6 +1885,23 @@
 		"cities": ["Iol"]
 	},
 	{
+		"name": "The Musilamii",
+		"adjective": ["Musilamii"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 125, 0],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted"
+		],
+		"style": "Punic",
+		"cities": ["Capsa"]
+	},
+	{
 		"name": "The Gaetuli",
 		"adjective": ["Gaetulian"],
 		"cityStateType": "Militaristic",
@@ -1875,7 +1911,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [200, 125, 0],
+		"innerColor": [200, 100, 0],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted"
 		],

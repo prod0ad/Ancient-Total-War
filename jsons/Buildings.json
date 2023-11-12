@@ -20,15 +20,6 @@
 //		"uniques": ["Destroyed when the city is captured"]
 //	},
 	{
-		"name": "Shrine",
-//		"faith": 1,
-		"culture": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"uniques": ["Hidden when religion is disabled"]
-	},
-	// Starting Wonders
-	{
 		"name": "The Oracle of Dodona",
 		"uniqueTo": "The Epirots",
 		"cost": 185,
@@ -39,7 +30,7 @@
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
-		"name": "The Oracle",
+		"name": "The Oracle of Delphi",
 		"uniqueTo": "The Aetolians",
 		"cost": 185,
 		"culture": 3,
@@ -100,137 +91,84 @@
 		"uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear"],
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
-	// Shipbuilding
-	// Colonization
-	{
-		"name": "Harbor",
-		"cost": 120,
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
-		"requiredTech": "Colonization"
-	},
-	{
-		"name": "Lighthouse",
-		"cost": 75,
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
-		"requiredTech": "Colonization"
-	},
-	{
-		"name": "The Great Lighthouse",
-		"uniqueTo": "The Ptolemies",
-		"cost": 185,
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
-		"requiredTech": "Colonization",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
-	},
-	{
-		"name": "Colossus",
-		"uniqueTo": "The Rhodians",
-		"cost": 185,
-		"culture": 1,
-		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Colonization",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
-	},
-	// Navigation
-	{
-		"name": "Seaport",
-		"hurryCostModifier": 25,
-		"maintenance": 3,
-		"requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
-		"requiredTech": "Navigation"
-	},
+	// Defensive Pacts
+	// Hospitum
+	// Vassalage
+	// Cultural Exchange
 	// Mysticism
 	{
+		"name": "Shrine", // Remove?
+		"maintenance": 1,
+//		"faith": 1,
+		"culture": 1,
+		"cost": 40,
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
 		"name": "Temple",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
 		"faith": 1,
 		"culture": 1,
 		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"requiredTech": "Mysticism",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Courthouse",
-		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+		"maintenance": 4,
+		"uniques": [
+		"Remove extra unhappiness from annexed cities",
+		"Can only be built [in annexed cities]"
+		],
 		"requiredTech": "Mysticism"
 	},
 	// Entertainment
 	{
 		"name": "Amphitheater",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
 		"culture": 2,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist":1},
-//		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"uniques": [
 		"Only available <after adopting [Hellenic Culture]>",
-		"Destroyed when the city is captured"
+//		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
 	},
 	{
 		"name": "Arena",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
 		"happiness": 2,
 		"greatPersonPoints": {"Great General":1},
-		"hurryCostModifier": 10,
-		"maintenance": 2,
-//		"requiredBuilding": "Colosseum",
 		"uniques": [
 		"Only available <after adopting [Latin Culture]>",
-		"Destroyed when the city is captured"
+//		"Destroyed when the city is captured"
 		],		
 		"requiredTech": "Entertainment"
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"culture": 1,
 		"science": 1,
 		"greatPersonPoints": {"Great Scientist":1},
 		"uniques": [
 		"Only available <after adopting [Hellenistic Culture]>",
-		"Destroyed when the city is captured"
+//		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
 	},
 	// Aesthetics
 	{
 		"name": "Garden",
-		"uniques": ["[+25]% Great Person generation [in this city]", "[+2 Science] from [Academy] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Aesthetics"
-	},
-	{
-		"name": "Colosseum",
-		"maintenance": 1,
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"uniques": [
-		"Only available <after adopting [Latin Culture]>",
-		"Destroyed when the city is captured"
-		],
+		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Science] from [Academy] tiles [in this city]", "Must be next to [Fresh water]"],
 		"requiredTech": "Aesthetics"
 	},
 	{
@@ -246,11 +184,9 @@
 	{
 		"name": "Circus Maximus",
 		"uniqueTo": "The Romans",
-		"cost": 125,
 		"happiness": 5,
 		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Arena] in all cities", "Cost increases by [30] per owned city"],
+		"isWonder": true,
 		"requiredTech": "Aesthetics"
 	},
 	{
@@ -262,6 +198,19 @@
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Aesthetics",
 		"isNationalWonder": true
+	},
+	// Social Reforms
+	{
+		"name": "Colosseum",
+		"uniqueTo": "The Romans",
+		"hurryCostModifier": 25,
+		"happiness": 6,
+		"greatPersonPoints": {"Great General": 1},
+		"uniques": [
+//		"Destroyed when the city is captured"
+		],
+		"isWonder": true,
+		"requiredTech": "Social Reforms"
 	},
 	// Currency
 	{
@@ -285,9 +234,10 @@
 	{
 		"name": "Mint",
 		"maintenance": 0,
+		"gold": 1,
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+3 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+1 Gold] from [Copper] tiles [in this city]"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+1 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	// Mercenaries
@@ -301,9 +251,28 @@
 		"uniques": ["Doubles Gold given to enemy if city is captured","Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Tax Farming"
 	},
+	{
+		"name": "Spice Road",
+		"requiredBuilding": "Market",
+		"gold": 2,
+//		"greatPersonPoints": {"Great Merchant":1},
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Spices]","Must be on [Desert]","Only available <after adopting [Eastern Culture]>"],
+		"requiredTech": "Tax Farming"
+	},
+	{
+		"name": "Silk Road",
+		"requiredBuilding": "Market",
+		"gold": 2,
+//		"greatPersonPoints": {"Great Merchant":1},
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Silk]","Must not be on [Desert]","Only available <after adopting [Eastern Culture]>"],
+		"requiredTech": "Tax Farming"
+	},
 	// Private Estates
 	{
 		"name": "Slave Trader",
+		"requiredBuilding": "Market",
 		"gold": 2,
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
@@ -311,156 +280,22 @@
 		"requiredTech": "Private Estates"
 	},
 	{
-		"name": "Art Shop",
+		"name": "Amber Road",
+		"hurryCostModifier": 25,
 		"gold": 1,
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist":1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
+//		"greatPersonPoints": {"Great Merchant":1},
+		"uniques": ["Provides [1] [Amber]","Only available <after adopting [Germanic Culture]>"],
 		"requiredTech": "Private Estates"
 	},
-	// Agriculture
 	{
-		"name": "Granary",
-		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Wheat"],
+		"name": "Garum Shop",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Agriculture"
-	},
-	// Land Grants
-	{
-		"name": "Clerouchia",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": [
-		"[-20]% Culture cost of natural border growth [in this city]",
-		"New [Military] units start with [10] Experience [in this city]", 
-		"[+1 Happiness] [in annexed cities]",
-		"Only available <after adopting [Hellenistic Culture]>"
-		],
-		"requiredTech": "Land Grants"
-	},
-	// Public Works
-	{
-		"name": "Aqueduct",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [non-fresh water] tiles [in this city]"],
-		"requiredTech": "Public Works"
-	},
-	// Mining
-	{
-		"name": "Walls",
-		"cityStrength": 5,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredTech": "Mining",
-	},
-	// Masonry
-	{
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": [
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"
-		],
-		"requiredTech": "Masonry"
-	},
-	{
-		"name": "Acropolis",
-		"maintenance": 0,
-		"cityHealth": 10,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"culture": 25},
-		"uniques": ["Must be on [Hill]"],
-		"requiredTech": "Masonry"
-	},
-	{
-		"name": "Hill Fort",
-		"replaces": "Acropolis",
-		"maintenance": 0,
-		"uniqueTo": "The Illyrians",
-		"cityHealth": 10,
-		"hurryCostModifier": 15,
-		"uniques": ["Must be on [Hill]", "[+1 Production] from [Mine] tiles [in this city]", "[+1 Food] from [Pasture] tiles [in this city]"],
-		"requiredTech": "Masonry"
-	},
-	// Construction
-	{
-		"name": "Water Mill",
-		"maintenance": 2,
-		"food": 2,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
-		"requiredTech": "Construction"
-	},
-	{
-		"name": "Forge",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Construction",
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
-	},
-	// Metallurgy
-	{
-		"name": "Ironworks",
-		"cost": 125,
-		"production": 8,
+		"gold": 1,
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer":1},
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Metallurgy"
-	},
-	// Forestry
-	{
-		"name": "Hunter's Lodge",
-		"maintenance": 0,
-		"requiredNearbyImprovedResources": ["Deer"],
-		"hurryCostModifier": 25,
-		"uniques": [
-		"[+15]% Production when constructing [Archery] units [in this city]",
-		"[+1 Food] from [Deer] tiles [in this city]"
-		],
-		"requiredTech": "Forestry"
-	},
-	// Archery
-	{
-		"name": "Archery Range",
-		"hurryCostModifier": 25,
-		"cityStrength": 5,
-		"maintenance": 1,
-		"uniques": [
-		"[+15]% Production when constructing [Archery] units [in this city]",
-		"Destroyed when the city is captured"
-		],
-		"requiredTech": "Archery"
-	},
-	// Engineering
-	{
-		"name": "Workshop",
-		"maintenance": 2,
-		"production": 2,
-		"greatPersonPoints": {"Great Engineer":1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
-		"requiredTech": "Engineering"
-	},
-	// Torsion Engines
-	{
-		"name": "Wall Towers",
-		"requiredBuilding": "Walls",
-		"cityStrength": 5,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredTech": "Torsion Engines",
+//		"greatPersonPoints": {"Great Merchant":1},
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]","Only available <after adopting [Iberian Culture]>"],
+		"requiredTech": "Private Estates"
 	},
 	// Animal Husbandry
 	{
@@ -494,11 +329,12 @@
 	// Light Cavalry
 	{
 		"name": "Stable",
-		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"cityHealth": 5,
 		"uniques": [
-		"[+15]% Production when constructing [Mounted] units [in this city]",
+		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]"
 		],
 		"requiredTech": "Light Cavalry"
@@ -507,13 +343,275 @@
 	{
 		"name": "Cavalry Barracks",
 		"requiredBuilding": "Stable",
-		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"cityHealth": 10,
 		"uniques": [
-		"New [Mounted] units start with [15] Experience [in this city]",
+		"New [Mounted] units start with [10] Experience [in this city]",
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Equestrian Class"
+	},
+	// Mining
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Mining",
+	},
+	// Masonry
+	{
+		"name": "Stone Works",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"uniques": [
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"
+		],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Acropolis",
+		"maintenance": 0,
+		"cityHealth": 10,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"culture": 25},
+		"uniques": ["Must be on [Hill]"],
+		"requiredTech": "Masonry"
+	},
+	// Public Works
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [non-fresh water] tiles [in this city]"],
+		"requiredTech": "Public Works"
+	},
+	// Construction
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Mausoleum",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"happiness": 1,
+		"culture": 2,
+		"uniques": [
+		"[+1 Production] from [Marble] tiles [in this city]",
+		"[+1 Production] from [Stone] tiles [in this city]",
+		"Only available <after adopting [Numidian Culture]>"
+		],
+		"requiredTech": "Masonry"
+	},
+	// Metallurgy
+	{
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron","Copper"],
+		"requiredTech": "Metallurgy",
+		"uniques": [
+		"[+5]% Production when constructing [Melee] units [in this city]",
+		"[+1 Production] from [Iron] tiles [in this city]",
+		"[+1 Production] from [Copper] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Rhomphaia Forge",
+		"hurryCostModifier": 25,
+		"production": 1,
+		"culture": 1,
+//		"requiredNearbyImprovedResources": ["Iron"],
+//		"greatPersonPoints": {"Great Engineer":1},
+		"uniques": [
+		"[+5]% Production when constructing [{Melee} {Land}] units [in this city]",
+		"[+1 Production] from [Iron] tiles [in this city]",
+		"Only available <after adopting [Thracian Culture]>"
+		],
+		"requiredTech": "Metallurgy"
+	},
+	{
+		"name": "Goldsmith",
+		"hurryCostModifier": 25,
+		"gold": 1,
+		"culture": 1,
+//		"requiredNearbyImprovedResources": ["Gold Ore"],
+//		"greatPersonPoints": {"Great Merchant":1},
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Gold] from [Gold Ore] tiles [in this city]","Only available <after adopting [Celtic Culture]>"],
+		"requiredTech": "Metallurgy"
+	},
+	// Mass Production
+	{
+		"name": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer":1},
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Mass Production"
+	},
+	// Forestry
+	{
+		"name": "Hunter's Lodge",
+		"requiredNearbyImprovedResources": ["Deer"],
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"uniques": [
+		"[+5]% Production when constructing [Archery] units [in this city]",
+		"[+1 Food] from [Deer] tiles [in this city]"
+		],
+		"requiredTech": "Forestry"
+	},
+	// Archery
+	{
+		"name": "Archery Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"cityStrength": 1,
+		"cityHealth": 5,
+		"uniques": [
+		"[+10]% Production when constructing [Archery] units [in this city]",
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Archery"
+	},
+	// Engineering
+	{
+		"name": "Workshop",
+		"maintenance": 1,
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer":1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Engineering"
+	},
+	// Torsion Engines
+	{
+		"name": "Wall Towers",
+		"requiredBuilding": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Torsion Engines",
+	},
+	// Shipbuilding
+	// Colonization
+	{
+		"name": "Harbor",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Colonization"
+	},
+	{
+		"name": "Pirate Haven",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"gold": 1,
+		"cityHealth": 5,
+		"uniques": ["Must be next to [Coast]","New [Melee Water] units start with [10] Experience [in this city]","Only available <after adopting [Illyrian Culture]>"],
+		"requiredTech": "Colonization"
+	},
+	{
+		"name": "Lighthouse",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
+		"requiredTech": "Colonization"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"uniqueTo": "The Ptolemies",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Colonization",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Colossus",
+		"uniqueTo": "The Rhodians",
+		"cost": 185,
+		"culture": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Colonization",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	// Navigation
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": [
+		"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+		"[+10]% Production when constructing [Water] units [in this city]"
+		"Must be next to [Coast]",
+		],
+		"requiredTech": "Navigation"
+	},
+	// Agriculture
+	{
+		"name": "Granary",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"cityHealth": 5,
+		"requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","Only available <in cities without a [Grain Exports]>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Grain Exports",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": ["[+2 Gold] from [Wheat] tiles [in this city]","Only available <in cities without a [Granary]>"],
+		"requiredTech": "Agriculture"
+	},
+	// Land Grants
+	{
+		"name": "Clerouchia",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"production": 1,
+		"uniques": [
+		"[-20]% Culture cost of natural border growth [in this city]",
+		"[+1 Happiness] [in annexed cities]",
+		"Only available <after adopting [Hellenistic Culture]>"
+		],
+		"requiredTech": "Land Grants"
+	},
+	{
+		"name": "Rotary Mill",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"food": 1,
+		"percentStatBonus": {"food": 10},
+		"uniques": [
+		"Only available <after adopting [Celtic Culture]>"
+		],
+		"requiredTech": "Land Grants"
 	},
 	// Warrior Class
 	// Infantry Training
@@ -521,10 +619,9 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-//		"requiredResource": "Copper",
+		"cityHealth": 10,
 		"uniques": [
-//		"[+1 Production] from [Copper] tiles [in this city]",
-		"[+15]% Production when constructing [Sword] units [in this city]",
+		"[+10]% Production when constructing [Sword] units [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -532,12 +629,12 @@
 	{
 		"name": "Syssition",
 		"hurryCostModifier": 25,
-		"replaces": "Barracks",
 		"maintenance": 0,
+		"replaces": "Barracks",
 		"uniqueTo": "The Spartans",
 		"uniques": [
 		"[+1 Happiness] [in this city]",
-		"[+15]% Production when constructing [Sword] units [in this city]",
+		"New [Sword] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -547,70 +644,75 @@
 		"name": "Army Barracks",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredResource": "Iron",
+		"maintenance": 2,
+		"cityHealth": 15,
 		"uniques": [
-//		"[+1 Production] from [Iron] tiles [in this city]",
-		"New [Sword] units start with [15] Experience [in this city]",
-		"Can only be built [in capital]",
+		"New [Sword] units start with [10] Experience [in this city]",
+		"Can only be built [in capital] <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Heavy Infantry"
 	},
 	// Military Reforms
-
 	{
 		"name": "Skirmisher Barracks",
 		"requiredBuilding": "Archery Range",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
+		"cityStrength": 2,
+		"cityHealth": 10,
 		"uniques": [
-		"New [Archery] units start with [15] Experience [in this city]",
-		"New [Scout] units start with [15] Experience [in this city]",
+		"New [Archery] units start with [10] Experience [in this city]",
+		"New [Scout] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Military Reforms"
 	},
 	// Strategic Imports
 	{
-		"name": "Horse Trader",
-		"maintenance": 2,
+		"name": "Horse Imports",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] [in this city]","Provides [2] [Horses]","Can only be built [in capital]"],
+		"maintenance": 2,
+		"production": 1,
+		"uniques": ["Provides [2] [Horses]","Can only be built [in capital]","Only available <after discovering [Light Cavalry]>"],
 		"requiredTech": "Strategic Imports"
 	},
 	{
-		"name": "Copper Trader",
-		"maintenance": 2,
+		"name": "Copper Imports",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] [in this city]","Provides [2] [Copper]","Can only be built [in capital]"],
+		"maintenance": 2,
+		"production": 1,
+		"uniques": ["Provides [2] [Copper]","Can only be built [in capital]","Only available <after discovering [Infantry Training]>"],
 		"requiredTech": "Strategic Imports"
 	},
 	{
-		"name": "Iron Trader",
-		"maintenance": 2,
+		"name": "Iron Imports",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] [in this city]","Provides [2] [Iron]","Can only be built [in capital]"],
+		"maintenance": 2,
+		"production": 1,
+		"uniques": ["Provides [2] [Iron]","Can only be built [in capital]","Only available <after discovering [Heavy Infantry]>"],
 		"requiredTech": "Strategic Imports"
 	},
 	{
-		"name": "Timber Trader",
-		"maintenance": 2,
+		"name": "Timber Imports",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] [in this city]","Provides [2] [Timber]","Can only be built [in capital]"],
+		"maintenance": 2,
+		"production": 1,
+		"uniques": ["Provides [2] [Timber]","Can only be built [in capital]","Only available <after discovering [Colonization]>"],
 		"requiredTech": "Strategic Imports"
 	},
 	{
 		"name": "Elephant Imports",
-		"uniqueTo": "The Epirots",
-		"maintenance": 2,
 		"requiredBuilding": "Market",
+		"uniqueTo": "The Epirots",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] [in this city]","Provides [2] [Ivory]","Can only be built [in capital]"],
+		"maintenance": 2,
+		"production": 1,
+		"uniques": ["Provides [2] [Ivory]","Can only be built [in capital]","Only available <after discovering [Equestrian Class]>"],
 		"requiredTech": "Strategic Imports"
 	},
 	// Supply Logistics

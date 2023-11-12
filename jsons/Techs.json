@@ -230,16 +230,6 @@
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
-				"name": "Cultural Assimilation",
-				"row": 2,
-				"prerequisites": ["Aesthetics"],
-				"uniques": [
-				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
-				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
-				],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
-			},
-			{
 				"name": "Private Estates",
 				"row": 3,
 				"prerequisites": ["Tax Farming","Aesthetics","Equestrian Class"],
@@ -256,8 +246,10 @@
 				"row": 7,
 				"prerequisites": ["Engineering"],
 				"uniques": [
-				"[+100]% Strength <for [Siege] units> <vs cities>",
-				"[+50]% Strength <for [Ranged Water] units> <vs cities>"
+				"[+50]% Strength <for [Siege] units> <vs cities>",
+				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
+				"[+1] Range <for [Siege] units>",
+				"[+1] Range <for [Ranged Water] units>",
 				],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
@@ -290,11 +282,12 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Diplomatic Annexation",
+				"name": "Cultural Exchange",
 				"row": 2,
-				"prerequisites": ["Vassalage","Cultural Assimilation","Private Estates"],
+				"prerequisites": ["Vassalage","Private Estates"],
 				"uniques": [
-				"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
+				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
 				],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
@@ -337,12 +330,12 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Imperial Oppression",
+				"name": "End of History?",
 				"row": 6,
-				"prerequisites": ["Combined Arms","Social Reforms","Exploration","Mass Production","Diplomatic Annexation"],
+				"prerequisites": ["Combined Arms","Social Reforms","Exploration","Mass Production","Cultural Exchange"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}
 		]
 	}

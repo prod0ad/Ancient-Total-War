@@ -10,7 +10,7 @@
         "[-1] Sight <for [Embarked] units>"
 
         // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
-        "Aircraft"
+        //"Aircraft"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",

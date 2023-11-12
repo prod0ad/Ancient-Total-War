@@ -4,11 +4,15 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
+        "name": "Scout",
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
+        "name": "Spear",
+        "movementType": "Land"
+    },
+    {
+        "name": "Sword",
         "movementType": "Land"
     },
     {
@@ -16,11 +20,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Scout",
+        "name": "Mounted Archery",
         "movementType": "Land"
     },
     {
@@ -28,7 +28,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Armored",
+        "name": "Elephant",
         "movementType": "Land"
     },
     {
@@ -46,40 +46,6 @@
     {
         "name": "Ranged Water",
         "movementType": "Water"
-    },
-    {
-        "name": "Submarine",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
-    },
-    {
-        "name": "Aircraft Carrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "Fighter",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
-    },
-    {
-        "name": "Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
