@@ -67,8 +67,7 @@
             {
                 "name": "Druidic Circles",
                 "uniques": [
-                    "[+1 Science] from every [Temple]",
-                    "[+1 Science] from every [Garden]",
+                    "[+2 Science] from every [Garden]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Naked Fanatics","The Forest Tribes"],
@@ -79,7 +78,7 @@
                 "name": "Tribal Bonds",
                 "uniques": [
                     "City-State Influence recovers at twice the normal rate",
-                    "[+2 Culture] from every [Goldsmith]",
+                    "[+1 Culture] from every [Goldsmith]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Druidic Circles"],
@@ -89,7 +88,7 @@
             {
                 "name": "Celtic Horde",
                 "uniques": [
-                    "[-15]% maintenance costs <for [{Military} {Land}] units>",
+                    "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
                     "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -111,7 +110,7 @@
                 "uniques": [
                     "[-25]% maintenance costs <for [Heavy Spearman] units>",
                     "[-25]% maintenance costs <for [Cavalry] units>",
-                    "[+1 Production] from every [Forge]",
+                    "[+1 Happiness] from every [Forge]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Trimarchisia","Druidic Circles"],
@@ -121,9 +120,9 @@
             {
                 "name": "Celtic Culture Complete",
                 "uniques": [
-                    "[+2 Happiness] from every [Dyes]",
-                    "[+2 Happiness] from every [Gold Ore]",
-                    "[+2 Happiness] from every [Tin]",
+                    "[+2 Happiness] from [Dyes] tiles [in all cities]",
+                    "[+2 Happiness] from [Gold Ore] tiles [in all cities]",
+                    "[+2 Happiness] from [Tin] tiles [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -167,8 +166,9 @@
             {
                 "name": "Royal Cities",
                 "uniques": [
-                    "[+2 Culture] [in capital]",
-                    "[+10]% [Culture] <in cities with at least [10] [Population]>",
+                    "[+1 Culture] [in capital]",
+                    "[+2 Culture] [in capital] <after adopting [King of Kings]>",
+                    "[+25]% [Culture] <in cities with at least [10] [Population]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -231,7 +231,7 @@
             {
                 "name": "Trade Caravans",
                 "uniques": [
-                    "[+1 Gold] from every [Market]",
+                    "[+1 Happiness] from every [Market]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -251,7 +251,7 @@
             {
                 "name": "Eastern Culture Complete",
                 "uniques": [
-                    "[+1 Happiness] [in all cities]",
+                    "[+2 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -294,8 +294,8 @@
             {
                 "name": "The Great Hunt",
                 "uniques": [
-                    "[+1 Food] from every [Deer]",
-                    "[+1 Culture] from every [Furs]",
+                    "[+1 Food] from [Deer] tiles [in all cities]",
+                    "[+1 Culture] from [Furs] tiles [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -337,14 +337,14 @@
                     "[+25]% Production when constructing [Spear] units [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
-                "requires": ["Shield Wall","Northern Trade"],
+                "requires": ["Shield Wall"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Chosen Warriors",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Land] units> <when below [25] HP>",
+                    "[+100]% XP gained from combat <for [Land] units> <when below [25] HP>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Shieldmaidens","Woodland Warfare"],
@@ -355,7 +355,7 @@
                 "name": "Germanic Horde",
                 "requires": ["Chosen Warriors"],
                 "uniques": [
-                    "[+1] Movement <for [Land] units> <in [Forest] tiles>",
+                    "[-25]% maintenance costs <for [{Military} {Land}] units>",
                     "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -365,8 +365,8 @@
             {
                 "name": "Northern Trade",
                 "uniques": [
-                    "[+1 Gold] from every [Amber]",
-                    "[+1 Culture] from every [Amber Road]",
+                    "[+2 Gold] from [Amber] tiles [in all cities]",
+                    "[+1 Happiness] from every [Amber Road]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -375,7 +375,7 @@
             {
                 "name": "Germanic Culture Complete",
                 "uniques": [
-                    "[-25]% maintenance costs <for [{Military} {Land}] units>",
+                    "[+1] Movement <for [Land] units> <in [Forest] tiles>",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -419,9 +419,9 @@
                 "name": "Army Reform",
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
-                    "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
-                    "[+50]% Production when constructing [Skirmisher Barracks] buildings [in capital]",
-                    "[+50]% Production when constructing [Cavalry Barracks] buildings [in capital]",
+                    "[+2 Happiness] [in capital] <if [Army Barracks] is constructed>",
+                    "[+1 Happiness] [in capital] <if [Skirmisher Barracks] is constructed>",
+                    "[+1 Happiness] [in capital] <if [Cavalry Barracks] is constructed>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -432,6 +432,7 @@
                 "requires": ["Army Reform"],
                 "uniques": [
                     "All newly-trained [Spear] units [in capital] receive the [Morale] promotion",
+                    "[+50]% City Strength from defensive buildings [in capital]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -451,7 +452,7 @@
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
                     "+30% Strength when fighting City-State units and cities",
-                    "[+1 Gold] from every [Acropolis]",
+                    "[+1 Gold, +1 Happiness] from every [Acropolis]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -483,6 +484,7 @@
                 "requires": ["Hellenic Colonists"],
                 "uniques": [
                     "[+25]% Production when constructing [Water] units [in all cities]",
+                    "[+1 Science] from every [Harbor]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -492,8 +494,8 @@
                 "name": "Thalassocracy",
                 "requires": ["Shipbuilders","Local Hegemony"],
                 "uniques": [
-                    "[+1 Happiness] [in all cities connected to capital]",
                     "[+1] Movement <for [Water] units>",
+                    "[+1 Happiness] from every [Harbor]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -558,7 +560,7 @@
                 "civilopediaText": [{"text": "Euergetes was a common hellenestic royal epithet meaning The Benefactor. Most famous of the philanthropists was Ptolemy III."}],
                 "uniques": [
                     "Gifts of Gold to City-States generate [+25]% more Influence",
-                    "[+1 Science] from every [Library]",
+                    "[+1 Happiness] from every [Library]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Ktistes"],
@@ -615,8 +617,8 @@
                 "name": "Soter",
                 "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
                 "uniques": [
+                    "Notified of new Barbarian encampments",
                     "[+33]% Strength <vs [Barbarian] units>",
-                    "Notified of new Barbarian encampments"
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -638,6 +640,7 @@
                 "name": "Hellenistic Culture Complete",
                 "civilopediaText": [{"text": "Successor States"}],
                 "uniques": [
+                    "[+1 Happiness] from every [Clerouchia]"
                     "[+2] Movement <for [Great General] units>",
                     "[+1 Happiness] [in capital]"
                 ]
@@ -681,7 +684,7 @@
             {
                 "name": "Metalsmiths",
                 "uniques": [
-                    "[+1 Gold] from every [Mine]",
+                    "[+1 Production] from every [Mine]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -691,7 +694,7 @@
                 "name": "The Falcata",
                 "requires": ["Metalsmiths"],
                 "uniques": [
-                    "New [Sword] units start with [10] Experience [in all cities]",
+                    "New [Sword] units start with [15] Experience [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -701,7 +704,7 @@
                 "name": "Toledo Steel",
                 "requires": ["The Falcata"],
                 "uniques": [
-                    "[+2 Production] from every [Forge]",
+                    "[+1 Science, +1 Happiness] from every [Forge]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -722,9 +725,7 @@
                 "requires": ["Toledo Steel","Cantabrian Circle"],
                 "uniques": [
                     "Free [Great General] appears",
-                    "[+1 Culture] <upon constructing [Army Barracks]>",
-                    "[+1 Culture] <upon constructing [Cavalry Barracks]>",
-                    "[+1 Culture] <upon constructing [Skirmisher Barracks]>",
+                    "[+2 Culture, +1 Happiness] from every [Walls]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -745,6 +746,7 @@
                 "requires": ["Skirmish Tactics"],
                 "uniques": [
                     "New [Mounted] units start with [10] Experience [in all cities]",
+                    "[+1 Happiness] from every [Stable]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -840,6 +842,7 @@
                 "uniques": [
                     "Empire enters golden age",
                     "Free [Galley] appears",
+                    "[+1 Happiness, +1 Culture] [in all cities]"
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Liburnes","Adventurers"],
@@ -880,7 +883,7 @@
             {
                 "name": "Tribal Stronghold",
                 "uniques": [
-                    "[+1 Production, +1 Food] from every [Acropolis]",
+                    "[+1 Production, +1 Happiness] from every [Acropolis]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -933,8 +936,8 @@
                 "name": "Socii",
                 "uniques": [
                     "Military Units gifted from City-States start with [+15] XP",
-                    "[-25]% City-State Influence degradation",
                     "Free [Swordsman] appears",
+                    "[-25]% City-State Influence degradation",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -966,7 +969,8 @@
             {
                 "name": "Manipular Legion",
                 "uniques": [
-                    "[+75]% Production when constructing [Army Barracks] buildings [in capital]",
+                    "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
+                    "[+1 Science, +1 Culture] from every [Army Barracks]",
                     "Free [Swordsman] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1062,7 +1066,7 @@
             {
                 "name": "Trans-Saharan Trade",
                 "uniques": [
-                    "[+1 Gold] from every [Market]",
+                    "[+1 Happiness] from every [Market]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1115,6 +1119,7 @@
                 "requires": ["Mass Recruitment"],
                 "uniques": [
                     "New [Heavy Spearman] units start with [10] Experience [in all cities]",
+                    "[+1 Science] from every [Army Barracks]",
                     "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1214,8 +1219,10 @@
             {
                 "name": "Phoenician Traders",
                 "uniques": [
-                    "[+1 Gold] from every [Harbor]",
                     "[+1] Movement <for [Embarked] units>",
+                    "[+1 Happiness] from [Purple Dye] tiles [in all cities]",
+                    "[+1 Happiness] from [Crab] tiles [in all cities]",
+                    "[+1 Happiness] from [Silver] tiles [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1226,8 +1233,8 @@
                 "requires": ["Phoenician Traders"],
                 "uniques": [
                     "[+15]% Production when constructing [Water] units [in capital]",
+                    "Provides [2] [Timber]",
                     "Free [Pentere] appears",
-                    "Provides [2] [Timber]"
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1237,6 +1244,7 @@
                 "name": "Mercenary Armies",
                 "uniques": [
                     "[Gold] cost of purchasing [{Military} {Land}] units [-33]%",
+                    "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1295,7 +1303,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Thracian Culture]>",
-                    "[+2 Gold, +1 Happiness] from every [Mint]",
+                    "[+1 Gold, +1 Culture, +1 Happiness] from every [Mint]",
                     "[+1 Happiness] [in capital]",
 //                    "Cannot build [Skirmisher] units",
 //                    "Cannot build [Archer] units",
@@ -1334,6 +1342,7 @@
                 "requires": ["The Hill Tribes"],
                 "uniques": [
                     "[+50]% City Strength from defensive buildings <in cities with a [Acropolis]>",
+                    "[+1 Gold, +1 Culture] from every [Acropolis]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1343,8 +1352,8 @@
                 "name": "Rhomphaiophoroi",
                 "requires": ["Mountain Strongholds"],
                 "uniques": [
-                    "[+1 Production] from every [Rhomphaia Forge]",
                     "Double quantity of [Iron] produced",
+                    "[+1 Science, +1 Happiness] from every [Rhomphaia Forge]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1385,7 +1394,7 @@
                 "requires": ["Mass Looting"],
                 "uniques": [
                     "Free [Great General] appears",
-                    "[+2 Gold] from every [Mint]",
+                    "[+1 Gold, +1 Culture, +1 Happiness] from every [Mint]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -1443,7 +1452,7 @@
                 "requires": ["League Levy","Mutual Protection"],
                 "uniques": [
                     "[+25]% [Culture] [in capital]",
-                    "[+1 Happiness] [in capital]"
+                    "[+2 Happiness] [in capital]"
                 ],
                 "row": 2,
                 "column": 1
@@ -1493,7 +1502,7 @@
                 "name": "Trade Contacts",
                 "requires": ["Synoecism"],
                 "uniques": [
-                    "[-25]% City-State Influence degradation"
+                    "[-33]% City-State Influence degradation"
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1543,9 +1552,9 @@
             {
                 "name": "Sponsored Philosophers",
                 "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "[+1 Happiness] from every [Academy]",
                     "[+1 Happiness] from every [Library]",
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1592,9 +1601,9 @@
             {
                 "name": "Mass Culture",
                 "uniques": [
+                    "Influence of all other civilizations with all city-states degrades [25]% faster <if no other Civilization has adopted this>",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!] <if no other Civilization has adopted this>",
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Marriage Alliance","Imperial Army","Sponsored Philosophers"],
@@ -1656,7 +1665,7 @@
                 "name": "Free Speech",
                 "requires": ["Extended Citizenship"],
                 "uniques": [
-                    "[+1 Culture] per [2] population [in all cities]",
+                    "[+1 Culture] per [5] population [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1665,7 +1674,7 @@
             {
                 "name": "Extended Citizenship",
                 "uniques": [
-                    "[+15]% Production when constructing [Military] units [in all cities]",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
                     "[+1 Happiness] per [5] population [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1709,7 +1718,7 @@
             {
                 "name": "Constitutional Reform",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies",
+                    "[-15]% Culture cost of adopting new Policies",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1719,8 +1728,8 @@
                 "name": "Slave Liberation",
                 "requires": ["Constitutional Reform","Extended Citizenship"],
                 "uniques": [
-                    "[+1 Happiness] per [5] population [in all cities]",
                     "[+10]% City-State Influence degradation"
+                    "[+1 Happiness] per [5] population [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,

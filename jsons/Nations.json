@@ -373,7 +373,7 @@
 		"uniqueName": "East Numidians",
 		"uniques": [
 		"New [Horseman] units start with [10] Experience [in all cities]",
-		"[+2 Gold] from every [Wheat]",
+		"[+2 Gold] from [Wheat] tiles [in all cities]",
 		"Starts with [Light Cavalry]"
 		"Starts with [Numidian Culture] adopted"
 		],
@@ -584,7 +584,7 @@
 		"uniqueName": "Migratory Tribe",
 		"uniques": [
 		"[+15]% Production when constructing [Settler] units [in all cities]",
-                "No movement cost to pillage <for [Land] units>",
+                    "All newly-trained [{Military} {Land}] units [in all cities] receive the [Raider I] promotion",
 		"Starts with [Light Cavalry]",
 		"Starts with [Germanic Culture] adopted"
 		],

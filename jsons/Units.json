@@ -435,7 +435,8 @@
 		"uniques": [
 		"May withdraw before melee ([75]%)",
 		"No defensive terrain bonus",
-		"[-33]% Strength <vs cities> <when attacking>"
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"promotions": ["Scouting I"],
