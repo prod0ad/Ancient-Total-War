@@ -432,7 +432,7 @@
                 "requires": ["Army Reform"],
                 "uniques": [
                     "All newly-trained [Spear] units [in capital] receive the [Morale] promotion",
-                    "[+50]% City Strength from defensive buildings [in capital]",
+                    "[+1 Happiness] [in capital] <with a garrison>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,

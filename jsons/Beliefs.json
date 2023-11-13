@@ -3,7 +3,10 @@
     {
         "name": "Ancestor Worship",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
+        "uniques": [
+        "[+1 Culture] from every [Shrine]",
+//        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
         "name": "Dance of the Aurora",

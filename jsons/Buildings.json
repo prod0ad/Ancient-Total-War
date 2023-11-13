@@ -337,6 +337,7 @@
 		"cityHealth": 5,
 		"uniques": [
 		"[+10]% Production when constructing [Mounted] units [in this city]",
+		"[+10]% Production when constructing [Mounted Archery] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]"
 		],
 		"requiredTech": "Light Cavalry"
@@ -350,6 +351,7 @@
 		"cityHealth": 10,
 		"uniques": [
 		"New [Mounted] units start with [10] Experience [in this city]",
+		"New [Mounted Archery] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Equestrian Class"
@@ -644,6 +646,7 @@
 		"cityHealth": 10,
 		"uniques": [
 		"[+10]% Production when constructing [Sword] units [in this city]",
+		"[+10]% Production when constructing [Spear] units [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -657,6 +660,7 @@
 		"uniques": [
 		"[+1 Happiness] [in this city]",
 		"New [Sword] units start with [10] Experience [in this city]",
+		"New [Spear] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -670,6 +674,7 @@
 		"cityHealth": 15,
 		"uniques": [
 		"New [Sword] units start with [10] Experience [in this city]",
+		"New [Spear] units start with [10] Experience [in this city]",
 		"Can only be built [in capital] <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
