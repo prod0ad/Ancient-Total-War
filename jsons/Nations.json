@@ -54,7 +54,7 @@
 		"uniqueName": "Mercenary Contacts",
 		"uniques": [
                 "[Gold] cost of purchasing [Military Land] units [-33]%",
-		"Starts with [Light Cavalry]",
+		"Starts with [Mercenaries]",
 		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": [
@@ -113,7 +113,7 @@
 		"uniqueName": "Silphium Monopoly",
 		"uniques": [
 		"Gain a free [Silphium Trader] [in capital]",
-		"Starts with [Light Cavalry]",
+		"Starts with [Entertainment]",
 		"Starts with [Hellenic Culture] adopted"
 		],
 		"cities": ["Cyrene","Barke","Euesperides","Apollonia Cyrenaike","Darnis","Taucheiria","Antipirgus","Katabathmos","Boreon","Paretonion","Berenike","Ptolemais"]
@@ -194,8 +194,8 @@
 		"uniqueName": "Lords of Asia",
 		"uniques": [
 		"[-75]% unhappiness from the number of cities",
-		"[+25]% Strength <for [Cavalry] units> <vs [Sword] units>",
-		"[+25]% Strength <for [Cataphract] units> <vs [Sword] units>",
+		"[Cavalry] units gain the [Heroic Charge] promotion",
+		"[Cataphract] units gain the [Heroic Charge] promotion",
 		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -223,8 +223,8 @@
 		"style": "Eastern",
 		"uniqueName": "Caucasian Stronghold",
 		"uniques": [
-                "[+15]% Strength <for [Military Land] units> <when fighting in [Friendly Land] tiles>",
-		"[-25]% maintenance costs <for [Military Land] units> <after discovering [Military Infrastructure]>",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"[-15]% maintenance costs <for [Military Land] units> <after discovering [Military Infrastructure]>",
 		"Starts with [Archery]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -253,7 +253,7 @@
 		"uniqueName": "Parthian Horselords",
 		"uniques": [
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
-		"New [Cataphract] units start with [10] Experience [in all cities]", 
+		"New [Cataphract] units start with [10] Experience [in all cities]",
 		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -280,8 +280,8 @@
 		"style": "Scythian",
 		"uniqueName": "Royal Scythians",
 		"uniques": [
-		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 		"[+50]% Happiness from luxury resources gifted by City-States",
+		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -312,7 +312,8 @@
 		"uniqueName": "Sarmatian Nomads",
 		"uniques": [
 		"[+25]% Production when constructing [Cataphract] units [in all cities]",
-		"[+1 Happiness] from every [Pasture]",
+		"[+25]% Production when constructing [Nomadic Herd] buildings [in all cities]",
+		"[+1 Happiness] from every [Nomadic Herd]",
 		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted",
 		],
@@ -342,8 +343,7 @@
 		"style": "Punic",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-		"Gain a free [Harbor] [in all coastal cities]",
-		"[+1 Gold] from every [Harbor]",
+		"Gain a free [Cothon] [in all coastal cities]",
 		"Starts with [Colonization]",
 		"Starts with [Punic Culture] adopted"
 		],
@@ -372,7 +372,7 @@
 		"style": "Punic",
 		"uniqueName": "East Numidians",
 		"uniques": [
-		"New [Horseman] units start with [10] Experience [in all cities]",
+		"New [Mounted] units start with [10] Experience [in all cities]",
 		"[+2 Gold] from [Wheat] tiles [in all cities]",
 		"Starts with [Light Cavalry]"
 		"Starts with [Numidian Culture] adopted"
@@ -399,7 +399,7 @@
 		"style": "Punic",
 		"uniqueName": "West Numidians",
 		"uniques": [
-		"New [Horseman] units start with [10] Experience [in all cities]",
+		"New [Mounted] units start with [10] Experience [in all cities]",
 		"[+1 Gold] from every [Market]",
 		"Starts with [Light Cavalry]"
 		"Starts with [Numidian Culture] adopted"
@@ -427,8 +427,8 @@
 		"style": "Iberian",
 		"uniqueName": "Irregular Warfare",
 		"uniques": [
-		"[+25]% XP gained from combat <for [Skirmisher] units>",
-		"[+25]% XP gained from combat <for [Swordsman] units>",
+		"[+25]% XP gained from combat <for [Scout] units>",
+		"[+25]% XP gained from combat <for [Sword] units>",
 		"Starts with [Infantry Training]",
 		"Starts with [Iberian Culture] adopted"
 		],
@@ -459,9 +459,8 @@
 		"style": "Iberian",
 		"uniqueName": "Hillfort Kings",
 		"uniques": [
-		"[+25]% XP gained from combat <for [Mounted] units>",
-		"Gain a free [Walls] [in capital]",
-		"[+1 Production, +1 Gold] from every [Walls]",
+		"[+50]% XP gained from combat <for [Mounted] units>",
+		"Gain a free [Castro] [in capital]",
 		"Starts with [Light Cavalry]",
 		"Starts with [Iberian Culture] adopted"
 		],
@@ -523,8 +522,8 @@
 		"uniqueName": "Brave Belgae",
 		"uniques": [
                 "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
-		"[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
-		"Starts with [Light Cavalry]",
+		"[+15]% Production when constructing [Water] units [in all cities]",
+		"Starts with [Colonization]",
 		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": [
@@ -584,7 +583,7 @@
 		"uniqueName": "Migratory Tribe",
 		"uniques": [
 		"[+15]% Production when constructing [Settler] units [in all cities]",
-                    "All newly-trained [{Military} {Land}] units [in all cities] receive the [Raider I] promotion",
+		"[{Military} {Land}] units gain the [Raider I] promotion",
 		"Starts with [Light Cavalry]",
 		"Starts with [Germanic Culture] adopted"
 		],
@@ -611,7 +610,7 @@
 		"style": "Macedonian",
 		"uniqueName": "Call to Power",
 		"uniques": [
-		"[+1 Happiness] from every [Strategic resource]",
+		"[+1 Happiness] from [Strategic resource] tiles [in all cities]",
 		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
 		"[+25]% Production when constructing [Ballista] units [in all cities]",
 		"Starts with [Infantry Training]",
@@ -637,10 +636,9 @@
 		"outerColor": [165, 20, 20],
 		"innerColor": [237, 234, 179],
 		"style": "Spartan",
-		"uniqueName": "Warriors and Helots",
+		"uniqueName": "Cleomenian Reforms",
 		"uniques": [
 		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-		"[+25]% Production when constructing [Worker] units [in all cities]"
 		"Starts with [Infantry Training]",
 		"Starts with [Hellenic Culture] adopted"
 		],
@@ -770,6 +768,9 @@
 		"innerColor": [100,175,225],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Cavalry] units"
 		],
 		"style": "Italic",
@@ -788,6 +789,9 @@
 		"innerColor": [225,100,175],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Cavalry] units"
 		],
 		"style": "Italic",
@@ -805,7 +809,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,225,0],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Cavalry] units [in all cities]",
+		"[+25]% Production when constructing [Water] units [in all cities]",
+		"New [Cavalry] units start with [10] Experience [in all cities]",
+		"New [Water] units start with [10] Experience [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Syracuse"]
@@ -822,7 +831,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,100,25],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Horseman] units [in all cities]",
+		"New [Horseman] units start with [15] Experience [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Taras"]
@@ -840,6 +852,8 @@
 		"innerColor": [150,75,175],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
+		"Starts with [Entertainment]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"Cannot build [Cavalry] units"
 		],
 		"style": "Italic",
@@ -857,7 +871,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [75,125,175],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+25]% Production when constructing [Galley] units [in all cities]",
+		"New [Mounted] units start with [10] Experience [in all cities]",
+		"New [Galley] units start with [10] Experience [in all cities]"
 		],
 		"style": "Celtic",
 		"cities": ["Patavium"]
@@ -874,7 +893,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,125,50],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Sword] units [in all cities]",
+		"[+25]% XP gained from combat <for [Sword] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Iuvavum"]
@@ -892,7 +914,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 155, 50],
 		"uniques": [
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
+		"Starts with [Entertainment]",
+		"Gain a free [The Oracle of Amun] [in capital]",
+		"[+25]% Production when constructing [Libyan Chariot Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Libyan Chariot Archer] units>"
 		],
 		"style": "Egyptian",
 		"cities": ["Siwa"]
@@ -909,7 +935,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200, 150, 0],
 		"uniques": [
-		"Starts with [Hellenistic Culture] adopted"
+		"Starts with [Hellenistic Culture] adopted",
+		"Starts with [Entertainment]",
+		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
+		"[+50]% XP gained from combat <for [Pike Phalanx] units>"
+		"Cannot build [Royal Phalanx] units",
+		"Cannot build [Lancer] units",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Egyptian",
 		"cities": ["Thebes"]
@@ -928,7 +960,13 @@
 		"innerColor": [255,175,100],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Gain a free [Colossus] [in capital]"
+		"Gain a free [Colossus] [in capital]",
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Trihemiola] units [in all cities]",
+		"[+25]% Production when constructing [Rhodian Slinger] units [in all cities]",
+		"New [Trihemiola] units start with [15] Experience [in all cities]",
+		"New [Rhodian Slinger] units start with [15] Experience [in all cities]",
+		"Cannot build [Mounted] units"
 		],
 		"style": "Greek",
 		"cities": ["Rhodos"]
@@ -945,7 +983,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,100,0],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Melee Water] units [in all cities]",
+		"New [Melee Water] units start with [10] Experience [in all cities]"
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Tarsos"]
@@ -962,7 +1004,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [75,200,25],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Land Grants]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Hellenistic",
 		"cities": ["Side"]
@@ -979,7 +1024,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,200,0],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Gain a free [Mint] [in capital]",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Cavalry] units [in all cities]",
+		"New [Cavalry] units start with [15] Experience [in all cities]"
 		],
 		"style": "Hellenistic",
 		"cities": ["Sardes"]
@@ -997,6 +1046,7 @@
 		"innerColor": [50,125,150],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Entertainment]",
 		"Gain a free [Mausoleum of Halicarnassus] [in capital]",
 		"Gain a free [Temple of Artemis] [in capital]"
 		],
@@ -1015,7 +1065,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,50,175],
 		"uniques": [
-		"Starts with [Thracian Culture] adopted"
+		"Starts with [Thracian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>",
+		"Provides [1] [Unlock Fleet II]",
+		"Cannot build [Swordsman] units"
 		],
 		"style": "Thracian",
 		"cities": ["Nikomedia"]
@@ -1033,6 +1088,9 @@
 		"innerColor": [200,200,25],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Siege] units [in all cities]",
+		"[+25]% Production when constructing [Water] units [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Sinope"]
@@ -1049,7 +1107,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,100,50],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Water] units [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Trapezous"]
@@ -1066,7 +1126,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100,150,75],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"[+50]% XP gained from combat <for [Melee] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Ancyra"]
@@ -1083,7 +1146,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,150,50],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+25]% XP gained from combat <for [Mounted] units>",
+		"Provides [1] [Unlock Cataphract]"
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Mazaka"]
@@ -1101,7 +1169,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,100,150],
 		"uniques": [
-		"Starts with [Punic Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Colonization]",
+		"Gain a free [Harbor] [in capital]",
+		"[+25]% Production when constructing [Melee Water] units [in all cities]",
+		"New [Melee Water] units start with [15] Experience [in all cities]"
+		"Provides [1] [Unlock Fleet II]"
 		],
 		"style": "Eastern",
 		"cities": ["Sidon"]
@@ -1118,7 +1191,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,175,50],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"New [Mounted] units start with [15] Experience [in all cities]",
+		"Provides [1] [Unlock Cataphract]"
 		],
 		"style": "Eastern",
 		"cities": ["Palmyra"]
@@ -1135,7 +1212,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,75,150],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Camel Archer] units>",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Bosra"]
@@ -1152,7 +1233,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,175,225],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Archery]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
+		"Cannot build [Archer] units",
+		"Cannot build [Lancer] units",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Jerusalem"]
@@ -1169,7 +1256,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [175,100,25],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Camel Archer] units>",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Dumatha"]
@@ -1187,6 +1278,10 @@
 		"innerColor": [255,100,0],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted"
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Camel Archer] units>",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Petra"]
@@ -1204,7 +1299,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,225,100],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Hatra"]
@@ -1222,6 +1320,7 @@
 		"innerColor": [125,50,225],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
+		"Starts with [Entertainment]",
 		"Gain a free [Hanging Gardens] [in capital]"
 		],
 		"style": "Eastern",
@@ -1239,7 +1338,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,50,125],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Archery]",
+		"[+25]% Production when constructing [Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Archer] units>",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Susa"]
@@ -1256,7 +1359,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,175,50],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>",
+		"Provides [1] [Unlock Cataphract]",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Ecbatana"]
@@ -1273,7 +1381,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,125,175],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"Provides [1] [Unlock Cataphract]",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Gazaka"]
@@ -1290,7 +1402,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,75,25],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"Provides [1] [Unlock Cataphract]",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Kabalaka"]
@@ -1307,7 +1423,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,100,125],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Meskheta"]
@@ -1324,7 +1443,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,225,150],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
 		"cities": ["Kotais"]
@@ -1342,7 +1464,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,25,150],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Archery]",
+		"Gain a free [Nomadic Herd] [in capital]",
+		"[+25]% Production when constructing [Ranged] units [in all cities]",
+		"Provides [1] [Unlock Cataphract]"
 		],
 		"style": "Greek",
 		"cities": ["Panticapeon"]
@@ -1359,7 +1485,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [150,255,50],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Archery]",
+		"[+25]% Production when constructing [Ranged] units [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Olbia"]
@@ -1376,7 +1504,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,150,0],
 		"uniques": [
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spearman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
 		"style": "Scythian",
 		"cities": ["Siracena"]
@@ -1394,7 +1525,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [50,200,150],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Entertainment]",
+		"Gain a free [Parthenon] [in capital]",
+		"[+25]% Production when constructing [Melee] units [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Athens"]
@@ -1412,7 +1546,11 @@
 		"innerColor": [225,175,100],
 		"uniques": [
 		"Starts with [Hellenistic Culture] adopted",
-		"Gain a free [The Oracle of Dodona] [in capital]"
+		"Starts with [Infantry Training]",
+		"Gain a free [The Oracle of Dodona] [in capital]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"Provides [1] [Unlock Pikemen]",
+		"Provides [1] [Unlock Pikemen II]"
 		],
 		"style": "Greek",
 		"cities": ["Passaron"]
@@ -1429,8 +1567,16 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100,150,0],
 		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Archery]",
 		"Gain a free [Pirate Haven] [in capital]",
-		"Starts with [Hellenic Culture] adopted"
+		"[+25]% Production when constructing [Archery] units [in all cities]",
+		"[+25]% Production when constructing [Hemiola] units [in all cities]",
+		"[+50]% XP gained from combat <for [Archery] units>",
+		"[+50]% XP gained from combat <for [Hemiola] units>",
+		"Cannot build [Horseman] units",
+		"Cannot build [Lancer] units",
+		"Provides [1] [Unlock Fleet III]"
 		],
 		"style": "Greek",
 		"cities": ["Hierapytna"]
@@ -1447,7 +1593,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,225,50],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Mercenaries]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"New [Mounted] units start with [15] Experience [in all cities] <after discovering [Military Reforms]>",
+		"Provides [1] [Unlock Pikemen] <after discovering [Military Reforms]>",
+                "Provides [1] [Unlock Spearmen II] <after discovering [Metallurgy]>",
+		"Cannot build [Lancer] units"
 		],
 		"style": "Greek",
 		"cities": ["Corinth"]
@@ -1465,7 +1617,10 @@
 		"innerColor": [200,100,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Gain a free [The Oracle of Delphi] [in capital]"
+		"Starts with [Light Cavalry]",
+		"Gain a free [The Oracle of Delphi] [in capital]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units> <after discovering [Equestrian Class]>"
 		],
 		"style": "Greek",
 		"cities": ["Thermon"]
@@ -1483,7 +1638,15 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [175,225,0],
 		"uniques": [
-		"Starts with [Thracian Culture] adopted"
+		"Starts with [Thracian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Scout] units [in all cities]",
+		"[+25]% Production when constructing [Horseman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Scout] units>",
+		"[+50]% XP gained from combat <for [Horseman] units>",
+		"Cannot build [Archer] units",
+		"Cannot build [Lancer] units",
+		"Cannot build [Swordsman] units"
 		],
 		"style": "Thracian",
 		"cities": ["Bylazora"]
@@ -1500,7 +1663,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [150,125,175],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Mercenaries]",
+		"Gain a free [Harbor] [in capital]",
+		"Cannot build [Lancer] units"
 		],
 		"style": "Greek",
 		"cities": ["Byzantion"]
@@ -1518,7 +1684,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,100,175],
 		"uniques": [
-		"Starts with [Illyrian Culture] adopted"
+		"Starts with [Illyrian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Galley] units [in all cities]",
+		"[+50]% XP gained from combat <for [Galley] units>",
+		"Cannot build [Slinger] units",
+		"Cannot build [Horseman] units"
 		],
 		"style": "Illyrian",
 		"cities": ["Lissos"]
@@ -1535,7 +1706,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [150,100,75],
 		"uniques": [
-		"Starts with [Illyrian Culture] adopted"
+		"Starts with [Illyrian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Galley] units [in all cities]",
+		"[+50]% XP gained from combat <for [Galley] units>",
+		"Cannot build [Slinger] units",
+		"Cannot build [Horseman] units"
 		],
 		"style": "Illyrian",
 		"cities": ["Delminion"]
@@ -1552,7 +1728,12 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,50,100],
 		"uniques": [
-		"Starts with [Illyrian Culture] adopted"
+		"Starts with [Illyrian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Galley] units [in all cities]",
+		"[+50]% XP gained from combat <for [Galley] units>",
+		"Cannot build [Slinger] units",
+		"Cannot build [Horseman] units"
 		],
 		"style": "Illyrian",
 		"cities": ["Idassa"]
@@ -1570,7 +1751,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [175,50,100],
 		"uniques": [
-		"Starts with [Germanic Culture] adopted"
+		"Starts with [Germanic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spearman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
 		"style": "Germanic",
 		"cities": ["Budorgis"]
@@ -1587,7 +1771,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [150,75,75],
 		"uniques": [
-		"Starts with [Germanic Culture] adopted"
+		"Starts with [Germanic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spearman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
 		"style": "Germanic",
 		"cities": ["Tulifurdum"]
@@ -1604,7 +1791,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,75,100],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Treverorum"]
@@ -1621,7 +1811,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,200,0],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Dividorum"]
@@ -1639,7 +1832,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,125,25],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Bibracte"]
@@ -1656,7 +1852,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,200,100],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Avaricum"]
@@ -1673,7 +1872,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [75, 175, 25],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Entertainment]",
+		"[+25]% Production when constructing [Melee] units [in all cities]",
+		"[+50]% XP gained from combat <for [Gaesatae] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Cenabum"]
@@ -1690,7 +1892,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,100,125],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spear] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spear] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Solonion"]
@@ -1707,7 +1912,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,255,100],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spear] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spear] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Burdigala"]
@@ -1724,7 +1932,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,200,0],
 		"uniques": [
-		"Starts with [Celtic Culture] adopted"
+		"Starts with [Celtic Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spear] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spear] units>"
 		],
 		"style": "Celtic",
 		"cities": ["Tolosa"]
@@ -1741,7 +1952,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [25,175,200],
 		"uniques": [
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
+		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Melee Water] units [in all cities]",
+		"[+50]% XP gained from combat <for [Melee Water] units>"
 		],
 		"style": "Greek",
 		"cities": ["Massalia"]
@@ -1759,7 +1973,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,200,25],
 		"uniques": [
-		"Starts with [Iberian Culture] adopted"
+		"Starts with [Iberian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>"
 		],
 		"style": "Iberian",
 		"cities": ["Ilerda"]
@@ -1776,7 +1993,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [125,150,200],
 		"uniques": [
-		"Starts with [Iberian Culture] adopted"
+		"Starts with [Iberian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"Gain a free [Walls] [in capital]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+25]% XP gained from combat <for [Mounted] units>"
 		],
 		"style": "Iberian",
 		"cities": ["Saguntum"]
@@ -1793,7 +2014,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,125,50],
 		"uniques": [
-		"Starts with [Iberian Culture] adopted"
+		"Starts with [Iberian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"Gain a free [Walls] [in capital]"
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>"
 		],
 		"style": "Iberian",
 		"cities": ["Castulum"]
@@ -1810,9 +2035,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,75,50],
 		"uniques": [
-		"Starts with [Iberian Culture] adopted"
+		"Starts with [Iberian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"Gain a free [Walls] [in capital]",
+		"[+25]% Production when constructing [Horseman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Horseman] units>",
 		],
-		"style": "Celtic",
+		"style": "Iberian",
 		"cities": ["Aracilum"]
 	},
 	{
@@ -1827,9 +2056,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,225,50],
 		"uniques": [
-		"Starts with [Iberian Culture] adopted"
+		"Starts with [Iberian Culture] adopted",
+		"Starts with [Infantry Training]",
+		"Gain a free [Walls] [in capital]"
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		],
-		"style": "Celtic",
+		"style": "Iberian",
 		"cities": ["Bracara"]
 	},
 	{
@@ -1844,7 +2077,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [175,175,225],
 		"uniques": [
-		"Starts with [Punic Culture] adopted"
+		"Starts with [Punic Culture] adopted",
+		"Starts with [Mercenaries]",
+		"Gain a free [Harbor] [in capital]",
 		],
 		"style": "Punic",
 		"cities": ["Gader"]
@@ -1862,7 +2097,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,175,100],
 		"uniques": [
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
+		"Starts with [Archery]",
+		"[+25]% Production when constructing [Archer] units [in all cities]",
+		"[+50]% XP gained from combat <for [Archer] units>",
 		],
 		"style": "Punic",
 		"cities": ["Volubilis"]
@@ -1879,7 +2117,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225,150,150],
 		"uniques": [
-		"Starts with [Punic Culture] adopted"
+		"Starts with [Punic Culture] adopted",
+		"Starts with [Mercenaries]",
+		"Gain a free [Harbor] [in capital]"
 		],
 		"style": "Punic",
 		"cities": ["Iol"]
@@ -1896,7 +2136,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 125, 0],
 		"uniques": [
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Scout] units [in all cities]",
+		"[+50]% XP gained from combat <for [Scout] units>"
 		],
 		"style": "Punic",
 		"cities": ["Capsa"]
@@ -1913,7 +2156,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200, 100, 0],
 		"uniques": [
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Scout] units [in all cities]",
+		"[+50]% XP gained from combat <for [Scout] units>"
 		],
 		"style": "Punic",
 		"cities": ["Dimmidi"]
@@ -1930,7 +2176,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,175,75],
 		"uniques": [
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
+		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Scout] units [in all cities]",
+		"[+50]% XP gained from combat <for [Scout] units>"
 		],
 		"style": "Punic",
 		"cities": ["Garama"]
@@ -1947,7 +2196,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,255,200],
 		"uniques": [
-		"Starts with [Punic Culture] adopted"
+		"Starts with [Punic Culture] adopted",
+		"Starts with [Mercenaries]",
+		"Gain a free [Harbor] [in capital]"
 		],
 		"style": "Punic",
 		"cities": ["Leptis Magna"]

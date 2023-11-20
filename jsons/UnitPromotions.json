@@ -50,7 +50,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([25]%)"],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 3
@@ -220,7 +220,7 @@
 	},
 	{
 		"name": "Drill I",
-		"uniques": ["[+15]% Strength <when defending>"], // vs Elephant?
+		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 10,
         "row": 1
@@ -414,7 +414,12 @@
 	// Rank 9
 	{
 		"name": "Amphibious",
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"uniques": [
+		"Eliminates combat penalty for attacking over a river",
+		"Eliminates combat penalty for attacking across a coast"
+		"[1] Movement point cost to disembark",
+		"[1] Movement point cost to embark"
+		],
 		"unitTypes": ["Sword","Spear","Archery","Scout"],
         "column": 20,
         "row": 1
@@ -492,18 +497,166 @@
         "row": 3
 	},
 	{
-		"name": "[Berserker] ability",
+		"name": "Berserker",
 		"uniques": ["Damage is ignored when determining unit Strength"]
-	},
-	{
-		"name": "[Pike Phalanx] ability",
-		"uniques": ["[+25]% Strength <vs [Melee] units>"],
 	},
 	{
 		"name": "Spartan Aura",
 		"uniques": ["[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles"]
 	},
-
+	{
+		"name": "Camels Scare Horses",
+		"uniques": ["[+25]% Strength <when defending> <vs [Mounted] units>"]
+	},
+	{
+		"name": "Caucasian Stronghold",
+		"uniques": ["[+25]% Strength decreasing with distance from the capital"]
+	},
+	{
+		"name": "Heroic Charge",
+		"uniques": ["[+25]% Strength <vs [Sword] units>"]
+	},
+	{
+		"name": "[Skirmisher] ability",
+		"uniques": [
+		"Ignores terrain cost",
+		"May withdraw before melee ([25]%)"
+		],
+	},
+	{
+		"name": "[Archer] ability",
+		"uniques": [
+		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>"
+		],
+	},
+	{
+		"name": "[Slinger] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Archery] units>",
+		"[+25]% Strength <vs [Mounted Archery] units>",
+		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>"
+		],
+	},
+	{
+		"name": "[Spearman] ability",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+	},
+	{
+		"name": "[Pike Phalanx] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Melee] units>"
+		"[+50]% Strength <vs [Mounted] units>",
+		"[-25]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+	},
+	{
+		"name": "Elite Phalanx ability",
+		"uniques": [
+		"[+25]% Strength <vs [Melee] units>"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+	},
+	{
+		"name": "[Horseman] ability",
+		"uniques": [
+		"May withdraw before melee ([75]%)",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		],
+	},
+	{
+		"name": "[Camel Archer] ability",
+		"uniques": [
+		"May withdraw before melee ([50]%)",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"[+25]% Strength <when fighting in [Desert] tiles>"
+		],
+	},
+	{
+		"name": "Chariot ability",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"Rough terrain penalty",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"[+25]% Strength <when fighting in [Desert] tiles>"
+		],
+	},
+	{
+		"name": "[Cavalry] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Ranged] units>"
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-25]% Strength <vs cities> <when attacking>"
+		],
+	},
+	{
+		"name": "[Lancer] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Melee] units>"
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-25]% Strength <vs cities> <when attacking>"
+		],
+	},
+	{
+		"name": "[Cataphract] ability",
+		"uniques": [
+		"[-25]% Strength <vs cities> <when attacking>",
+		"No defensive terrain bonus",
+		],
+	},
+	{
+		"name": "[War Elephant] ability",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[+50]% Strength <vs [Mounted] units>",
+		],
+	},
+	{
+		"name": "[Hemiola] ability",
+		"uniques": [
+		"Ignores Zone of Control",
+		"May withdraw before melee ([50]%)"
+		],
+	},
+	{
+		"name": "[Gaesatae] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+		"[+25]% Strength <vs [Spear] units>"
+		],
+	},
+	{
+		"name": "[Thracian Warband] ability",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+		"[+25]% Strength <vs [Mounted] units>"
+		],
+	},
+	{
+		"name": "[Falxman] ability",
+		"uniques": [
+		"[+50]% Strength <vs [Sword] units>",
+		],
+	},
+	{
+		"name": "Iron Darts",
+		"uniques": [
+		"[+25]% Strength <vs [Sword] units>",
+		"[+25]% Strength <vs [Spear] units>"
+		],
+	},
+	{
+		"name": "Forester",
+		"uniques": [
+		"[+25]% Strength <when fighting in [Forest] tiles>",
+		],
+	},
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
@@ -540,10 +693,6 @@
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
 		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-	},
-	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
 	{
 		"name": "[Mohawk Warrior] ability",

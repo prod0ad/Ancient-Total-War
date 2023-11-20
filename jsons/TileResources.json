@@ -1,6 +1,74 @@
 [	
 	// Bonus resources
-	{
+    {
+		"name": "Unlock Archer",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Slinger",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Pikemen",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Pikemen II",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Swordsmen",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Swordsmen II",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Spearmen II",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Cavalry",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Lancer",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Royal Agema",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Cataphract",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Elephants",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Artillery",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Fleet I",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Fleet II",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Fleet III",
+		"resourceType": "Bonus",
+    },
+    {
+		"name": "Unlock Fleet IV",
+		"resourceType": "Bonus",
+    },
+    {
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
@@ -11,7 +79,7 @@
 		"Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
 		"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"
 		]
-	    },
+    },
     {
 		"name": "Sheep",
 		"resourceType": "Bonus",

@@ -1,132 +1,400 @@
-
+///////////////////////////////////////// Patheons /////////////////////////////////////////
 [
+// Celtic
     {
-        "name": "Ancestor Worship",
+        "name": "Cult of Toutatis",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Culture] from every [Shrine]",
-//        "Only available <after adopting [Hellenic Culture]>"
+        "[+15]% Production when constructing [Sword] units [in this city]",
+        "Only available <after adopting [Celtic Culture]>"
         ]
     },
     {
-        "name": "Dance of the Aurora",
+        "name": "Cult of Lugh",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": [
+        "[+10]% [Culture] [in this city]",
+        "Only available <after adopting [Celtic Culture]>"
+        ]
     },
     {
-       "name": "Desert Folklore",
+        "name": "Cult of Epona",
         "type": "Pantheon",
-       "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": [
+        "All newly-trained [Mounted] units [in this city] receive the [Morale] promotion",
+        "Only available <after adopting [Celtic Culture]>"
+        ]
     },
     {
-        "name": "Faith Healers",
+        "name": "Cult of Tarannis",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
+        "uniques": [
+        "New [Horseman] units start with [15] Experience [in this city]",
+        "Only available <after adopting [Celtic Culture]>"
+        ]
     },
     {
-        "name": "Fertility Rites",
+        "name": "Cult of Abnoba",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+        "uniques": [
+        "New [Archery] units start with [15] Experience [in this city]",
+        "Only available <after adopting [Celtic Culture]>"
+        ]
     },
     {
-        "name": "God of Craftsman",
+        "name": "Cult of Esus",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
+        "uniques": [
+        "[+1 Happiness, +1 Production] in cities on [River] tiles",
+        "Only available <after adopting [Celtic Culture]>"
+        ]
+    },
+// Eastern
+    {
+        "name": "Cult of Ahura Mazda",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Temple]",
+        "Only available <for [The Arsacids]>"
+        ]
     },
     {
-        "name": "God of the Open Sky",
+        "name": "Cult of Thagimasadas",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+        "uniques": [
+        "All newly-trained [Mounted] units [in this city] receive the [Morale] promotion",
+        "Only available <for [The Scythians]>"
+        ]
     },
     {
-        "name": "God of the Sea",
+        "name": "Cult of Tabiti", 
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": [
+        "[+30]% Strength for cities <when attacking>",
+        "Only available <for [The Roxolani]>"
+        ]
     },
     {
-        "name": "God of War",
+        "name": "Cult of Armazd",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": [
+        "[+10]% growth [in this city]",
+        "Only available <for [The Armenians]>"
+        ]
     },
     {
-        "name": "Goddess of Festivals",
+        "name": "Cult of Anahita",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+        "uniques": [
+        "[+1 Happiness] in cities on [River] tiles",
+        "[+10]% Production when constructing [Archery] units [in this city]",
+        "Only available <after adopting [Eastern Culture]>"
+        ]
     },
     {
-        "name": "Goddess of Love",
+        "name": "Cult of Verethragna",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"]
+        "uniques": [
+        "New [Melee] units start with [10] Experience [in this city]",
+        "Only available <after adopting [Eastern Culture]>"
+        ]
+    },
+// Germanic
+    {
+        "name": "Cult of Woden",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Barracks]",
+        "Only available <after adopting [Germanic Culture]>"
+        ]
     },
     {
-        "name": "Goddess of Protection",
+        "name": "Cult of Donar",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>"]
+        "uniques": [
+        "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
+        "Only available <after adopting [Germanic Culture]>"
+        ]
     },
     {
-        "name": "Goddess of the Hunt",
+        "name": "Cult of Freyja",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
+        "uniques": [
+        "[+1 Culture, +1 Food] from every [Camp]"
+        "Only available <after adopting [Germanic Culture]>"
+        ]
+    },
+// Hellenic
+    {
+        "name": "Cult of Zeus",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Temple]",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Messenger of the Gods",
+        "name": "Cult of Athena",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
+        "uniques": [
+        "[+15]% Strength for cities <when attacking>",
+        "[+1 Science] from every [Temple]"
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Monument to the Gods",
+        "name": "Cult of Poseidon",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
-        // For that we really should need an era.matchesFilter(), so we could write something like:
-        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
-        // For now this feels like overkill, but I'll leave this here for the future
-
-        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
+        "uniques": [
+        "[+1 Culture] from every [Harbor]"
+        "New [Mounted] units start with [5] Experience [in this city]",
+        "New [Melee Water] units start with [5] Experience [in this city]",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "One with Nature",
+        "name": "Cult of Ares",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+        "uniques": [
+        "All newly-trained [Spear] units [in this city] receive the [Morale] promotion",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Oral Tradition",
+        "name": "Cult of Artemis",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": [
+        "[+1 Food] [in this city]",
+        "[+10]% Production when constructing [Archery] units [in this city]",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Religious Idols",
+        "name": "Cult of Apollo",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+        "uniques": [
+        "[+2 Gold] from every [Temple]",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Religious Settlements",
+        "name": "Cult of Dionysos",
         "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+        "uniques": [
+        "[+1 Culture] from [Wine] tiles [in this city]",
+        "[+1 Happiness] [in cities following this religion] <in cities with at least [5] [Population]>",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Sacred Path",
+        "name": "Cult of Heracles",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]"]
+        "uniques": [
+        "Gain [50] [Culture] <upon gaining a [Great General] unit>",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Sacred Waters",
+        "name": "Cult of Nike",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+        "uniques": [
+        "New [Melee] units start with [10] Experience [in this city]",
+        "Only available <after adopting [Hellenic Culture]>"
+        ]
     },
     {
-        "name": "Stone Circles",
+        "name": "Cult of Isis",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": [
+        "[+1 Faith] from every [Temple]",
+        "[All] Units adjacent to this city heal [+10] HP per turn when healing",
+        "Only available <for [The Ptolemies]>"
+        ]
+    },
+    {
+        "name": "Cult of Serapis",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food] from every [Granary]",
+        "[+1 Gold] from every [Grain Exports]",
+        "Only available <for [The Ptolemies]>"
+        ]
+    },
+    {
+        "name": "Cult of Ptah",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Faith, +1 Production] from every [Workshop]",
+        "Only available <for [The Ptolemies]>"
+        ]
+    },
+// Iberian
+    {
+        "name": "Cult of the Horses",
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [Cavalry] units [in this city] receive the [Morale] promotion",
+        "Only available <after adopting [Iberian Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Betatun",
+        "type": "Pantheon",
+        "uniques": [
+        "[All] Units adjacent to this city heal [+30] HP per turn when healing",
+        "Only available <after adopting [Iberian Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Ataegina",
+        "type": "Pantheon",
+        "uniques": [
+        "[+10]% growth [in this city]",
+        "Only available <after adopting [Iberian Culture]>"
+        ]
+    },
+// Illyrian
+    {
+        "name": "Cult of Tadenus",
+        "type": "Pantheon",
+        "uniques": [
+        "[+10]% [Gold] [in this city]",
+        "Only available <after adopting [Illyrian Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Andinus",
+        "type": "Pantheon",
+        "uniques": [
+        "Earn [50]% of [Military] unit's [Strength] as [Gold] when killed within 4 tiles of a city following this religion",
+        "Only available <after adopting [Illyrian Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Armatus",
+        "type": "Pantheon",
+        "uniques": [
+        "New [Melee Water] units start with [15] Experience [in this city]",
+        "Only available <after adopting [Illyrian Culture]>"
+        ]
+    },
+// Latin
+    {
+        "name": "Cult of Jupiter",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Temple]",
+        "Only available <after adopting [Latin Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Ceres",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food, +1 Gold] from every [Plantation]",
+        "Only available <after adopting [Latin Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Mars",
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [Sword] units [in this city] receive the [Morale] promotion",
+        "Only available <after adopting [Latin Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Neptune",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food] from every [Harbor]",
+        "[+10]% Production when constructing [Water] units [in this city]",
+        "Only available <after adopting [Latin Culture]>"
+        ]
+    },
+// Punic
+    {
+        "name": "Cult of Baal Hammon",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Temple]",
+        "Only available <after adopting [Punic Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Baal Saphon",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Gold] from every [Harbor]",
+        "[+10]% Production when constructing [Water] units [in this city]",
+        "Only available <after adopting [Punic Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Melquart",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Culture] from every [Barracks]",
+        "[+10]% Production when constructing [Settler] units [in this city]",
+        "Only available <after adopting [Punic Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Astarte",
+        "type": "Pantheon",
+        "uniques": [
+        "New [Mounted] units start with [15] Experience [in this city]",
+        "Only available <after adopting [Punic Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Tanit",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food] from every [Granary]",
+        "[+1 Gold] from every [Grain Exports]",
+        "Only available <after adopting [Punic Culture]>"
+        ]
+    },
+// Thracian
+    {
+        "name": "Cult of The Cabeiri",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness, +1 Culture, +1 Science] [in capital]",
+        "Only available <for [The Odrysians]>"
+        ]
+    },
+    {
+        "name": "Cult of Zalmoxis",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Happiness] from every [Walls]",
+        "Only available <for [The Getae]>"
+        ]
+    },
+    {
+        "name": "Cult of Zagreus",
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Culture] from [Wine] tiles [in this city]",
+        "[+10]% Production when constructing [Scout] units [in this city]",
+        "Only available <after adopting [Thracian Culture]>"
+        ]
+    },
+    {
+        "name": "Cult of Salenos",
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [Cavalry] units [in this city] receive the [Morale] promotion",
+        "Only available <after adopting [Thracian Culture]>"
+        ]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Asceticism",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+//        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Cathedrals",
@@ -146,7 +414,7 @@
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+//        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
     },
     {
         "name": "Guruship",

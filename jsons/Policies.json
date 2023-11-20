@@ -11,26 +11,12 @@
                     "Only available <after adopting [Celtic Culture]>",
                     "Gain a free [Walls] [in capital]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-                    "Cannot build [Archer] units",
-//                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-//                    "Cannot build [Swordsman] units",
-//                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-                    "Cannot build [Trireme] units",
-                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Slinger]",
+                    "Provides [1] [Unlock Swordsmen]",
+                    "Provides [1] [Unlock Swordsmen II]",
+                    "Provides [1] [Unlock Spearmen II]",
+                    "Provides [1] [Unlock Cavalry]",
+                    "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
             {
@@ -58,6 +44,7 @@
                 "name": "Naked Fanatics",
                 "uniques": [
                     "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock I] promotion",
                     "[+1 Happiness] [in all cities] <when at war>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -109,6 +96,7 @@
                 "name": "Celtic Chainmail",
                 "uniques": [
                     "[-25]% maintenance costs <for [Heavy Spearman] units>",
+                    "[-25]% maintenance costs <for [Heavy Swordsman] units>",
                     "[-25]% maintenance costs <for [Cavalry] units>",
                     "[+1 Happiness] from every [Forge]",
                     "[+1 Happiness] [in capital]"
@@ -139,28 +127,11 @@
         "uniques": [
                     "Only available <after adopting [Eastern Culture]>",
                     "Gain a free [Market] [in capital]",
-                    "[1] Range <for [Archer] units>",
+//                    "[1] Range <for [Archer] units>",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-                    "Cannot build [Horseman] units",
-//                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-//                    "Cannot build [Cataphract] units",
-//                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
             {
@@ -179,7 +150,9 @@
                 "requires": ["Royal Cities"],
                 "uniques": [
                     "[+25]% Production when constructing [Mounted] units [in capital]",
-                    "Free [Cavalry] appears",
+                    "Free [Lancer] appears",
+                    "Provides [1] [Unlock Cataphract]",
+                    "Provides [2] [Horses]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -188,7 +161,7 @@
             {
                 "name": "The Nomadic Tribes",
                 "uniques": [
-                    "[+1 Food] from every [Pasture]",
+                    "[+1 Food] from every [Nomadic Herd]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -198,9 +171,9 @@
                 "name": "Parthian Tactics",
                 "requires": ["The Nomadic Tribes"],
                 "uniques": [
-                    "[+25]% Strength <for [Horse Archer] units> <vs [Sword] units>",
-                    "[+25]% Strength <for [Horse Archer] units> <vs [Spear] units>",
-                    "Free [Horse Archer] appears",
+                    "[+25]% Strength <for [Mounted Archery] units> <vs [Sword] units>",
+                    "[+25]% Strength <for [Mounted Archery] units> <vs [Spear] units>",
+                    "Free [Horseman] appears",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -212,6 +185,9 @@
                 "uniques": [
                     "[+15]% Production when constructing [Spearman] units [in all cities]",
                     "[+15]% Production when constructing [Archer] units [in all cities]",
+                    "Provides [1] [Unlock Elephants]",
+                    "Provides [1] [Unlock Artillery]",
+                    "Provides [1] [Unlock Fleet II]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -269,26 +245,10 @@
                     "Only available <after adopting [Germanic Culture]>",
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-//                    "Cannot build [Swordsman] units",
-                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-                    "Cannot build [Trireme] units",
-                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Swordsmen]",
+                    "Provides [1] [Unlock Cavalry]",
+                    "Provides [1] [Unlock Fleet I]",
         ],
         "policies": [
             {
@@ -314,7 +274,7 @@
             {
                 "name": "Beast Warriors",
                 "uniques": [
-                    "All newly-trained [Mounted] units [in all cities] receive the [Morale] promotion",
+                    "All newly-trained [Cavalry] units [in all cities] receive the [Morale] promotion",
                     "All newly-trained [Swordsman] units [in all cities] receive the [Morale] promotion",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -357,6 +317,7 @@
                 "uniques": [
                     "[-25]% maintenance costs <for [{Military} {Land}] units>",
                     "Free [Great General] appears",
+                    "Provides [1] [Unlock Swordsmen II]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -365,11 +326,12 @@
             {
                 "name": "Northern Trade",
                 "uniques": [
-                    "[+2 Gold] from [Amber] tiles [in all cities]",
-                    "[+1 Happiness] from every [Amber Road]",
+                    "[+1 Gold, +1 Happiness] from [Amber] tiles [in all cities]",
+                    "[+1 Culture, +1 Happiness] from every [Amber Road]",
                     "[+1 Happiness] [in capital]"
                 ],
-                "row": 1,
+                "requires": ["Shield Wall"],
+                "row": 2,
                 "column": 5
             },
             {
@@ -391,34 +353,21 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenic Culture]>",
-                    "[-50]% Culture cost of natural border growth [in capital]"
+                    "[-50]% Culture cost of natural border growth [in capital]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-                    "Cannot build [Archer] units",
-//                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-//                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-//                    "Cannot build [Hemiola] units",
-//                    "Cannot build [Hexere] units",
-//                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Slinger]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Artillery]",
+                    "Provides [1] [Unlock Fleet II]",
         ],
         "policies": [
             {
                 "name": "Army Reform",
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
+                    "Provides [1] [Unlock Pikemen] <for [The Cyreneans]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Cyreneans]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Spartans]>",
                     "[+2 Happiness] [in capital] <if [Army Barracks] is constructed>",
                     "[+1 Happiness] [in capital] <if [Skirmisher Barracks] is constructed>",
                     "[+1 Happiness] [in capital] <if [Cavalry Barracks] is constructed>",
@@ -484,7 +433,8 @@
                 "requires": ["Hellenic Colonists"],
                 "uniques": [
                     "[+25]% Production when constructing [Water] units [in all cities]",
-                    "[+1 Science] from every [Harbor]",
+                    "Provides [1] [Unlock Fleet III]",
+                    "Provides [1] [Unlock Fleet IV]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -494,7 +444,7 @@
                 "name": "Thalassocracy",
                 "requires": ["Shipbuilders","Local Hegemony"],
                 "uniques": [
-                    "[+1] Movement <for [Water] units>",
+                    "[+1] Movement <for [Melee Water] units>",
                     "[+1 Happiness] from every [Harbor]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -523,26 +473,19 @@
                     "Only available <after adopting [Hellenistic Culture]>",
                     "[+25]% Production when constructing [Settler] units [in all cities]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-                    "Cannot build [Spearman] units",
-//                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-                    "Cannot build [Heavy Spearman] units",
-//                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-//                    "Cannot build [Cataphract] units",
-//                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-//                    "Cannot build [Hemiola] units",
-//                    "Cannot build [Hexere] units",
-//                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Pikemen] <for [The Macedonians]>",
+                    "Provides [1] [Unlock Pikemen] <for [The Ptolemies]>",
+                    "Provides [1] [Unlock Pikemen] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Macedonians]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Ptolemies]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Macedonians]>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Pergamenes]>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Ptolemies]>",
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Elephants]",
+                    "Provides [1] [Unlock Fleet II]"
         ],
         "policies": [
             {
@@ -573,6 +516,8 @@
                 "uniques": [
                     "[+15]% Production when constructing [Ranged Water] units [in all cities]",
                     "[+2 Production] from every [Harbor]",
+                    "Provides [1] [Unlock Fleet III]",
+                    "Provides [1] [Unlock Fleet IV]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Euergetes"],
@@ -584,6 +529,8 @@
                 "civilopediaText": [{"text": "Usually ruling over mostly foreign subjects, hellenistic dynasts in Egypt and Asia constantly tried to attract Macedonians and Greeks as military settlers to form the core of their armies."}],
                 "uniques": [
                     "New [{Melee} {Land}] units start with [10] Experience [in all cities] <in cities with a [Clerouchia]>",
+                    "Provides [2] [Copper]",
+                    "[+2 Happiness] [in annexed cities] <in cities with a [Clerouchia]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -595,6 +542,12 @@
                 "uniques": [
                     "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
                     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+                    "Provides [1] [Unlock Cataphract] <for [The Mithridatids]>",
+                    "Provides [1] [Unlock Cataphract] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Pikemen] <for [The Mithridatids]>",
+                    "Provides [1] [Unlock Pikemen] <for [The Pergamenes]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Mithridatids]>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Pergamenes]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Euergetes","Poliorketes"],
@@ -606,6 +559,10 @@
                 "civilopediaText": [{"text": "Megas was a hellenestic royal epithet meaning The Great. Alexander III, Antiochos III and Mithridates VI were the Greats."}],
                 "uniques": [
                     "Free [Great General] appears",
+                    "Provides [1] [Unlock Spearmen II] <for [The Mithridatids]>",
+                    "Provides [1] [Unlock Spearmen II] <for [The Pergamenes]>",
+                    "Provides [1] [Unlock Swordsmen II] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Swordsmen II] <for [The Ptolemies]>",
                     "[+100]% XP gained from combat <for [Melee] units> <when adjacent to a [Great General] unit>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -659,32 +616,17 @@
                     "Only available <after adopting [Iberian Culture]>",
                     "[+25]% Production when constructing [Walls] buildings [in all cities]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-                    "Cannot build [Archer] units",
-//                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-//                    "Cannot build [Swordsman] units",
-                   "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-                    "Cannot build [Trireme] units",
-                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Slinger]",
+                    "Provides [1] [Unlock Swordsmen]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
             {
-                "name": "Metalsmiths",
+                "name": "Iberian Workshops",
                 "uniques": [
                     "[+1 Production] from every [Mine]",
+                    "[+1 Happiness] from every [Warrior Statue]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -692,9 +634,10 @@
             },
             {
                 "name": "The Falcata",
-                "requires": ["Metalsmiths"],
+                "requires": ["Iberian Workshops"],
                 "uniques": [
-                    "New [Sword] units start with [15] Experience [in all cities]",
+                    "New [Sword] units start with [10] Experience [in all cities]",
+                    "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -704,7 +647,9 @@
                 "name": "Toledo Steel",
                 "requires": ["The Falcata"],
                 "uniques": [
-                    "[+1 Science, +1 Happiness] from every [Forge]",
+                    "[+1 Science, +1 Production] from [Iron] tiles [in all cities]",
+                    "Provides [1] [Unlock Swordsmen II]",
+                    "Provides [1] [Unlock Spearmen II]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -712,7 +657,7 @@
             },
             {
                 "name": "Flaming Javelins",
-                "requires": ["Metalsmiths","Skirmish Tactics"],
+                "requires": ["Iberian Workshops","Skirmish Tactics"],
                 "uniques": [
                     "[+25]% Strength <for [Skirmisher] units> <vs cities> <when attacking>",
                     "[+1 Happiness] [in capital]"
@@ -725,7 +670,7 @@
                 "requires": ["Toledo Steel","Cantabrian Circle"],
                 "uniques": [
                     "Free [Great General] appears",
-                    "[+2 Culture, +1 Happiness] from every [Walls]",
+                    "[+1 Culture, +1 Happiness] from every [Walls]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -735,7 +680,7 @@
                 "name": "Skirmish Tactics",
                 "uniques": [
                     "[+15]% Strength <for [Skirmisher] units> <when fighting in [Hill] tiles>",
-                    "[+15]% Strength <for [Slinger] units> <when fighting in [Hill] tiles>",
+                    "[+15]% Strength <for [Archery] units> <when fighting in [Hill] tiles>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -782,27 +727,10 @@
         "uniques": [
                     "Only available <after adopting [Illyrian Culture]>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
+                    "Gain a free [Pirate Haven] [in all coastal cities]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-                    "Cannot build [Archer] units",
-//                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-//                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-                    "Cannot build [Trireme] units",
-                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Slinger]",
+                    "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
             {
@@ -818,8 +746,7 @@
                 "name": "Illyrian Pirates",
                 "uniques": [
                     "[+25]% Strength <for [Water] units> <vs cities>"
-                    "[1] Movement point cost to disembark <for [Military] units>",
-                    "[1] Movement point cost to embark <for [Military] units>",
+                    "All newly-trained [{Military} {Land}] units [in all cities] receive the [Amphibious] promotion",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["The Right to Plunder"],
@@ -842,6 +769,7 @@
                 "uniques": [
                     "Empire enters golden age",
                     "Free [Galley] appears",
+                    "Provides [1] [Unlock Swordsmen]"
                     "[+1 Happiness, +1 Culture] [in all cities]"
                     "[+1 Happiness] [in capital]"
                 ],
@@ -910,26 +838,11 @@
                     "Only available <after adopting [Latin Culture]>",
                     "[+50]% Production when constructing [Melee] units [in capital]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-                    "Cannot build [Archer] units",
-//                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-//                    "Cannot build [Swordsman] units",
-                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-//                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-//                    "Cannot build [Hexere] units",
-//                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Slinger]",
+                    "Provides [1] [Unlock Swordsmen]",
+                    "Provides [1] [Unlock Cavalry]",
+                    "Provides [1] [Unlock Artillery]",
+                    "Provides [1] [Unlock Fleet II]"
         ],
         "policies": [
             {
@@ -960,6 +873,7 @@
                 "uniques": [
                     "[-15]% maintenance costs <for [Mounted] units>",
                     "[-15]% maintenance costs <for [Scout] units>",
+                    "Provides [1] [Unlock Elephants]",
                     "Free [War Elephant] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -971,6 +885,7 @@
                 "uniques": [
                     "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
                     "[+1 Science, +1 Culture] from every [Army Barracks]",
+                    "Provides [2] [Iron]",
                     "Free [Swordsman] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1024,6 +939,7 @@
                 "name": "Latin Culture Complete",
                 "uniques": [
                     "[+50]% Golden Age length",
+                    "Provides [1] [Unlock Fleet IV]"
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -1041,26 +957,8 @@
                     "Only available <after adopting [Numidian Culture]>",
                     "[+1] Sight <for [Land] units>",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-//                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-//                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Fleet I]",
         ],
         "policies": [
             {
@@ -1097,6 +995,7 @@
                 "name": "Numidian Warfare",
                 "uniques": [
                     "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+25]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
                     "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1108,6 +1007,7 @@
                 "requires": ["Numidian Warfare"],
                 "uniques": [
                     "[+15]% Production when constructing [Land] units [in all cities]",
+                    "Provides [1] [Unlock Swordsmen II]",
                     "Free [Horseman] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1118,9 +1018,9 @@
                 "name": "Infantry Reform",
                 "requires": ["Mass Recruitment"],
                 "uniques": [
-                    "New [Heavy Spearman] units start with [10] Experience [in all cities]",
+                    "New [Sword] units start with [10] Experience [in all cities]",
+                    "New [Spear] units start with [10] Experience [in all cities]",
                     "[+1 Science] from every [Army Barracks]",
-                    "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1131,6 +1031,7 @@
                 "requires": ["Infantry Reform"],
                 "uniques": [
                     "All newly-trained [Horseman] units [in all cities] receive the [Raider I] promotion",
+                    "All newly-trained [Numidian Mercenary] units [in all cities] receive the [Raider I] promotion",
                     "All newly-trained [Skirmisher] units [in all cities] receive the [Raider I] promotion",
                     "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
@@ -1143,6 +1044,7 @@
                 "requires": ["Mass Recruitment"],
                 "uniques": [
                     "[+15]% Production when constructing [War Elephant] units [in capital]",
+                    "Provides [1] [Unlock Elephants]",
                     "Free [War Elephant] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1154,6 +1056,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [All] buildings [in capital]",
                     "[+1] Movement <for [Land] units>",
+                    "Provides [1] [Unlock Fleet II]"
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -1172,26 +1075,11 @@
                     "[+1] Sight <for [Water] units>",
                     "[+1] Sight <for [Embarked] units>",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-                    "Cannot build [Swordsman] units",
-//                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-//                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-//                    "Cannot build [Trireme] units",
-//                    "Cannot build [Pentere] units",
-                    "Cannot build [Hemiola] units",
-//                    "Cannot build [Hexere] units",
-//                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Elephants]",
+                    "Provides [1] [Unlock Artillery]",
+                    "Provides [1] [Unlock Fleet II]",
         ],
         "policies": [
             {
@@ -1233,8 +1121,8 @@
                 "requires": ["Phoenician Traders"],
                 "uniques": [
                     "[+15]% Production when constructing [Water] units [in capital]",
-                    "Provides [2] [Timber]",
                     "Free [Pentere] appears",
+                    "Provides [2] [Timber]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1243,7 +1131,8 @@
             {
                 "name": "Mercenary Armies",
                 "uniques": [
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-33]%",
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-25]%",
+                    "Provides [1] [Unlock Spearmen II]",
                     "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1254,7 +1143,7 @@
                 "name": "Mercenary Reform",
                 "requires": ["Mercenary Armies"],
                 "uniques": [
-                    "[+25]% Production when constructing [Heavy Spearman] units [in all cities]",
+                    "All newly-trained [Heavy Spearman] units [in all cities] receive the [Drill I] promotion",
                     "Free [Great General] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1265,8 +1154,8 @@
                 "name": "Numidian Auxiliaries",
                 "requires": ["Mercenary Reform"],
                 "uniques": [
-                    "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
-                    "[+25]% Strength <for [Scout] units> <when fighting in [Desert] tiles>",
+                    "[+25]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
+                    "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1276,9 +1165,10 @@
                 "name": "Colonial Ventures",
                 "requires": ["Numidian Auxiliaries"],
                 "uniques": [
-                    "Free [Great General] appears",
                     "[+25]% [Gold] [in all cities] <on foreign continents>",
                     "[+1] Movement <for [Land] units> <on foreign continents>",
+                    "Free [Great General] appears",
+                    "Provides [1] [Unlock Fleet IV]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -1303,28 +1193,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Thracian Culture]>",
-                    "[+1 Gold, +1 Culture, +1 Happiness] from every [Mint]",
+                    "[+1 Culture, +1 Happiness] from every [Mint]",
                     "[+1 Happiness] [in capital]",
-//                    "Cannot build [Skirmisher] units",
-//                    "Cannot build [Archer] units",
-                    "Cannot build [Slinger] units",
-//                    "Cannot build [Spearman] units",
-                    "Cannot build [Pike Phalanx] units",
-//                    "Cannot build [Swordsman] units",
-                    "Cannot build [Heavy Spearman] units",
-                    "Cannot build [Royal Phalanx] units",
-//                    "Cannot build [Horseman] units",
-                    "Cannot build [Horse Archer] units",
-//                    "Cannot build [Cavalry] units",
-                    "Cannot build [Cataphract] units",
-                    "Cannot build [War Elephant] units",
-//                    "Cannot build [Ballista] units",
-//                    "Cannot build [Galley] units",
-                    "Cannot build [Trireme] units",
-                    "Cannot build [Pentere] units",
-//                    "Cannot build [Hemiola] units",
-                    "Cannot build [Hexere] units",
-                    "Cannot build [Decere] units"
+                    "Provides [1] [Unlock Archer]",
+                    "Provides [1] [Unlock Swordsmen]",
+                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
              {
@@ -1342,7 +1216,7 @@
                 "requires": ["The Hill Tribes"],
                 "uniques": [
                     "[+50]% City Strength from defensive buildings <in cities with a [Acropolis]>",
-                    "[+1 Gold, +1 Culture] from every [Acropolis]",
+                    "[+1 Gold, +1 Happiness] from every [Acropolis]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1353,7 +1227,7 @@
                 "requires": ["Mountain Strongholds"],
                 "uniques": [
                     "Double quantity of [Iron] produced",
-                    "[+1 Science, +1 Happiness] from every [Rhomphaia Forge]",
+                    "[+1 Science, +1 Culture] from every [Thracian Weaponsmith]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1395,6 +1269,8 @@
                 "uniques": [
                     "Free [Great General] appears",
                     "[+1 Gold, +1 Culture, +1 Happiness] from every [Mint]",
+                    "Provides [1] [Unlock Artillery]",
+                    "Provides [1] [Unlock Fleet II]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
