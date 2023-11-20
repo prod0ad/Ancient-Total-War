@@ -940,7 +940,8 @@
 		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
 		"[+50]% XP gained from combat <for [Pike Phalanx] units>"
 		"Cannot build [Royal Phalanx] units",
-		"Cannot build [Lancer] units",
+		"Cannot build [Horseman] units",
+		"Cannot build [Cavalry] units",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Egyptian",
@@ -1174,7 +1175,8 @@
 		"Gain a free [Harbor] [in capital]",
 		"[+25]% Production when constructing [Melee Water] units [in all cities]",
 		"New [Melee Water] units start with [15] Experience [in all cities]"
-		"Provides [1] [Unlock Fleet II]"
+		"Provides [1] [Unlock Fleet II]",
+		"Cannot build [Horse Archer] units"
 		],
 		"style": "Eastern",
 		"cities": ["Sidon"]
@@ -1238,7 +1240,7 @@
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Archer] units",
-		"Cannot build [Lancer] units",
+		"Cannot build [Cavalry] units",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1574,8 +1576,7 @@
 		"[+25]% Production when constructing [Hemiola] units [in all cities]",
 		"[+50]% XP gained from combat <for [Archery] units>",
 		"[+50]% XP gained from combat <for [Hemiola] units>",
-		"Cannot build [Horseman] units",
-		"Cannot build [Lancer] units",
+		"Cannot build [Mounted] units",
 		"Provides [1] [Unlock Fleet III]"
 		],
 		"style": "Greek",
@@ -1599,7 +1600,7 @@
 		"New [Mounted] units start with [15] Experience [in all cities] <after discovering [Military Reforms]>",
 		"Provides [1] [Unlock Pikemen] <after discovering [Military Reforms]>",
                 "Provides [1] [Unlock Spearmen II] <after discovering [Metallurgy]>",
-		"Cannot build [Lancer] units"
+		"Cannot build [Cavalry] units <before discovering [Military Reforms]>"
 		],
 		"style": "Greek",
 		"cities": ["Corinth"]
@@ -1645,7 +1646,7 @@
 		"[+50]% XP gained from combat <for [Scout] units>",
 		"[+50]% XP gained from combat <for [Horseman] units>",
 		"Cannot build [Archer] units",
-		"Cannot build [Lancer] units",
+		"Cannot build [Cavalry] units",
 		"Cannot build [Swordsman] units"
 		],
 		"style": "Thracian",
@@ -1666,7 +1667,7 @@
 		"Starts with [Hellenic Culture] adopted",
 		"Starts with [Mercenaries]",
 		"Gain a free [Harbor] [in capital]",
-		"Cannot build [Lancer] units"
+		"Cannot build [Cavalry] units"
 		],
 		"style": "Greek",
 		"cities": ["Byzantion"]

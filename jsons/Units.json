@@ -39,7 +39,7 @@
 //		"upgradesTo": "Peltast",
 //		"obsoleteTech": "Combined Arms",
 		"attackSound": "nonmetalhit", //arrow
-		"promotions": ["[Skirmisher] ability"],
+		"promotions": ["[Skirmisher] ability","Infantry Shield I"],
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	}
 	{
@@ -51,7 +51,7 @@
 		"strength": 8,
 		"cost": 40,
 		"requiredTech": "Warrior Class",
-		"promotions": ["[Skirmisher] ability","Raider I"],
+		"promotions": ["[Skirmisher] ability","Raider I","Infantry Shield I"],
 		"attackSound": "arrow",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
@@ -64,7 +64,7 @@
 		"strength": 8,
 		"cost": 45,
 		"requiredTech": "Warrior Class",
-		"promotions": ["[Skirmisher] ability","Survivalism I"],
+		"promotions": ["[Skirmisher] ability","Survivalism I","Infantry Shield I"],
 		"attackSound": "arrow",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
@@ -83,7 +83,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Skirmisher] ability","Amphibious"],
+		"promotions": ["[Skirmisher] ability","Amphibious","Infantry Shield I"],
 		"attackSound": "arrow",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
@@ -209,7 +209,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Archer] ability","Amphibious"],
+		"promotions": ["[Archer] ability","Amphibious","Infantry Shield I"],
 		"attackSound": "arrow"
 	},
 	/* Mercenaries */
@@ -228,7 +228,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Shock I"],
+		"promotions": ["Shock I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -246,7 +246,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Forester"],
+		"promotions": ["Forester","Infantry Shield I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -265,7 +265,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Spearman] ability"],
+		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -285,7 +285,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Spearman] ability"],
+		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -303,6 +303,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -320,6 +321,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	/* Infantry I */
@@ -334,7 +336,7 @@
 		"Only available <in cities with a [Parthenon]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Spearman] ability","Drill I","Assault I","Amphibious"],
+		"promotions": ["[Spearman] ability","Drill I","Assault I","Amphibious","Infantry Shield I"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -346,7 +348,7 @@
 		"cost": 56,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
-		"promotions": ["[Spearman] ability"],
+		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -359,7 +361,7 @@
 		"cost": 56,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
-		"promotions": ["[Spearman] ability","Ambush I"],
+		"promotions": ["[Spearman] ability","Ambush I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -372,7 +374,7 @@
 		"cost": 75,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
-		"promotions": ["[Spearman] ability","Spartan Aura"],
+		"promotions": ["[Spearman] ability","Spartan Aura","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -385,7 +387,7 @@
 		"cost": 70,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
-		"promotions": ["[Spearman] ability","Drill I"],
+		"promotions": ["[Spearman] ability","Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -400,23 +402,24 @@
 		"Only available <with [Unlock Pikemen]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Pike Phalanx] ability"],
+		"promotions": ["[Pike Phalanx] ability","Infantry Shield I"],
 		"attackSound": "metalhit"
 	},
 	/* Infantry II */
 	{
 		"name": "Swordsman",
 		"unitType": "Sword",
+		"hurryCostModifier": 20,
+		"cost": 75,
 		"movement": 2,
 		"strength": 14,
-		"cost": 75,
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>",
 		"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -432,7 +435,7 @@
 		"Only available <with [Unlock Swordsmen]>",
 		"Can move immediately once bought"
 		],
-		"promotions": ["[Gaesatae] ability","Shock I"],
+		"promotions": ["[Gaesatae] ability","Shock I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -448,7 +451,7 @@
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
-		"promotions": ["[Thracian Warband] ability","Raider I"],
+		"promotions": ["[Thracian Warband] ability","Raider I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -480,7 +483,7 @@
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
-		"promotions": ["Berserker"],
+		"promotions": ["Berserker","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -496,7 +499,7 @@
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
-		"promotions": ["Shock I"],
+		"promotions": ["Shock I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -512,7 +515,7 @@
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
-		"promotions": ["Raider I"],
+		"promotions": ["Raider I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -525,10 +528,10 @@
 		"cost": 70,
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
-		"promotions": ["Raider I","Ambush I"],
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
+		"promotions": ["Raider I","Ambush I","Infantry Shield I"],
 		"attackSound": "metalhit",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
@@ -541,10 +544,11 @@
 		"strength": 16,
 		"cost": 70,
 		"requiredTech": "Heavy Infantry",
+		"requiredResource": "Iron",
 		"uniques": [
 		"Only available <with [Unlock Swordsmen]>"
 		],
-		"requiredResource": "Iron",
+		"promotions": ["Infantry Shield III"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -560,7 +564,7 @@
 		"Only available <with [Unlock Pikemen II]>",
 		"Only available <in cities with a [Palace]>"
 		],
-		"promotions": ["Elite Phalanx ability"],
+		"promotions": ["[Royal Phalanx] ability","Infantry Shield I"],
 		"attackSound": "metalhit"
 	},
 	/* Infantry III */
@@ -576,7 +580,7 @@
 		"Only available <with [Unlock Spearmen II]>",
 		"Never appears as a Barbarian unit"
 		],
-//		"promotions": ["[Spearman] ability","Drill I"],
+		"promotions": ["[Spearman] ability","Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	/* Infantry IV */
@@ -592,7 +596,7 @@
 		"Only available <with [Unlock Swordsmen II]>",
 		"Never appears as a Barbarian unit"
 		],
-//		"promotions": ["Drill I"],
+		"promotions": ["Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -609,6 +613,7 @@
 		"uniques": [
 		"Only available <with [Unlock Swordsmen II]>",
 		],
+		"promotions": ["Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	/* Cavalry */
@@ -629,7 +634,7 @@
 		"Can be purchased with [Gold] [in all cities]",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Horseman] ability","Scouting I"],
+		"promotions": ["[Horseman] ability","Scouting I","Cavalry Shield I"],
 		"attackSound": "horse"
 	},
 	{
@@ -646,7 +651,7 @@
 		"Only available <in cities without a [Nomadic Herd]> <hidden from users>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Horseman] ability","Scouting I"],
+		"promotions": ["[Horseman] ability","Scouting I","Cavalry Shield I"],
 		"attackSound": "horse"
 	},
 	{
@@ -682,6 +687,7 @@
 		"requiredResource": "Horses",
 		"uniques": [
 		"Only available <in cities with a [Nomadic Herd]>",
+		"Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Horseman] ability"],
 		"attackSound": "horse"
@@ -760,7 +766,7 @@
 		"Only available <in cities with a [Hanging Gardens]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Chariot ability","Shock I"],
+		"promotions": ["Chariot ability","Charge I","Shock I"],
 		"attackSound": "horse"
 	},
 	{
@@ -774,7 +780,7 @@
 		"strength": 12,
 		"requiredTech": "Equestrian Class",
 		"requiredResource": "Horses",
-		"promotions": ["Chariot ability","Shock I"],
+		"promotions": ["Chariot ability","Charge I","Shock I"],
 		"attackSound": "horse"
 	},
 	{
@@ -794,22 +800,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Lancer",
-		"unitType": "Mounted",
-		"hurryCostModifier": 20,
-		"cost": 90,
-		"movement": 4,
-		"strength": 12,
-		"requiredTech": "Equestrian Class",
-		"requiredResource": "Horses",
-		"uniques": [
-		"Only available <with [Unlock Lancer]>",
-		"Never appears as a Barbarian unit",
-		],
-		"promotions": ["[Lancer] ability","Charge I"],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Royal Agema",
 		"unitType": "Mounted",
 		"hurryCostModifier": 20,
@@ -824,7 +814,7 @@
 		"Only available <with [Unlock Royal Agema]>",
 		],
 		"promotions": [
-		"Cover I",
+		"Cavalry Shield II",
 //		"Assault I"
 		],
 		"attackSound": "horse"
@@ -842,7 +832,7 @@
 		"Only available <with [Unlock Cataphracts]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Cataphract] ability","Shock I"],
+		"promotions": ["[Cataphract] ability","Charge I","Shock I"],
 		"attackSound": "horse"
 	},
 	/* Elephants */

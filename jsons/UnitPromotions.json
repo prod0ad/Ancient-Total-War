@@ -457,21 +457,6 @@
         "row": 1
 	},
 	// Rank 12
-	{
-		"name": "Cover I",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Spear","Archery","Siege"],
-        "column": 27,
-        "row": 1
-	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Spear","Archery","Siege"],
-        "column": 27,
-        "row": 2
-	},
 	// Rank 13
 	{
 		"name": "Raider I",
@@ -496,26 +481,7 @@
         "column": 28,
         "row": 3
 	},
-	{
-		"name": "Berserker",
-		"uniques": ["Damage is ignored when determining unit Strength"]
-	},
-	{
-		"name": "Spartan Aura",
-		"uniques": ["[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles"]
-	},
-	{
-		"name": "Camels Scare Horses",
-		"uniques": ["[+25]% Strength <when defending> <vs [Mounted] units>"]
-	},
-	{
-		"name": "Caucasian Stronghold",
-		"uniques": ["[+25]% Strength decreasing with distance from the capital"]
-	},
-	{
-		"name": "Heroic Charge",
-		"uniques": ["[+25]% Strength <vs [Sword] units>"]
-	},
+	// Base Units
 	{
 		"name": "[Skirmisher] ability",
 		"uniques": [
@@ -552,7 +518,7 @@
 		],
 	},
 	{
-		"name": "Elite Phalanx ability",
+		"name": "[Royal Phalanx] ability",
 		"uniques": [
 		"[+25]% Strength <vs [Melee] units>"
 		"[+50]% Strength <vs [Mounted] units>"
@@ -561,52 +527,42 @@
 	{
 		"name": "[Horseman] ability",
 		"uniques": [
-		"May withdraw before melee ([75]%)",
-		"No defensive terrain bonus",
 		"[-33]% Strength <vs cities> <when attacking>",
+		"May withdraw before melee ([75]%)",
+		"No defensive terrain bonus"
 		],
 	},
 	{
 		"name": "[Camel Archer] ability",
 		"uniques": [
-		"May withdraw before melee ([50]%)",
-		"No defensive terrain bonus",
+		"[+25]% Strength <when fighting in [Desert] tiles>",
 		"[-33]% Strength <vs cities> <when attacking>",
-		"[+25]% Strength <when fighting in [Desert] tiles>"
+		"May withdraw before melee ([50]%)",
+		"No defensive terrain bonus"
 		],
 	},
 	{
 		"name": "Chariot ability",
 		"uniques": [
+		"[+25]% Strength <when fighting in [Desert] tiles>",
+		"[-33]% Strength <vs cities> <when attacking>"
 		"No defensive terrain bonus", 
-		"Rough terrain penalty",
-		"[-33]% Strength <vs cities> <when attacking>",
-		"[+25]% Strength <when fighting in [Desert] tiles>"
+		"Rough terrain penalty"
 		],
 	},
 	{
 		"name": "[Cavalry] ability",
 		"uniques": [
-		"[+25]% Strength <vs [Ranged] units>"
+		"[-25]% Strength <vs cities> <when attacking>",
 		"Can move after attacking",
-		"No defensive terrain bonus",
-		"[-25]% Strength <vs cities> <when attacking>"
-		],
-	},
-	{
-		"name": "[Lancer] ability",
-		"uniques": [
-		"[+25]% Strength <vs [Melee] units>"
-		"Can move after attacking",
-		"No defensive terrain bonus",
-		"[-25]% Strength <vs cities> <when attacking>"
+		"No defensive terrain bonus"
 		],
 	},
 	{
 		"name": "[Cataphract] ability",
 		"uniques": [
 		"[-25]% Strength <vs cities> <when attacking>",
-		"No defensive terrain bonus",
+		"No defensive terrain bonus"
 		],
 	},
 	{
@@ -617,12 +573,98 @@
 		"[+50]% Strength <vs [Mounted] units>",
 		],
 	},
+	// Weapons and Armor
+	{
+		"name": "Improved Weapons",
+		"uniques": [
+		"[+15]% Strength <when attacking>",
+		"[+15]% Strength <when defending> <vs [Melee] units>"
+		],
+	},
+	{
+		"name": "Improved Missiles",
+		"uniques": [
+		"[+15]% Strength <when attacking>",
+		"[+10]% Strength <when defending>"
+		],
+	},
+	{
+		"name": "Improved Armor",
+		"uniques": [
+		"[+15]% Strength"
+		],
+	},
+	{
+		"name": "Infantry Shield I",
+		"uniques": [
+		"[+15]% Strength <vs [Ranged] units>"
+		],
+	},
+	{
+		"name": "Infantry Shield II",
+		"uniques": [
+		"[+33]% Strength <vs [Ranged] units>"
+		],
+	},
+	{
+		"name": "Infantry Shield III",
+		"uniques": [
+		"[+50]% Strength <vs [Ranged] units>"
+		],
+	},
+	{
+		"name": "Cavalry Shield I",
+		"uniques": [
+		"[+15]% Strength <vs [Ranged] units>"
+		],
+	},
+	{
+		"name": "Cavalry Shield II",
+		"uniques": [
+		"[+33]% Strength <vs [Ranged] units>"
+		],
+	},
+	{
+		"name": "Armored Lancer",
+		"uniques": [
+		"[+10]% Strength <vs [Ranged] units>"
+		"[+25]% Strength <vs [Melee] units>"
+		],
+	},
+	{
+		"name": "Lancer",
+		"uniques": [
+		"[+25]% Strength <vs [Melee] units>"
+		],
+	},
+	// Ships
 	{
 		"name": "[Hemiola] ability",
 		"uniques": [
 		"Ignores Zone of Control",
 		"May withdraw before melee ([50]%)"
 		],
+	},
+	// Uniques Units and Civ uniques
+	{
+		"name": "Berserker",
+		"uniques": ["Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Spartan Aura",
+		"uniques": ["[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Camels Scare Horses",
+		"uniques": ["[+25]% Strength <when defending> <vs [Mounted] units>"]
+	},
+	{
+		"name": "Caucasian Stronghold",
+		"uniques": ["[+25]% Strength decreasing with distance from the capital"]
+	},
+	{
+		"name": "Heroic Charge",
+		"uniques": ["[+25]% Strength <vs [Sword] units>"]
 	},
 	{
 		"name": "[Gaesatae] ability",

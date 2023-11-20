@@ -9,6 +9,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Celtic Culture]>",
+                    "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "Gain a free [Walls] [in capital]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
@@ -126,11 +127,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Eastern Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "Gain a free [Market] [in capital]",
 //                    "[1] Range <for [Archer] units>",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Archer]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
@@ -150,7 +152,7 @@
                 "requires": ["Royal Cities"],
                 "uniques": [
                     "[+25]% Production when constructing [Mounted] units [in capital]",
-                    "Free [Lancer] appears",
+                    "Free [Cavalry] appears",
                     "Provides [1] [Unlock Cataphract]",
                     "Provides [2] [Horses]",
                     "[+1 Happiness] [in capital]"
@@ -243,6 +245,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Germanic Culture]>",
+                    "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Archer]",
@@ -353,10 +356,11 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenic Culture]>",
+                    "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "[-50]% Culture cost of natural border growth [in capital]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Artillery]",
                     "Provides [1] [Unlock Fleet II]",
         ],
@@ -471,6 +475,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenistic Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <for [The Mithridatids]> <hidden from users>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <for [The Seleucids]> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Epirots]> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Macedonians]> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Ptolemies]> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Pergamenes]> <hidden from users>",
                     "[+25]% Production when constructing [Settler] units [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Pikemen] <for [The Macedonians]>",
@@ -483,7 +493,7 @@
                     "Provides [1] [Unlock Royal Agema] <for [The Pergamenes]>",
                     "Provides [1] [Unlock Royal Agema] <for [The Ptolemies]>",
                     "Provides [1] [Unlock Archer]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Elephants]",
                     "Provides [1] [Unlock Fleet II]"
         ],
@@ -614,11 +624,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Iberian Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+25]% Production when constructing [Walls] buildings [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
                     "Provides [1] [Unlock Swordsmen]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [
@@ -726,6 +737,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Illyrian Culture]>",
+                    "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
                     "Gain a free [Pirate Haven] [in all coastal cities]",
                     "[+1 Happiness] [in capital]",
@@ -836,6 +848,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Latin Culture]>",
+                    "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "[+50]% Production when constructing [Melee] units [in capital]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
@@ -955,6 +968,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Numidian Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Land] units>",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Archer]",
@@ -1072,11 +1086,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Punic Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Water] units>",
                     "[+1] Sight <for [Embarked] units>",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Archer]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Elephants]",
                     "Provides [1] [Unlock Artillery]",
                     "Provides [1] [Unlock Fleet II]",
@@ -1193,11 +1208,12 @@
         },
         "uniques": [
                     "Only available <after adopting [Thracian Culture]>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1 Culture, +1 Happiness] from every [Mint]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Archer]",
                     "Provides [1] [Unlock Swordsmen]",
-                    "Provides [1] [Unlock Lancer]",
+                    "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Fleet I]"
         ],
         "policies": [

@@ -689,12 +689,14 @@
 	// Metallurgy
 	{
 		"name": "Forge",
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron","Copper"],
 		"requiredTech": "Metallurgy",
 		"uniques": [
-		"[+5]% Production when constructing [Melee] units [in this city]",
+		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Weapons] promotion",
+		"All newly-trained [{Ranged} {Land}] units [in this city] receive the [Improved Missiles] promotion",
+		"All newly-trained [{Military} {Land}] units [in this city] receive the [Improved Armor] promotion"
 		"[+1 Production] from [Iron] tiles [in this city]",
 		"[+1 Production] from [Copper] tiles [in this city]"
 		]
