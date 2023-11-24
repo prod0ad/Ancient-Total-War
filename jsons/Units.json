@@ -133,7 +133,24 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Macedonian Staffslinger",
+		"name": "Mardian Archer",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "The Arsacids",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 56,
+		"requiredTech": "Archery",
+		"uniques": [
+		"Can move immediately once bought",
+		"Only available <with [Unlock Archer]>"
+		],
+		"promotions": ["[Archer] ability","Marksman I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Staffslinger",
 		"unitType": "Archery",
 		"replaces": "Archer",
 		"uniqueTo": "The Macedonians",
@@ -289,6 +306,24 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Thracian Mercenary",
+		"unitType": "Spear",
+		"movement": 2,
+		"strength": 12,
+		"cost": 90,
+//		"requiredTech": "Mercenaries",
+		"uniques": [
+		"Only available <in cities with a [Mercenary Camp (Thracian)]>",
+		"Can move immediately once bought",
+//		"Unbuildable <for [Human player]> <hidden from users>",
+		"Unbuildable",
+		"Can be purchased with [Gold] [in all cities]",
+		"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Thracian Warband] ability","Raider I","Infantry Shield II"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Iberian Mercenary",
 		"unitType": "Sword",
 		"movement": 2,
@@ -344,7 +379,7 @@
 		"name": "Spearman",
 		"unitType": "Spear",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"cost": 56,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
@@ -394,7 +429,7 @@
 		"name": "Pike Phalanx",
 		"unitType": "Spear",
 		"movement": 2,
-		"strength": 15,
+		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
@@ -420,6 +455,21 @@
 		"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Infantry Shield II"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hyrcanian Axeman",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Arsacids",
+		"movement": 2,
+		"strength": 12,
+		"cost": 70,
+		"requiredTech": "Heavy Infantry",
+		"uniques": [
+		"Can move immediately once bought"
+		],
+		"promotions": ["Infantry Shield I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -562,7 +612,8 @@
 		"requiredResource": "Copper",
 		"uniques": [
 		"Only available <with [Unlock Pikemen II]>",
-		"Only available <in cities with a [Palace]>"
+		"Only available <in cities with a [Palace]>",
+		"Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Royal Phalanx] ability","Infantry Shield I"],
 		"attackSound": "metalhit"
@@ -789,14 +840,14 @@
 		"hurryCostModifier": 20,
 		"cost": 90,
 		"movement": 4,
-		"strength": 13,
+		"strength": 12,
 		"requiredTech": "Equestrian Class",
 		"requiredResource": "Horses",
 		"uniques": [
 		"Only available <with [Unlock Cavalry]>",
 		"Never appears as a Barbarian unit",
 		],
-		"promotions": ["[Cavalry] ability","Charge I"],
+		"promotions": ["[Cavalry] ability"],
 		"attackSound": "horse"
 	},
 	{
@@ -805,13 +856,14 @@
 		"hurryCostModifier": 20,
 		"cost": 100,
 		"movement": 4,
-		"strength": 12,
+		"strength": 13,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
 		"Can move after attacking",
 		"Only available <in cities with a [Palace]>",
 		"Only available <with [Unlock Royal Agema]>",
+		"Never appears as a Barbarian unit"
 		],
 		"promotions": [
 		"Cavalry Shield II",
@@ -823,9 +875,9 @@
 		"name": "Cataphract",
 		"unitType": "Mounted",
 		"hurryCostModifier": 20,
+		"cost": 100,
 		"movement": 3,
 		"strength": 16,
-		"cost": 100,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
@@ -833,6 +885,24 @@
 		"Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Cataphract] ability","Charge I","Shock I"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Armenian Noble",
+		"unitType": "Mounted",
+		"uniqueTo": "The Armenians",
+		"replaces": "Cataphract",
+		"hurryCostModifier": 20,
+		"cost": 100,
+		"movement": 3,
+		"strength": 15,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Only available <with [Unlock Cataphracts]>",
+		"[-25]% Strength <vs cities> <when attacking>",
+		],
+		"promotions": ["Armored Lancer","Charge I","Shock I"],
 		"attackSound": "horse"
 	},
 	/* Elephants */
@@ -1061,16 +1131,19 @@
 		"name": "Great General",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 13,
+		"strength": 14,
 //		"requiredResource": "Horses",
 		"uniques": [
 		"Can move after attacking",
-		"No defensive terrain bonus",
-		"[-25]% Strength <vs cities> <when attacking>",
+//		"No defensive terrain bonus",
+//		"[-25]% Strength <vs cities> <when attacking>",
 //		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 		"[+15]% Strength bonus for [Military] units within [2] tiles",
 		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 		"Great Person - [War]", "Unbuildable"],
+		"promotions": [
+//		"[Cavalry] ability"
+		],
 		"attackSound": "horse"
 	},
 ]

@@ -359,7 +359,7 @@
 	},
 	{
 		"name": "Charge I",
-		"uniques": ["[+10]% Strength <vs [Melee] units>","[+15]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+15]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Mounted"],
         "column": 17,
         "row": 1
@@ -367,14 +367,14 @@
 	{
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
-		"uniques": ["[+10]% Strength <vs [Melee] units>","[+15]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+15]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Mounted"],
         "column": 17,
         "row": 2
 	},
 	{
 		"name": "Trample I",
-		"uniques": ["[+15]% Strength <vs [Melee] units>","[+10]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+15]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Elephant"],
         "column": 18,
         "row": 1
@@ -382,7 +382,7 @@
 	{
 		"name": "Trample II",
 		"prerequisites": ["Trample I"],
-		"uniques": ["[+15]% Strength <vs [Melee] units>","[+10]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+15]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Elephant"],
         "column": 18,
         "row": 2
@@ -506,22 +506,23 @@
 	{
 		"name": "[Spearman] ability",
 		"uniques": [
-		"[+50]% Strength <vs [Mounted] units>"
+		"[+25]% Strength <vs [Mounted] units>",
 		],
 	},
 	{
 		"name": "[Pike Phalanx] ability",
 		"uniques": [
-		"[+25]% Strength <vs [Melee] units>"
-		"[+50]% Strength <vs [Mounted] units>",
+		"[+25]% Strength <vs [Mounted] units>",
+		"[+15]% Strength <vs [Melee] units>",
 		"[-25]% Strength <when fighting in [Rough terrain] tiles>"
 		],
 	},
 	{
 		"name": "[Royal Phalanx] ability",
 		"uniques": [
-		"[+25]% Strength <vs [Melee] units>"
-		"[+50]% Strength <vs [Mounted] units>"
+		"[+25]% Strength <vs [Mounted] units>",
+		"[+15]% Strength <vs [Melee] units>",
+		"[+15]% Strength <vs cities>"
 		],
 	},
 	{
@@ -573,25 +574,29 @@
 		"[+50]% Strength <vs [Mounted] units>",
 		],
 	},
-	// Weapons and Armor
+	// Weapons Armor Training
+	{
+		"name": "Morale",
+		"uniques": ["[+10]% Strength"]
+	},
 	{
 		"name": "Improved Weapons",
 		"uniques": [
-		"[+15]% Strength <when attacking>",
-		"[+15]% Strength <when defending> <vs [Melee] units>"
+		"[+10]% Strength <when attacking>",
+		"[+10]% Strength <when defending> <vs [Melee] units>"
 		],
 	},
 	{
 		"name": "Improved Missiles",
 		"uniques": [
-		"[+15]% Strength <when attacking>",
-		"[+10]% Strength <when defending>"
+		"[+10]% Strength <when attacking>",
+		"[+10]% Strength <when defending> <vs [Melee] units>"
 		],
 	},
 	{
 		"name": "Improved Armor",
 		"uniques": [
-		"[+15]% Strength"
+		"[+10]% Strength"
 		],
 	},
 	{
@@ -603,13 +608,13 @@
 	{
 		"name": "Infantry Shield II",
 		"uniques": [
-		"[+33]% Strength <vs [Ranged] units>"
+		"[+25]% Strength <vs [Ranged] units>"
 		],
 	},
 	{
 		"name": "Infantry Shield III",
 		"uniques": [
-		"[+50]% Strength <vs [Ranged] units>"
+		"[+33]% Strength <vs [Ranged] units>"
 		],
 	},
 	{
@@ -621,20 +626,20 @@
 	{
 		"name": "Cavalry Shield II",
 		"uniques": [
-		"[+33]% Strength <vs [Ranged] units>"
+		"[+25]% Strength <vs [Ranged] units>"
 		],
 	},
 	{
 		"name": "Armored Lancer",
 		"uniques": [
-		"[+10]% Strength <vs [Ranged] units>"
-		"[+25]% Strength <vs [Melee] units>"
+		"[+5]% Strength <vs [Ranged] units>"
+		"[+15]% Strength <vs [Melee] units>"
 		],
 	},
 	{
 		"name": "Lancer",
 		"uniques": [
-		"[+25]% Strength <vs [Melee] units>"
+		"[+15]% Strength <vs [Melee] units>"
 		],
 	},
 	// Ships
@@ -661,10 +666,6 @@
 	{
 		"name": "Caucasian Stronghold",
 		"uniques": ["[+25]% Strength decreasing with distance from the capital"]
-	},
-	{
-		"name": "Heroic Charge",
-		"uniques": ["[+25]% Strength <vs [Sword] units>"]
 	},
 	{
 		"name": "[Gaesatae] ability",
@@ -701,10 +702,6 @@
 	},
 	// Uniques that should be kept on upgrades
 	{
-		"name": "Morale", // Heroic Epic
-		"uniques": ["[+15]% Strength"]
-	},
-	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
@@ -723,10 +720,6 @@
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
 	},
 	{
 		"name": "Ignore terrain cost",

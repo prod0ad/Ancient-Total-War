@@ -1,72 +1,94 @@
 [	
 	// Bonus resources
     {
+		"name": "Unlock Pirates",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
 		"name": "Unlock Archer",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Slinger",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Pikemen",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Pikemen II",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Swordsmen",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Swordsmen II",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Spearmen II",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Cavalry",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Lancer",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Royal Agema",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Cataphract",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Elephants",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Artillery",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Fleet I",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Fleet II",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Fleet III",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Unlock Fleet IV",
 		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Cattle",

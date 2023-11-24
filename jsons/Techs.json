@@ -2,7 +2,7 @@
 	{
 		"columnNumber": 0,
 		"era": "Hellenistic Age",
-		"techCost": 35,
+		"techCost": 55,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -10,62 +10,62 @@
 				"name": "Mysticism",
 				"row": 1,
 				"uniques": ["Starting tech"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Currency",
 				"row": 3,
 				"uniques": ["Starting tech"],
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Animal Husbandry",
 				"row": 4,
 				"uniques": ["Starting tech"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Mining",
 				"row": 6,
 				"uniques": ["Starting tech"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Forestry",
 				"row": 7,
 				"uniques": ["Starting tech"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Shipbuilding",
 				"row": 8,
 				"uniques": ["Starting tech"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Agriculture",
 				"row": 9,
 				"uniques": ["Starting tech"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Warrior Class",
 				"row": 10,
 				"uniques": ["Starting tech"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Strategic Imports",
 				"row": 11,
 				"uniques": ["Starting tech"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 		]
 	},
 	{
 		"columnNumber": 1,
 		"era": "Hellenistic Age",
-		"techCost": 55,
+		"techCost": 105,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -76,7 +76,7 @@
 				"uniques": [
 				"Enables Defensive Pacts",
 				],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'Solon used to say that speech was the image of actions; that laws were like cobwebs, for that if any trifling or powerless thing fell into them, they held it fast; while if it were something weightier, it broke through them and was off.' - Diogenes"
 			},
 			{
 				"name": "Entertainment",
@@ -85,64 +85,64 @@
 				"uniques": [
 				"[+1 Happiness] [in all cities]"
 				],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"quote": "'Every generation laughs at the old fashions, but follows religiously the new.' - Henry David Thoreau"
 			},
 			{
 				"name": "Mercenaries",
 				"row": 3,
 				"prerequisites": ["Currency"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+				"quote": "'War is not so much a matter of weapons as of money.' - Thucydides"
 			},
 			{
 				"name": "Light Cavalry",
 				"row": 4,
 				"prerequisites": ["Animal Husbandry"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"quote": "'Man is the most intelligent of the animals - and the most silly.' - Diogenes"
 			},
 			{
 				"name": "Masonry",
 				"row": 6,
 				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"quote": "When someone wished to know why Sparta didn't have any walls, Agesilaus pointed to the citizens in full armour and said, 'These are the Spartans' walls.'"
 			},
 			{
 				"name": "Archery",
 				"row": 7,
 				"prerequisites": ["Forestry"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'When he had shot his bolt and had smitten one in the throng, then would that man fall where he was and give up his life.' - Homer"
 			},
 			{
 				"name": "Colonization",
 				"row": 8,
 				"prerequisites": ["Shipbuilding"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "'It is not enough to be industrious; so are the ants. What are you industrious about?.' - Henry David Thoreau"
 			},
 			{
 				"name": "Land Grants",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"quote": "Diogenes once begged alms of a statue, and, when asked why he did so, replied, 'To get practice in being refused.'"
 			},
 			{
 				"name": "Infantry Training",
 				"row": 10,
 				"prerequisites": ["Warrior Class"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
 			},
 			{
 				"name": "Supply Logistics",
 				"row": 11,
 				"prerequisites": ["Strategic Imports"],
 				"uniques": ["[-20]% Culture cost of natural border growth [in all cities]"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "'I will either find a way, or make one.' - Hannibal Barca"
 			}
 		]
 	},
 	{
 		"columnNumber": 2,
 		"era": "Hellenistic Age",
-		"techCost": 105,
+		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 185,
 		"techs": [
@@ -154,7 +154,7 @@
 				"Resting point for Influence with City-States is increased by [20]",
 				"Enables Open Borders agreements",
 				],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'You will become a teacher of yourself when you criticize yourself for all those things that you would criticize others.' - Diogenes"
 			},
 			{
 				"name": "Aesthetics",
@@ -163,26 +163,26 @@
 				"uniques": [
 				"[+1 Culture] from every [Temple]"
 				],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'The perception of beauty is a moral test.' - Henry David Thoreau"
 			},
 			{
 				"name": "Tax Farming",
 				"row": 3,
 				"prerequisites": ["Mercenaries","Entertainment"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'The great thieves lead away the little thief.' - Diogenes"
 			},
 			{
 				"name": "Equestrian Class",
 				"row": 4,
 				"prerequisites": ["Light Cavalry"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"quote": "'A Man is defined as a biped and featherless animal' said Plato, applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
 			},
 			{
 				"name": "Public Works",
 				"row": 5,
 				"prerequisites": ["Masonry"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+				"quote": "'What have the Romans ever done for us?' - Monty Python's Life of Brian"
 			},
 			{
 				"name": "Construction",
@@ -191,34 +191,34 @@
 				"uniques": [
 				"[+1 Production] [in all cities]"
 				],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+				"quote": "'When I became king, I built much excellent. What had been built by my father, that I protected, and other building I added. What moreover I built, and what my father built, all that by the favor of Ahuramazda we built.' - Xerxes"
 			},
 			{
 				"name": "Engineering",
 				"row": 7,
 				"prerequisites": ["Archery","Masonry"],
 				"uniques": ["Roads connect tiles across rivers"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+				"quote": "'I have found it!' - Archimedes, as he ran naked from his bath, having found a way to meassure the proportion of gold that was used in the king's crown"
 			},
 			{
 				"name": "Navigation",
 				"row": 8,
 				"prerequisites": ["Colonization"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
-				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+				"quote": "'We have ploughed the vast ocean in a fragile bark.' - Ovid"
 			},
 			{
 				"name": "Heavy Infantry",
 				"row": 10,
 				"prerequisites": ["Infantry Training","Supply Logistics","Land Grants"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
 		"era": "Hellenistic Age",
-		"techCost": 175,
+		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 250,
 		"techs": [
@@ -230,19 +230,19 @@
 				"Allied City-States will occasionally gift Great People",
 				"[-25]% City-State Influence degradation"
 				],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'Aristotle dines when it seems good to King Philip, but Diogenes when he himself pleases.' - Diogenes "
 			},
 			{
 				"name": "Private Estates",
 				"row": 3,
 				"prerequisites": ["Tax Farming","Aesthetics","Equestrian Class"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"quote": "'Virtue cannot dwell with wealth either in a city or in a house.' - Diogenes"
 			},
 			{
 				"name": "Metallurgy",
 				"row": 5,
 				"prerequisites": ["Construction","Public Works","Equestrian Class"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+				"quote": "'Boasting, like gilded armour, is very different inside from outside.' - Diogenes "
 			},
 			{
 				"name": "Torsion Engines",
@@ -254,33 +254,33 @@
 				"[+1] Range <for [Siege] units>",
 				"[+1] Range <for [Ranged Water] units>",
 				],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+				"quote": "'Shall we not make an end to this fighting against this geometrical Briareus who uses our ships like cups to ladle water from the sea, drives off our sambuca ignominiously with cudgel-blows, and by the multitude of missiles that he hurls at us all at once outdoes the hundred-handed giants of mythology?' - Marcus Claudius Marcellus, during the Siege of Syracuse"
 			},
 			{
 				"name": "Naval Artillery",
 				"row": 8,
 				"prerequisites": ["Navigation","Engineering"],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+				"quote": "'Children ought to be provided with property and resources of a kind that could swim with them even out of a shipwreck.' - Vitruvius"
 			},
 			{
 				"name": "Military Reforms",
 				"row": 10,
 				"prerequisites": ["Heavy Infantry"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+				"quote": "'The man who despairs in the face of difficulties and hardships, or of public censure and opinion, is defeated by his own feebleness.' - Cleomenes III"
 			},
 			{
 				"name": "Military Infrastructure",
 				"row": 11,
 				"prerequisites": ["Supply Logistics"],
 				"uniques": ["Improves movement speed on roads"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"quote": "'Ah! The generals! They are numerous but not good for much!' - Aristophanes"
 			}
 		]
 	},
 	{
 		"columnNumber": 4,
 		"era": "Hellenistic Age",
-		"techCost": 275,
+		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 300,
 		"techs": [
@@ -292,27 +292,27 @@
 				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
 				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
 				],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'The most beautiful thing in the world is freedom of speech.' - Diogenes"
 			},
 			{
 				"name": "Social Reforms",
 				"row": 3,
 				"prerequisites": ["Private Estates"],
 				"uniques": ["Enables conversion of city production to [Culture]"],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+				"quote": "'The rulers of the States are the only ones who should have the privilege of lying' - Plato, promoting an early manifestation of fascism"
 			},
 			{
 				"name": "Mass Production",
 				"row": 5,
 				"prerequisites": ["Private Estates","Torsion Engines","Metallurgy"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+				"quote": "'It is the privilege of the gods to want nothing, and of godlike men to want little.' - Diogenes"
 			},
 			{
 				"name": "Exploration",
 				"row": 8,
 				"prerequisites": ["Naval Artillery"],
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"quote": "'The investigation of the meaning of words is the beginning of education.' - Antisthenes"
 			},
 			{
 				"name": "Combined Arms",
@@ -321,7 +321,7 @@
 				"uniques": [
 				"[+15]% Strength <for [{Melee} {Land}] units> <when adjacent to a [{Military} {Land}] unit>",				
 				],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+				"quote": "'It is better to fight with a few good men against all the wicked, than with many wicked men against a few good men.' - Antisthenes"
 			}
 		]
 	},

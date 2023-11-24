@@ -166,7 +166,7 @@
         "uniques": [
         "[+1 Food] [in this city]",
         "[+10]% Production when constructing [Archery] units [in this city]",
-        "Only available <after adopting [Hellenic Culture]>"
+        "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
     {
@@ -174,7 +174,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Gold] from every [Temple]",
-        "Only available <after adopting [Hellenic Culture]>"
+        "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
     {
@@ -183,7 +183,7 @@
         "uniques": [
         "[+1 Culture] from [Wine] tiles [in this city]",
         "[+1 Happiness] [in cities following this religion] <in cities with at least [5] [Population]>",
-        "Only available <after adopting [Hellenic Culture]>"
+        "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
     {
@@ -191,7 +191,7 @@
         "type": "Pantheon",
         "uniques": [
         "Gain [50] [Culture] <upon gaining a [Great General] unit>",
-        "Only available <after adopting [Hellenic Culture]>"
+        "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
     {
@@ -199,7 +199,7 @@
         "type": "Pantheon",
         "uniques": [
         "New [Melee] units start with [10] Experience [in this city]",
-        "Only available <after adopting [Hellenic Culture]>"
+        "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
     {

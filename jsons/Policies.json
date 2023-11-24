@@ -739,8 +739,8 @@
                     "Only available <after adopting [Illyrian Culture]>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
-                    "Gain a free [Pirate Haven] [in all coastal cities]",
                     "[+1 Happiness] [in capital]",
+                    "Provides [1] [Unlock Pirates]",
                     "Provides [1] [Unlock Slinger]",
                     "Provides [1] [Unlock Fleet I]"
         ],
@@ -1112,7 +1112,7 @@
                 "name": "Elephant Charge",
                 "requires": ["The Citadel"],
                 "uniques": [
-                    "All newly-trained [War Elephant] units [in all cities] receive the [Trample I] promotion",
+                    "[War Elephant] units gain the [Trample I] promotion",
                     "Free [War Elephant] appears",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1472,19 +1472,19 @@
                 "column": 3
             },
             {
-                "name": "Imperial Army",
+                "name": "Imperial Garrisons",
                 "uniques": [
-                    "[+1 Happiness] from every [Army Barracks]",
+                    "[+1 Happiness] [in all cities] <with a garrison>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Imperial Garrisons",
-                "requires": ["Imperial Army"],
+                "name": "Imperial Army",
+                "requires": ["Imperial Garrisons"],
                 "uniques": [
-                    "[+1 Happiness] [in all cities] <with a garrison>",
+                    "[+1 Happiness] from every [Army Barracks]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1498,13 +1498,13 @@
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
-                "requires": ["Marriage Alliance","Imperial Army","Sponsored Philosophers"],
+                "requires": ["Marriage Alliance","Imperial Garrisons","Sponsored Philosophers"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Ruler Cult",
-                "requires": ["Mass Culture","Imperial Garrisons","Urbanization"],
+                "requires": ["Mass Culture","Imperial Army","Urbanization"],
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "[+2 Faith] from [Luxury resource] tiles [in capital]",

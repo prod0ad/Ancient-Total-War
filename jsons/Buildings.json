@@ -20,7 +20,8 @@
 		"happiness": 1,
 		"cityHealth": 5,
 		"uniques": [
-		"Must be next to [Coast]","Unbuildable"
+		"Must be next to [Coast]"
+		"Only available <with [Unlock Pirates]> <hidden from users>",
 		"New [Galley] units start with [15] Experience [in this city]",
 		"New [Hemiola] units start with [15] Experience [in this city]",
 		"Provides [1] [Timber]",
@@ -69,7 +70,7 @@
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
 //		"uniques": ["Free Social Policy"],
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+		"quote": "When some one boasted that at the Pythian games he had vanquished men, Diogenes replied: 'Nay, I defeat men, you defeat slaves'." 
 	},
 	{
 		"name": "Parthenon",
@@ -114,6 +115,28 @@
 		"isWonder": true,
 		"uniques": ["Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"uniqueTo": "The Ptolemies",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Colossus",
+		"uniqueTo": "The Rhodians",
+		"cost": 185,
+		"culture": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 	// Defensive Pacts
 	// Hospitum
@@ -296,6 +319,7 @@
 		"uniques": [
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
+		"Never destroyed when the city is captured",
 		"Only available <before adopting [Celtic Culture]> <hidden from users>",
 		"Only available <before adopting [Eastern Culture]> <hidden from users>",
 		"Only available <before adopting [Germanic Culture]> <hidden from users>",
@@ -466,7 +490,7 @@
 		"uniques": [
 		"Provides [1] [Spices]","Must be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -479,7 +503,7 @@
 		"uniques": [
 		"Provides [1] [Silk]","Must not be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -491,13 +515,14 @@
 		"uniques": [
 		"Provides [1] [Amber]",
 		"Only available <after adopting [Germanic Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Tax Farming"
 	},
 	// Private Estates
 	{
 		"name": "Slave Trader",
+		"quote": "Diogenes was captured by pirates and sold to slavery. When the slave auctioneer asked in what he was proficient, he replied, 'In ruling people.'",
 		"requiredBuilding": "Market",
 		"gold": 2,
 		"hurryCostModifier": 25,
@@ -519,7 +544,7 @@
 		"Must be next to [Coast]",
 		"[+1 Food] from [Fish] tiles [in this city]",
 		"Only available <after adopting [Iberian Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -564,7 +589,8 @@
 		"cityHealth": 5,
 		"uniques": [
 		"[+10]% Production when constructing [Mounted] units [in this city]",
-		"[+1 Production] from [Horses] tiles [in this city]"
+		"[+1 Production] from [Horses] tiles [in this city]",
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Light Cavalry"
 	},
@@ -625,7 +651,7 @@
 			"[+1 Production] from [Marble] tiles [in this city]",
 			"[+5]% Production when constructing [{Melee} {Land}] units [in this city]",
 			"Only available <after adopting [Iberian Culture]>",
-			"Never destroyed when the city is captured"
+//			"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Masonry"
 	},
@@ -682,39 +708,9 @@
 		"uniques": [
 		"[+2 Culture] from [Marble] tiles [in this city]",
 		"Only available <after adopting [Numidian Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
-	},
-	// Metallurgy
-	{
-		"name": "Forge",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron","Copper"],
-		"requiredTech": "Metallurgy",
-		"uniques": [
-		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Weapons] promotion",
-		"All newly-trained [{Ranged} {Land}] units [in this city] receive the [Improved Missiles] promotion",
-		"All newly-trained [{Military} {Land}] units [in this city] receive the [Improved Armor] promotion"
-		"[+1 Production] from [Iron] tiles [in this city]",
-		"[+1 Production] from [Copper] tiles [in this city]"
-		]
-	},
-	{
-		"name": "Goldsmith",
-		"hurryCostModifier": 25,
-		"happiness": 1,
-		"culture": 1,
-		"requiredNearbyImprovedResources": ["Gold Ore"],
-		"greatPersonPoints": {"Great Merchant":1},
-		"percentStatBonus": {"gold": 15},
-		"uniques": [
-		"[+1 Gold] from [Gold Ore] tiles [in this city]",
-		"Only available <after adopting [Celtic Culture]>",
-		"Never destroyed when the city is captured"
-		],
-		"requiredTech": "Metallurgy"
 	},
 	{
 		"name": "Thracian Weaponsmith",
@@ -723,10 +719,37 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer":1},
 		"uniques": [
-		"[+10]% Production when constructing [{Melee} {Land}] units [in this city]",
-		"[+1 Production] from [Iron] tiles [in this city]",
+		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Weapons] promotion",
 		"Only available <after adopting [Thracian Culture]>",
-		"Never destroyed when the city is captured"
+//		"Never destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	// Metallurgy
+	{
+		"name": "Forge",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"production": 1,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"uniques": [
+		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Weapons] promotion",
+		"All newly-trained [{Ranged} {Land}] units [in this city] receive the [Improved Missiles] promotion",
+		"All newly-trained [{Military} {Land}] units [in this city] receive the [Improved Armor] promotion"
+		]
+	},
+	{
+		"name": "Goldsmith",
+		"hurryCostModifier": 25,
+		"happiness": 1,
+		"culture": 1,
+		"gold": 1,
+		"greatPersonPoints": {"Great Merchant":1},
+		"uniques": [
+		"[+2 Gold] from [Gold Ore] tiles [in this city]",
+		"Only available <after adopting [Celtic Culture]>",
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -828,30 +851,6 @@
 			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "Colonization"
 	},
-	{
-		"name": "The Great Lighthouse",
-		"uniqueTo": "The Ptolemies",
-		"cost": 185,
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
-		"requiredTech": "Colonization",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
-	},
-	{
-		"name": "Colossus",
-		"uniqueTo": "The Rhodians",
-		"cost": 185,
-		"culture": 1,
-		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Colonization",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
-	},
 	// Navigation
 	{
 		"name": "Seaport",
@@ -906,8 +905,8 @@
 		"happiness": 1,
 		"percentStatBonus": {"food": 10},
 		"uniques": [
-		"Only available <after adopting [Celtic Culture]>",
-		"Never destroyed when the city is captured"
+		"Only available <after adopting [Punic Culture]>",
+//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Land Grants"
 	},
