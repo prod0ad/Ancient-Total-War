@@ -82,9 +82,6 @@
 				"name": "Entertainment",
 				"row": 2,
 				"prerequisites": ["Mysticism"],
-				"uniques": [
-				"[+1 Happiness] [in all cities]"
-				],
 				"quote": "'Every generation laughs at the old fashions, but follows religiously the new.' - Henry David Thoreau"
 			},
 			{
@@ -176,12 +173,15 @@
 				"name": "Equestrian Class",
 				"row": 4,
 				"prerequisites": ["Light Cavalry"],
-				"quote": "'A Man is defined as a biped and featherless animal' said Plato, applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
+				"quote": "'A Man is defined as a biped and featherless animal' said Plato, and he was applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
 			},
 			{
 				"name": "Public Works",
 				"row": 5,
 				"prerequisites": ["Masonry"],
+				"uniques": [
+				"[+1 Happiness] [in all cities]"
+				],
 				"quote": "'What have the Romans ever done for us?' - Monty Python's Life of Brian"
 			},
 			{

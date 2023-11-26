@@ -650,6 +650,12 @@
 		"May withdraw before melee ([50]%)"
 		],
 	},
+	{
+		"name": "Embarked Attack",
+		"uniques": [
+		"May attack when embarked"
+		],
+	},
 	// Uniques Units and Civ uniques
 	{
 		"name": "Berserker",

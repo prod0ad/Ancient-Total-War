@@ -167,52 +167,43 @@
 	{
 		"name": "Amphitheater",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"culture": 2,
+		"maintenance": 1,
+		"culture": 1,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist":1},
 		"uniques": [
-		"Only available <after adopting [Hellenic Culture]>",
+		"Only available <with [Unlock Civic Buildings]>",
 //		"Never destroyed when the city is captured"
 		],
-		"requiredTech": "Entertainment"
-	},
-	{
-		"name": "Syssition",
-		"replaces": "Amphitheater",
-		"uniqueTo": "The Spartans",
-		"hurryCostModifier": 25,
-		"maintenance": 0,
-		"culture": 1,
-		"happiness": 1,
-		"cityHealth": 10,
-		"uniques": [
-		"New [Spear] units start with [10] Experience [in this city]",
-		"Destroyed when the city is captured"
-		],
-		"requiredTech": "Entertainment"
+		"requiredTech": "Entertainment",
+		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theater can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
 	},
 	{
 		"name": "Arena",
+		"replaces": "Amphitheater",
+		"uniqueTo": "The Romans",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 2,
 		"greatPersonPoints": {"Great General":1},
 		"uniques": [
-		"Only available <after adopting [Latin Culture]>",
+		"Only available <with [Unlock Civic Buildings]>",
 //		"Never destroyed when the city is captured"
 		],		
-		"requiredTech": "Entertainment"
+		"requiredTech": "Entertainment",
+		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"science": 2,
 		"culture": 1,
-		"science": 1,
 		"greatPersonPoints": {"Great Scientist":1},
 		"uniques": [
-		"Only available <after adopting [Hellenistic Culture]>",
+		"Only available <with [Unlock Civic Buildings]>",
+		"Only available <in cities with a [Palace]>",
+		"Only available <in cities without a [The Great Library]>",
 //		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
@@ -220,24 +211,56 @@
 	{
 		"name": "Tavern",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 0,
 		"happiness": 2,
 		"uniques": [
-		"Only available <after adopting [Germanic Culture]>",
+		"Only available <with [Unlock Tribal Buildings]>",
 //		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
 	},
 	{
 		"name": "Bardic Circle",
+		"replaces": "Tavern",
 		"uniqueTo": "The Arverni",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"culture": 1,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Artist":1},
 		"uniques": [
 		"[+1 Culture] [in this city] <when not at war>",
 		"[+1 Happiness] [in this city] <when at war>",
+		"Only available <with [Unlock Tribal Buildings]>",
+//		"Never destroyed when the city is captured"
+		],
+		"requiredTech": "Entertainment"
+	},
+	{
+		"name": "Warrior Statue",
+		"replaces": "Tavern",
+		"uniqueTo": "The Celtiberians",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"happiness": 2,
+		"cityHealth": 5,
+		"uniques": [
+		"[+5]% Production when constructing [{Melee} {Land}] units [in this city]",
+		"Only available <with [Unlock Tribal Buildings]>",
+//		"Never destroyed when the city is captured"
+		],
+		"requiredTech": "Entertainment"
+	},
+	{
+		"name": "Garum Shop",
+		"replaces": "Tavern",
+		"uniqueTo": "The Lusitani",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"gold": 1,
+		"happiness": 2,
+		"uniques": [
+		"[+1 Food] from [Fish] tiles [in this city]",
+		"Only available <with [Unlock Tribal Buildings]>",
 //		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
@@ -257,7 +280,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Aesthetics",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]","Only available <after adopting [Hellenistic Culture]>"],
+		"uniques": ["Free Technology","Only available <after adopting [Hellenistic Culture]>"],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
@@ -342,7 +365,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Celtic Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Celtic)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -355,7 +380,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Eastern Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Eastern)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -367,7 +394,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <for [The Ptolemies]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Egyptian)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -379,7 +408,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Germanic Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Germanic)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -391,15 +422,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <before adopting [Celtic Culture]> <hidden from users>",
-		"Only available <before adopting [Eastern Culture]> <hidden from users>",
-		"Only available <before adopting [Germanic Culture]> <hidden from users>",
-		"Only available <before adopting [Iberian Culture]> <hidden from users>",
-		"Only available <before adopting [Illyrian Culture]> <hidden from users>",
-		"Only available <before adopting [Latin Culture]> <hidden from users>",
-		"Only available <before adopting [Punic Culture]> <hidden from users>",
-		"Only available <before adopting [Numidian Culture]> <hidden from users>",
-		"Only available <before adopting [Thracian Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Hellenic)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -411,7 +436,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Iberian Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Iberian)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -423,39 +450,37 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Illyrian Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Illyrian)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "Mercenary Camp (Latin)", 
+		"name": "Mercenary Camp (Italic)", 
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Latin Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Italic)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "Mercenary Camp (Punic)", 
+		"name": "Mercenary Camp (Numidian)", 
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <before adopting [Celtic Culture]> <hidden from users>",
-		"Only available <before adopting [Eastern Culture]> <hidden from users>",
-		"Only available <before adopting [Germanic Culture]> <hidden from users>",
-		"Only available <before adopting [Hellenic Culture]> <hidden from users>",
-		"Only available <before adopting [Hellenistic Culture]> <hidden from users>",
-		"Only available <before adopting [Iberian Culture]> <hidden from users>",
-		"Only available <before adopting [Illyrian Culture]> <hidden from users>",
-		"Only available <before adopting [Latin Culture]> <hidden from users>",
-		"Only available <before adopting [Thracian Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Numidian)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -467,7 +492,9 @@
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
-		"Only available <after adopting [Thracian Culture]> <hidden from users>",
+		"Only available <with [Unlock Mercenary Camp (Thracian)]> <hidden from users>",
+		"Only available <without [Has Mercenary Camp]> <hidden from users>",
+		"Provides [1] [Has Mercenary Camp] <hidden from users>",
 		"Never destroyed when the city is captured"
 		]
 	},
@@ -531,20 +558,6 @@
 		"[Gold] cost of purchasing [Civilian] units [-50]%",
 		"Limited to [1] per Civilization"
 		"Destroyed when the city is captured"
-		],
-		"requiredTech": "Private Estates"
-	},
-	{
-		"name": "Garum Shop",
-		"hurryCostModifier": 25,
-		"gold": 1,
-		"happiness": 1,
-		"greatPersonPoints": {"Great Merchant":1},
-		"uniques": [
-		"Must be next to [Coast]",
-		"[+1 Food] from [Fish] tiles [in this city]",
-		"Only available <after adopting [Iberian Culture]>",
-//		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -642,41 +655,29 @@
 		"requiredTech": "Masonry"
 	},
 	{
-		"name": "Warrior Statue",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"culture": 1,
-		"uniques": [
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]",
-			"[+5]% Production when constructing [{Melee} {Land}] units [in this city]",
-			"Only available <after adopting [Iberian Culture]>",
-//			"Never destroyed when the city is captured"
-		],
-		"requiredTech": "Masonry"
-	},
-	{
 		"name": "Acropolis",
 		"hurryCostModifier": 15,
 		"maintenance": 0,
 		"cityHealth": 10,
 		"percentStatBonus": {"culture": 25},
 		"uniques": [
-			"Must be on [Hill]"
+			"Must be on [Hill]",
+			"Only available <in cities without a [Hill Fort]>",
+			"Only available <with [Unlock Civic Buildings]>"
 		],
 		"requiredTech": "Masonry"
 	},
 	{
-		"name": "Castro",
-		"replaces": "Acropolis",
-		"uniqueTo": "The Celtiberians",
+		"name": "Hill Fort",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"production": 1,
 		"gold": 1,
-		"cityHealth": 15,
+		"cityHealth": 10,
 		"uniques": [
-			"Must be on [Hill]"
+			"Must be on [Hill]",
+			"Only available <in cities without a [Acropolis]>",
+			"Only available <with [Unlock Tribal Buildings]>"
 		],
 		"requiredTech": "Masonry"
 	},
@@ -685,7 +686,11 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [Farm] tiles [in this city] <in tiles without [Fresh Water]>"],
+		"percentStatBonus": {"food": 10},
+		"uniques": [
+		"[40]% Food is carried over after population increases [in this city]",
+		"Only available <with [Unlock Civic Buildings]>"
+		],
 		"requiredTech": "Public Works"
 	},
 	// Construction
@@ -920,6 +925,21 @@
 		"uniques": [
 		"[+10]% Production when constructing [Sword] units [in this city]",
 		"[+10]% Production when constructing [Spear] units [in this city]",
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Infantry Training"
+	},
+	{
+		"name": "Syssition",
+		"replaces": "Barracks",
+		"uniqueTo": "The Spartans",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"culture": 1,
+		"happiness": 1,
+		"cityHealth": 10,
+		"uniques": [
+		"New [Spear] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"

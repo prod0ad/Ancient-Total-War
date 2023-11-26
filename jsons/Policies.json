@@ -9,8 +9,9 @@
         },
         "uniques": [
                     "Only available <after adopting [Celtic Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Celtic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
-                    "Gain a free [Walls] [in capital]",
+                    "Gain a free [Hill Fort] [in capital]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
                     "Provides [1] [Unlock Swordsmen]",
@@ -127,6 +128,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Eastern Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Eastern)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "Gain a free [Market] [in capital]",
 //                    "[1] Range <for [Archer] units>",
@@ -245,6 +247,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Germanic Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Germanic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "[+1 Happiness] [in capital]",
@@ -356,8 +359,10 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenic Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
-                    "[-50]% Culture cost of natural border growth [in capital]",
+                    "[-25]% Culture cost of natural border growth [in capital]",
+                    "[+1 Culture] from every [Amphitheater]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
                     "Provides [1] [Unlock Cavalry]",
@@ -475,6 +480,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenistic Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <for [The Mithridatids]> <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <for [The Seleucids]> <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <for [The Epirots]> <hidden from users>",
@@ -495,6 +501,7 @@
                     "Provides [1] [Unlock Archer]",
                     "Provides [1] [Unlock Cavalry]",
                     "Provides [1] [Unlock Elephants]",
+                    "Provides [1] [Unlock Artillery]",
                     "Provides [1] [Unlock Fleet II]"
         ],
         "policies": [
@@ -624,8 +631,9 @@
         },
         "uniques": [
                     "Only available <after adopting [Iberian Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Iberian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
-                    "[+25]% Production when constructing [Walls] buildings [in all cities]",
+                    "[+25]% Production when constructing [Hill Fort] buildings [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "Provides [1] [Unlock Slinger]",
                     "Provides [1] [Unlock Swordsmen]",
@@ -638,6 +646,7 @@
                 "uniques": [
                     "[+1 Production] from every [Mine]",
                     "[+1 Happiness] from every [Warrior Statue]",
+                    "[+1 Happiness] from every [Garum Shop]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -681,7 +690,7 @@
                 "requires": ["Toledo Steel","Cantabrian Circle"],
                 "uniques": [
                     "Free [Great General] appears",
-                    "[+1 Culture, +1 Happiness] from every [Walls]",
+                    "[+1 Culture, +1 Happiness] from every [Hill Fort]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -737,6 +746,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Illyrian Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Illyrian)] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
                     "[+1 Happiness] [in capital]",
@@ -823,7 +833,7 @@
             {
                 "name": "Tribal Stronghold",
                 "uniques": [
-                    "[+1 Production, +1 Happiness] from every [Acropolis]",
+                    "[+1 Production, +1 Happiness] from every [Hill Fort]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -848,6 +858,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Latin Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Italic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "[+50]% Production when constructing [Melee] units [in capital]",
                     "[+1 Happiness] [in capital]",
@@ -862,7 +873,7 @@
                 "name": "Socii",
                 "uniques": [
                     "Military Units gifted from City-States start with [+15] XP",
-                    "Free [Swordsman] appears",
+                    "Free [Legion] appears",
                     "[-25]% City-State Influence degradation",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -873,7 +884,7 @@
                 "name": "Foederati",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "Free [Swordsman] appears",
+                    "Free [Legion] appears",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Socii","Manipular Legion"],
@@ -899,7 +910,7 @@
                     "[+50]% Production when constructing [Army Barracks] buildings [in capital]",
                     "[+1 Science, +1 Culture] from every [Army Barracks]",
                     "Provides [2] [Iron]",
-                    "Free [Swordsman] appears",
+                    "Free [Legion] appears",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -910,7 +921,7 @@
                 "requires": ["Bread and Circuses","Auxilia"],
                 "uniques": [
                     "[+25]% Production when constructing [Sword] units [in all cities]",
-                    "Free [Swordsman] appears",
+                    "Free [Legion] appears",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 4,
@@ -968,6 +979,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Numidian Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Land] units>",
                     "[+1 Happiness] [in capital]",
@@ -1086,6 +1098,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Punic Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Water] units>",
                     "[+1] Sight <for [Embarked] units>",
@@ -1169,6 +1182,7 @@
                 "name": "Numidian Auxiliaries",
                 "requires": ["Mercenary Reform"],
                 "uniques": [
+                    "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
                     "[+25]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
                     "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
                     "[+1 Happiness] [in capital]"
@@ -1208,6 +1222,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Thracian Culture]>",
+                    "Provides [1] [Unlock Mercenary Camp (Thracian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1 Culture, +1 Happiness] from every [Mint]",
                     "[+1 Happiness] [in capital]",
@@ -1231,8 +1246,8 @@
                 "name": "Mountain Strongholds",
                 "requires": ["The Hill Tribes"],
                 "uniques": [
-                    "[+50]% City Strength from defensive buildings <in cities with a [Acropolis]>",
-                    "[+1 Gold, +1 Happiness] from every [Acropolis]",
+                    "[+50]% City Strength from defensive buildings <in cities with a [Hill Fort]>",
+                    "[+1 Gold, +1 Happiness] from every [Hill Fort]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,

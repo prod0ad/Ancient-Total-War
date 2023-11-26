@@ -1,10 +1,5 @@
 [	
-	// Bonus resources
-    {
-		"name": "Unlock Pirates",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-    },
+	// Unit hidden resources
     {
 		"name": "Unlock Archer",
 		"resourceType": "Bonus",
@@ -90,6 +85,84 @@
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
+	// Building hidden resources
+    {
+		"name": "Unlock Pirates",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Civic Buildings",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Tribal Buildings",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+	// Mercenary hidden resources
+    {
+		"name": "Has Mercenary Camp",
+		"resourceType": "Bonus",
+		"uniques": ["City-level resource","Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Celtic)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Eastern)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Egyptian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Galatian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Germanic)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Hellenic)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Iberian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Illyrian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Italic)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Numidian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Unlock Mercenary Camp (Thracian)",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+	// Bonus resources
     {
 		"name": "Cattle",
 		"resourceType": "Bonus",
