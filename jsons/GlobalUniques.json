@@ -10,6 +10,7 @@
         "[-1] Sight <for [Embarked] units>"
 
         "[-25]% growth [in all cities]", // Mod Balance
-        "[{Military} {Land}] units gain the [Embarked Attack] promotion" // Experimental
+//        "[{Military} {Land}] units gain the [War Trasports] promotion" // Experimental
+        "[{Military} {Water}] units gain the [Warship] promotion" // Experimental
     ]
 }

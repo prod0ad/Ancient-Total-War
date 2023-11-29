@@ -651,9 +651,16 @@
 		],
 	},
 	{
-		"name": "Embarked Attack",
+		"name": "War Trasports",
 		"uniques": [
-		"May attack when embarked"
+		"May attack when embarked",
+		"[-33]% Strength <when fighting in [Water] tiles>"
+		],
+	},
+	{
+		"name": "Warship",
+		"uniques": [
+		"[+25]% Strength <vs [Embarked] units>"
 		],
 	},
 	// Uniques Units and Civ uniques

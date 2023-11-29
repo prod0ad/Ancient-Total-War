@@ -4,7 +4,7 @@
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
-		"science": 3,
+		"science": 2,
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 2,
@@ -923,6 +923,7 @@
 		"maintenance": 1,
 		"cityHealth": 10,
 		"uniques": [
+		"Comment [Trains basic Sword and Spear units]",
 		"[+10]% Production when constructing [Sword] units [in this city]",
 		"[+10]% Production when constructing [Spear] units [in this city]",
 		"Destroyed when the city is captured"
@@ -939,6 +940,7 @@
 		"happiness": 1,
 		"cityHealth": 10,
 		"uniques": [
+		"Comment [Trains basic Sword and Spear units]",
 		"New [Spear] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
@@ -952,6 +954,7 @@
 		"maintenance": 2,
 		"cityHealth": 15,
 		"uniques": [
+		"Comment [Trains advanced Sword and Spear units]",
 		"New [Sword] units start with [10] Experience [in this city]",
 		"New [Spear] units start with [10] Experience [in this city]",
 		"Can only be built [in capital] <before adopting [Centralization]>",
@@ -980,8 +983,13 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"production": 1,
-		"uniques": ["Provides [2] [Horses]","Can only be built [in capital]","Only available <after discovering [Light Cavalry]>"],
+		"uniques": [
+		"Provides [2] [Horses]",
+		"[+5]% Production when constructing [Mounted] units [in this city]",
+		"Can only be built [in capital]",
+		"Only available <after discovering [Light Cavalry]>",
+		"Only available <for [Major]> <hidden from users>"
+		],
 		"requiredTech": "Strategic Imports"
 	},
 	{
@@ -989,8 +997,13 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"production": 1,
-		"uniques": ["Provides [2] [Copper]","Can only be built [in capital]","Only available <after discovering [Infantry Training]>"],
+		"uniques": [
+		"Provides [2] [Copper]",
+		"[+5]% Production when constructing [Spear] units [in this city]",
+		"Can only be built [in capital]",
+		"Only available <after discovering [Infantry Training]>",
+		"Only available <for [Major]> <hidden from users>"
+		],
 		"requiredTech": "Strategic Imports"
 	},
 	{
@@ -998,8 +1011,13 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"production": 1,
-		"uniques": ["Provides [2] [Iron]","Can only be built [in capital]","Only available <after discovering [Heavy Infantry]>"],
+		"uniques": [
+		"Provides [2] [Iron]",
+		"[+5]% Production when constructing [Sword] units [in this city]",
+		"Can only be built [in capital]",
+		"Only available <after discovering [Heavy Infantry]>",
+		"Only available <for [Major]> <hidden from users>"
+		],
 		"requiredTech": "Strategic Imports"
 	},
 	{
@@ -1007,8 +1025,13 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"production": 1,
-		"uniques": ["Provides [2] [Timber]","Can only be built [in capital]","Only available <after discovering [Colonization]>"],
+		"uniques": [
+		"Provides [2] [Timber]",
+		"[+5]% Production when constructing [Water] units [in this city]",
+		"Can only be built [in capital]",
+		"Only available <after discovering [Colonization]>",
+		"Only available <for [Major]> <hidden from users>"
+		],
 		"requiredTech": "Strategic Imports"
 	},
 	{
@@ -1017,8 +1040,12 @@
 		"uniqueTo": "The Epirots",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"production": 1,
-		"uniques": ["Provides [2] [Ivory]","Can only be built [in capital]","Only available <after discovering [Equestrian Class]>"],
+		"uniques": [
+		"Provides [2] [Ivory]",
+		"Can only be built [in capital]",
+		"Only available <after discovering [Equestrian Class]>",
+		"Never destroyed when the city is captured"
+		],
 		"requiredTech": "Strategic Imports"
 	},
 	// Supply Logistics
