@@ -9,8 +9,12 @@
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>"
 
-        "[-25]% growth [in all cities]", // Mod Balance
+// Mod Balance
+        "[-25]% growth [in all cities]",
+        "[+100]% maintenance costs <for [Military] units> <for [City-states]>",
+        "[+15]% Strength for cities <when defending> <for [City-states]>",
+        "[{Military} {Water}] units gain the [Warship] promotion",
+//        "[-200]% Strength for cities <when attacking>",
 //        "[{Military} {Land}] units gain the [War Trasports] promotion" // Experimental
-        "[{Military} {Water}] units gain the [Warship] promotion" // Experimental
     ]
 }

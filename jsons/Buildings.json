@@ -161,7 +161,7 @@
 		"Remove extra unhappiness from annexed cities",
 		"Can only be built [in annexed cities]"
 		],
-		"requiredTech": "Mysticism"
+		"requiredTech": "Diplomacy"
 	},
 	// Entertainment
 	{
@@ -419,6 +419,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
+		"Will not be displayed in Civilopedia",
 		"[Gold] cost of purchasing [Military] units [-15]% <in this city>",
 		"[+5]% growth [in this city]",
 		"Only available <after discovering [Mercenaries]>",
@@ -516,6 +517,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		"Provides [1] [Spices]","Must be on [Desert]",
+		"Comment [Enables training of: Camel Archer]",
 		"Only available <after adopting [Eastern Culture]>",
 //		"Never destroyed when the city is captured"
 		],
@@ -601,7 +603,6 @@
 		"maintenance": 1,
 		"cityHealth": 5,
 		"uniques": [
-		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]",
 		"Destroyed when the city is captured"
 		],
@@ -790,7 +791,6 @@
 		"cityStrength": 1,
 		"cityHealth": 5,
 		"uniques": [
-		"[+10]% Production when constructing [Archery] units [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archery"
@@ -923,9 +923,7 @@
 		"maintenance": 1,
 		"cityHealth": 10,
 		"uniques": [
-		"Comment [Trains basic Sword and Spear units]",
-		"[+10]% Production when constructing [Sword] units [in this city]",
-		"[+10]% Production when constructing [Spear] units [in this city]",
+		"Comment [Enables training of: Melee Infantry units]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -940,7 +938,7 @@
 		"happiness": 1,
 		"cityHealth": 10,
 		"uniques": [
-		"Comment [Trains basic Sword and Spear units]",
+		"Comment [Enables training of: Melee Infantry units]",
 		"New [Spear] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured"
 		],
@@ -954,7 +952,7 @@
 		"maintenance": 2,
 		"cityHealth": 15,
 		"uniques": [
-		"Comment [Trains advanced Sword and Spear units]",
+		"Comment [Enables training of: Advanced Melee Infantry units]",
 		"New [Sword] units start with [10] Experience [in this city]",
 		"New [Spear] units start with [10] Experience [in this city]",
 		"Can only be built [in capital] <before adopting [Centralization]>",

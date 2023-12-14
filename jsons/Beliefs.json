@@ -70,7 +70,7 @@
         "name": "Cult of Tabiti", 
         "type": "Pantheon",
         "uniques": [
-        "[+30]% Strength for cities <when attacking>",
+        "[+30]% Strength for cities <when defending>",
         "Only available <for [The Roxolani]>"
         ]
     },
@@ -137,7 +137,7 @@
         "name": "Cult of Athena",
         "type": "Pantheon",
         "uniques": [
-        "[+15]% Strength for cities <when attacking>",
+        "[+15]% Strength for cities <when defending>",
         "[+1 Science] from every [Temple]"
         "Only available <after adopting [Hellenic Culture]>"
         ]

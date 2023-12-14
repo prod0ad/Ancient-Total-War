@@ -97,7 +97,9 @@
 		"cost": 56,
 		"requiredTech": "Archery",
 		"uniques": [
-		"Only available <with [Unlock Archer]>",
+		"Only available <in cities with a [Archery Range]>",
+		"Comment [Has cultural requirements]",
+		"Only available <with [Unlock Archer]> <hidden from users>"
 		],
 		"promotions": ["[Archer] ability"],
 		"attackSound": "arrow"
@@ -111,7 +113,9 @@
 		"cost": 70,
 		"requiredTech": "Archery",
 		"uniques": [
-		"Only available <with [Unlock Slinger]>",
+		"Only available <in cities with a [Archery Range]>",
+		"Comment [Has cultural requirements]",
+		"Only available <with [Unlock Slinger]> <hidden from users>"
 		],
 		"promotions": ["[Slinger] ability"],
 		"attackSound": "arrow"
@@ -127,6 +131,7 @@
 		"cost": 56,
 		"requiredTech": "Archery",
 		"uniques": [
+		"Only available <in cities with a [Archery Range]>",
 		"Only available <with [Unlock Archer]>",
 		],
 		"promotions": ["[Archer] ability","Marksman I"],
@@ -144,6 +149,7 @@
 		"requiredTech": "Archery",
 		"uniques": [
 		"Can move immediately once bought",
+		"Only available <in cities with a [Archery Range]>",
 		"Only available <with [Unlock Archer]>"
 		],
 		"promotions": ["[Archer] ability","Marksman I"],
@@ -161,6 +167,7 @@
 		"requiredTech": "Archery",
 		"uniques": [
 		"Only available <with [Unlock Archer]>",
+		"Only available <in cities with a [Archery Range]>",
 		"This Unit gains the [Iron Darts] promotion <after discovering [Metallurgy]>"
 		],
 		"promotions": ["[Slinger] ability"],
@@ -176,6 +183,9 @@
 		"rangedStrength": 8,
 		"cost": 56,
 		"requiredTech": "Archery",
+		"uniques": [
+		"Only available <in cities with a [Archery Range]>"
+		],
 		"promotions": ["[Archer] ability","Positioning I"],
 		"attackSound": "arrow"
 	},
@@ -190,6 +200,7 @@
 		"cost": 75,
 		"requiredTech": "Archery",
 		"uniques": [
+		"Only available <in cities with a [Archery Range]>",
 		"Can move immediately once bought",
 		],
 		"promotions": ["[Slinger] ability"],
@@ -367,7 +378,6 @@
 		"strength": 12,
 		"cost": 75,
 		"uniques": [
-		"Only available <after discovering [Infantry Training]>",
 		"Only available <in cities with a [Parthenon]>",
 		"Never appears as a Barbarian unit"
 		],
@@ -409,6 +419,9 @@
 		"cost": 75,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
+		"uniques": [
+		"Only available <in cities with a [Barracks]>"
+		],
 		"promotions": ["[Spearman] ability","Spartan Aura","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
@@ -422,6 +435,9 @@
 		"cost": 70,
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
+		"uniques": [
+		"Only available <in cities with a [Barracks]>"
+		],
 		"promotions": ["[Spearman] ability","Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
@@ -434,6 +450,7 @@
 		"requiredTech": "Infantry Training",
 		"requiredResource": "Copper",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Pikemen]>",
 		"Never appears as a Barbarian unit"
 		],
@@ -451,6 +468,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>",
 		"Never appears as a Barbarian unit"
 		],
@@ -467,6 +485,7 @@
 		"cost": 70,
 		"requiredTech": "Heavy Infantry",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Can move immediately once bought"
 		],
 		"promotions": ["Infantry Shield I"],
@@ -482,6 +501,7 @@
 		"cost": 75,
 		"requiredTech": "Heavy Infantry",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>",
 		"Can move immediately once bought"
 		],
@@ -499,6 +519,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["[Thracian Warband] ability","Raider I","Infantry Shield II"],
@@ -515,6 +536,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["[Falxman] ability","Ambush I"],
@@ -531,6 +553,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["Berserker","Infantry Shield II"],
@@ -547,6 +570,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["Shock I","Infantry Shield II"],
@@ -563,6 +587,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["Raider I","Infantry Shield II"],
@@ -579,6 +604,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["Raider I","Ambush I","Infantry Shield I"],
@@ -596,6 +622,7 @@
 		"requiredTech": "Heavy Infantry",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Barracks]>",
 		"Only available <with [Unlock Swordsmen]>"
 		],
 		"promotions": ["Infantry Shield III"],
@@ -624,30 +651,31 @@
 		"unitType": "Spear",
 		"cost": 90,
 		"movement": 2,
-		"strength": 15,
+		"strength": 16,
 		"requiredTech": "Military Reforms",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Army Barracks]>",
 		"Only available <with [Unlock Spearmen II]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Spearman] ability","Drill I","Infantry Shield II"],
+		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
-	/* Infantry IV */
 	{
 		"name": "Heavy Swordsman",
 		"unitType": "Sword",
 		"cost": 100,
 		"movement": 2,
-		"strength": 17,
+		"strength": 18,
 		"requiredTech": "Military Reforms",
 		"requiredResource": "Iron",
 		"uniques": [
+		"Only available <in cities with a [Army Barracks]>",
 		"Only available <with [Unlock Swordsmen II]>",
 		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Drill I","Infantry Shield II"],
+		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -662,7 +690,8 @@
 		"requiredTech": "Military Reforms",
 		"requiredResource": "Iron",
 		"uniques": [
-		"Only available <with [Unlock Swordsmen II]>",
+		"Only available <in cities with a [Army Barracks]>",
+		"Only available <with [Unlock Swordsmen II]>"
 		],
 		"promotions": ["Drill I","Infantry Shield II"],
 		"attackSound": "metalhit"
@@ -698,6 +727,7 @@
 		"requiredTech": "Light Cavalry",
 		"requiredResource": "Horses",
 		"uniques": [
+		"Only available <before adopting [Eastern Culture]> <hidden from users>",
 		"Only available <in cities without a [Spice Road]> <hidden from users>",
 		"Only available <in cities without a [Nomadic Herd]> <hidden from users>",
 		"Never appears as a Barbarian unit"
@@ -779,7 +809,7 @@
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 9,
-		"requiredTech": "Light Cavalry",
+//		"requiredTech": "Light Cavalry",
 //		"requiredResource": "Horses",
 		"uniques": [
 		"Only available <in cities with a [Spice Road]>",
@@ -831,6 +861,9 @@
 		"strength": 12,
 		"requiredTech": "Equestrian Class",
 		"requiredResource": "Horses",
+		"uniques": [
+		"Only available <in cities with a [Stable]>"
+		],
 		"promotions": ["Chariot ability","Charge I","Shock I"],
 		"attackSound": "horse"
 	},
@@ -844,6 +877,7 @@
 		"requiredTech": "Equestrian Class",
 		"requiredResource": "Horses",
 		"uniques": [
+		"Only available <in cities with a [Stable]>",
 		"Only available <with [Unlock Cavalry]>",
 		"Never appears as a Barbarian unit",
 		],
@@ -881,6 +915,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
+		"Only available <in cities with a [Cavalry Barracks]>",
 		"Only available <with [Unlock Cataphracts]>",
 		"Never appears as a Barbarian unit"
 		],
@@ -899,6 +934,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
+		"Only available <in cities with a [Cavalry Barracks]>",
 		"Only available <with [Unlock Cataphracts]>",
 		"[-25]% Strength <vs cities> <when attacking>",
 		],

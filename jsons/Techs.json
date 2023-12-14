@@ -70,7 +70,7 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Defensive Pacts",
+				"name": "Diplomacy",
 				"row": 1,
 				"prerequisites": ["Mysticism"],
 				"uniques": [
@@ -146,7 +146,7 @@
 			{
 				"name": "Hospitum",
 				"row": 1,
-				"prerequisites": ["Defensive Pacts","Entertainment"],
+				"prerequisites": ["Diplomacy","Entertainment"],
 				"uniques": [
 				"Resting point for Influence with City-States is increased by [20]",
 				"Enables Open Borders agreements",

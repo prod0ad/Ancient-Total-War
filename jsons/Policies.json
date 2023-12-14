@@ -8,17 +8,22 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Celtic Culture]>",
+                    "Only available <after adopting [Celtic Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Celtic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "Gain a free [Hill Fort] [in capital]",
                     "[+1 Happiness] [in capital]",
-                    "Provides [1] [Unlock Slinger]",
-                    "Provides [1] [Unlock Swordsmen]",
-                    "Provides [1] [Unlock Swordsmen II]",
-                    "Provides [1] [Unlock Spearmen II]",
-                    "Provides [1] [Unlock Cavalry]",
-                    "Provides [1] [Unlock Fleet I]"
+                    "Comment [Unlocks Slinger]",
+                    "Comment [Unlocks Swordsman]",
+                    "Comment [Unlocks Heavy Swordsman]",
+                    "Comment [Unlocks Heavy Spearman]",
+                    "Comment [Unlocks Cavalry]",
+                    "Provides [1] [Unlock Slinger] <hidden from users>",
+                    "Provides [1] [Unlock Swordsmen] <hidden from users>",
+                    "Provides [1] [Unlock Swordsmen II] <hidden from users>",
+                    "Provides [1] [Unlock Spearmen II] <hidden from users>",
+                    "Provides [1] [Unlock Cavalry] <hidden from users>",
+                    "Provides [1] [Unlock Fleet I] <hidden from users>"
         ],
         "policies": [
             {
@@ -127,7 +132,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Eastern Culture]>",
+                    "Only available <after adopting [Eastern Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Eastern)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "Gain a free [Market] [in capital]",
@@ -246,7 +251,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Germanic Culture]>",
+                    "Only available <after adopting [Germanic Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Germanic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
@@ -358,7 +363,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Hellenic Culture]>",
+                    "Only available <after adopting [Hellenic Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "[-25]% Culture cost of natural border growth [in capital]",
@@ -479,7 +484,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Hellenistic Culture]>",
+                    "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <for [The Mithridatids]> <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <for [The Seleucids]> <hidden from users>",
@@ -489,20 +494,35 @@
                     "[Cavalry] units gain the [Lancer] promotion <for [The Pergamenes]> <hidden from users>",
                     "[+25]% Production when constructing [Settler] units [in all cities]",
                     "[+1 Happiness] [in capital]",
-                    "Provides [1] [Unlock Pikemen] <for [The Macedonians]>",
-                    "Provides [1] [Unlock Pikemen] <for [The Ptolemies]>",
-                    "Provides [1] [Unlock Pikemen] <for [The Seleucids]>",
-                    "Provides [1] [Unlock Pikemen II] <for [The Macedonians]>",
-                    "Provides [1] [Unlock Pikemen II] <for [The Ptolemies]>",
-                    "Provides [1] [Unlock Pikemen II] <for [The Seleucids]>",
-                    "Provides [1] [Unlock Royal Agema] <for [The Macedonians]>",
-                    "Provides [1] [Unlock Royal Agema] <for [The Pergamenes]>",
-                    "Provides [1] [Unlock Royal Agema] <for [The Ptolemies]>",
-                    "Provides [1] [Unlock Archer]",
-                    "Provides [1] [Unlock Cavalry]",
-                    "Provides [1] [Unlock Elephants]",
-                    "Provides [1] [Unlock Artillery]",
-                    "Provides [1] [Unlock Fleet II]"
+                    "Comment [Unlocks Archer]",
+                    "Comment [Unlocks Cavalry]",
+                    "Comment [Unlocks War Elephant]",
+                    "Comment [Unlocks Ballista]",
+                    "Comment [Unlocks Trireme]",
+                    "Comment [Unlocks Pentere]",
+                    "Comment [Unlocks Pike Phalanx] <for [The Macedonians]>",
+                    "Comment [Unlocks Royal Phalanx] <for [The Macedonians]>",
+                    "Comment [Unlocks Royal Agema] <for [The Macedonians]>",
+                    "Comment [Unlocks Pike Phalanx] <for [The Ptolemies]>",
+                    "Comment [Unlocks Royal Phalanx] <for [The Ptolemies]>",
+                    "Comment [Unlocks Royal Agema] <for [The Ptolemies]>",
+                    "Comment [Unlocks Royal Agema] <for [The Pergamenes]>",
+                    "Comment [Unlocks Pike Phalanx] <for [The Seleucids]>",
+                    "Comment [Unlocks Royal Phalanx] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Archer] <hidden from users>",
+                    "Provides [1] [Unlock Cavalry] <hidden from users>",
+                    "Provides [1] [Unlock Elephants] <hidden from users>",
+                    "Provides [1] [Unlock Artillery] <hidden from users>",
+                    "Provides [1] [Unlock Fleet II] <hidden from users>",
+                    "Provides [1] [Unlock Pikemen] <for [The Macedonians]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen] <for [The Ptolemies]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen] <for [The Seleucids]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Macedonians]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Ptolemies]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Seleucids]> <hidden from users>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Macedonians]> <hidden from users>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Pergamenes]> <hidden from users>",
+                    "Provides [1] [Unlock Royal Agema] <for [The Ptolemies]> <hidden from users>"
         ],
         "policies": [
             {
@@ -533,8 +553,11 @@
                 "uniques": [
                     "[+15]% Production when constructing [Ranged Water] units [in all cities]",
                     "[+2 Production] from every [Harbor]",
-                    "Provides [1] [Unlock Fleet III]",
-                    "Provides [1] [Unlock Fleet IV]",
+                    "Comment [Unlocks Hemiola]",
+                    "Comment [Unlocks Hexere]",
+                    "Comment [Unlocks Decere]",
+                    "Provides [1] [Unlock Fleet III] <hidden from users>",
+                    "Provides [1] [Unlock Fleet IV] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Euergetes"],
@@ -559,12 +582,18 @@
                 "uniques": [
                     "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
                     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-                    "Provides [1] [Unlock Cataphract] <for [The Mithridatids]>",
-                    "Provides [1] [Unlock Cataphract] <for [The Seleucids]>",
-                    "Provides [1] [Unlock Pikemen] <for [The Mithridatids]>",
-                    "Provides [1] [Unlock Pikemen] <for [The Pergamenes]>",
-                    "Provides [1] [Unlock Pikemen II] <for [The Mithridatids]>",
-                    "Provides [1] [Unlock Pikemen II] <for [The Pergamenes]>",
+                    "Comment [Unlocks Pike Phalanx] <for [The Mithridatids]>",
+                    "Comment [Unlocks Royal Phalanx] <for [The Mithridatids]>",
+                    "Comment [Unlocks Cataphract] <for [The Mithridatids]>",
+                    "Comment [Unlocks Pike Phalanx] <for [The Pergamenes]>",
+                    "Comment [Unlocks Royal Phalanx] <for [The Pergamenes]>",
+                    "Comment [Unlocks Cataphract] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Pikemen] <for [The Mithridatids]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Mithridatids]> <hidden from users>",
+                    "Provides [1] [Unlock Cataphract] <for [The Mithridatids]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen] <for [The Pergamenes]> <hidden from users>",
+                    "Provides [1] [Unlock Pikemen II] <for [The Pergamenes]> <hidden from users>",
+                    "Provides [1] [Unlock Cataphract] <for [The Seleucids]> <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Euergetes","Poliorketes"],
@@ -576,10 +605,7 @@
                 "civilopediaText": [{"text": "Megas was a hellenestic royal epithet meaning The Great. Alexander III, Antiochos III and Mithridates VI were the Greats."}],
                 "uniques": [
                     "Free [Great General] appears",
-                    "Provides [1] [Unlock Spearmen II] <for [The Mithridatids]>",
-                    "Provides [1] [Unlock Spearmen II] <for [The Pergamenes]>",
-                    "Provides [1] [Unlock Swordsmen II] <for [The Seleucids]>",
-                    "Provides [1] [Unlock Swordsmen II] <for [The Ptolemies]>",
+                    "[+2] Movement <for [Great General] units>",
                     "[+100]% XP gained from combat <for [Melee] units> <when adjacent to a [Great General] unit>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -614,8 +640,15 @@
                 "name": "Hellenistic Culture Complete",
                 "civilopediaText": [{"text": "Successor States"}],
                 "uniques": [
-                    "[+1 Happiness] from every [Clerouchia]"
-                    "[+2] Movement <for [Great General] units>",
+                    "Comment [Unlocks Heavy Spearman] <for [The Mithridatids]>",
+                    "Comment [Unlocks Heavy Spearman] <for [The Pergamenes]>",
+                    "Comment [Unlocks Heavy Swordsman] <for [The Ptolemies]>",
+                    "Comment [Unlocks Heavy Swordsman] <for [The Seleucids]>",
+                    "Provides [1] [Unlock Spearmen II] <for [The Mithridatids]> <hidden from users>",
+                    "Provides [1] [Unlock Spearmen II] <for [The Pergamenes]> <hidden from users>",
+                    "Provides [1] [Unlock Swordsmen II] <for [The Ptolemies]> <hidden from users>",
+                    "Provides [1] [Unlock Swordsmen II] <for [The Seleucids]> <hidden from users>",
+                    "[+1 Happiness] from every [Clerouchia]",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -630,7 +663,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Iberian Culture]>",
+                    "Only available <after adopting [Iberian Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Iberian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+25]% Production when constructing [Hill Fort] buildings [in all cities]",
@@ -745,7 +778,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Illyrian Culture]>",
+                    "Only available <after adopting [Illyrian Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Illyrian)] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit",
@@ -857,7 +890,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Latin Culture]>",
+                    "Only available <after adopting [Latin Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Italic)] <hidden from users>",
                     "[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "[+50]% Production when constructing [Melee] units [in capital]",
@@ -978,7 +1011,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Numidian Culture]>",
+                    "Only available <after adopting [Numidian Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Land] units>",
@@ -1097,7 +1130,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Punic Culture]>",
+                    "Only available <after adopting [Punic Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1] Sight <for [Water] units>",
@@ -1221,7 +1254,7 @@
             "Domination": 50
         },
         "uniques": [
-                    "Only available <after adopting [Thracian Culture]>",
+                    "Only available <after adopting [Thracian Culture]> <hidden from users>",
                     "Provides [1] [Unlock Mercenary Camp (Thracian)] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
                     "[+1 Culture, +1 Happiness] from every [Mint]",

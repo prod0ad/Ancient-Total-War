@@ -521,7 +521,7 @@
     {
 		"name": "Citrus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Flood plains"],
 		"food": 1,
 		"improvementStats": {"food": 1, "gold": 1},
 		"improvement": "Plantation",
