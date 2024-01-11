@@ -1,8 +1,8 @@
 [
 	{
-		"name":"Scientist",
+		"name":"Scholar",
 		"science":3,
-		"greatPersonPoints": {"Great Scientist":3},
+		"greatPersonPoints": {"Great Scholar":3},
 		"color": [0,0,255]
 	},
 	{
@@ -13,14 +13,35 @@
 	},
 	{
 		"name":"Artist",
-		"culture":2,
+		"culture":3,
 		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
+	},
+	{
+		"name":"Courtesan",
+		"culture":2,
+		"happiness":1,
+		"greatPersonPoints": {"Great Courtesan":2},
+		"color": [255,0,255]
 	},
 	{
 		"name":"Engineer",
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
-	}
+	},
+	{
+		"name":"Magistrate",
+		"gold":2,
+		"happiness":1,
+		"greatPersonPoints": {"Great Orator":2},
+		"color": [0,0,0]
+	},
+	{
+		"name":"Priest",
+		"faith":2,
+		"happiness":1,
+		"greatPersonPoints": {"Great Prophet":2},
+		"color": [255,255,255]
+	},
 ]

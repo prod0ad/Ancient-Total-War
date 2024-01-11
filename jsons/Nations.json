@@ -12,6 +12,7 @@
 		"adjective": ["Roman"],
 	        "startBias":["Coast","Hill"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Sol Invictus",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -28,10 +29,9 @@
 		"uniques": [
 		"[+1 Happiness] from every [Barracks] <when at war>",
 		"[+2 Happiness] from every [Army Barracks] <when at war>",
-		"Starts with [Infantry Training]",
-		"Starts with [Latin Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[10]% of excess happiness converted to [Culture] <after discovering [Infantry Training]>",
+		"[10]% of excess happiness converted to [Science] <after discovering [Infantry Training]>",
+		"Starts with [Latin Culture] adopted"
 		],
 		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Segesta","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
 	},
@@ -41,6 +41,7 @@
 		"adjective": ["Insubrian"],
 	        "startBias":["Avoid [Coast]","Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -55,11 +56,9 @@
 		"style": "Celtic",
 		"uniqueName": "Mercenary Contacts",
 		"uniques": [
-                "[Gold] cost of purchasing [Military Land] units [-33]%",
-		"Starts with [Mercenaries]",
-		"Starts with [Celtic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+                "[Gold] cost of purchasing [{Military} {Land}] units [-33]%",
+//		"Starts with [Mercenaries]",
+		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": [
 		"Mediolanum","Comum","Bergomum","Vercelae","Ticinium","Acerrae","Taurini","Bononia","Cennomani",
@@ -73,6 +72,7 @@
 		"adjective": ["Ptolemaic"],
 	        "startBias":["Coast","Desert","River"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Imperial Cult",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -89,10 +89,8 @@
 		"uniques": [
 		"Provides [1] [Unlock Mercenary Camp (Egyptian)] <hidden from users>",
 		"Gain a free [The Great Lighthouse] [in capital]",
-		"Starts with [Colonization]",
-		"Starts with [Hellenistic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+//		"Starts with [Colonization]",
+		"Starts with [Hellenistic Culture] adopted"
 		],
 		"cities": [
 		"Alexandreia","Pelousion","Leukaspis","Diospolis","Hermopolis","Aphroditoupolis","Heliopolis","Hierapolis","Oxyrinchos","Philadelphia","Herakleopolis","Panopolis",
@@ -105,6 +103,7 @@
 		"adjective": ["Cyrenean"],
 	        "startBias":["Coast","Desert"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Imperial Cult",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -120,10 +119,8 @@
 		"uniqueName": "Silphium Monopoly",
 		"uniques": [
 		"Gain a free [Silphium Trader] [in capital]",
-		"Starts with [Entertainment]",
-		"Starts with [Hellenic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+//		"Starts with [Entertainment]",
+		"Starts with [Hellenic Culture] adopted"
 		],
 		"cities": ["Cyrene","Barke","Euesperides","Apollonia Cyrenaike","Darnis","Taucheiria","Antipirgus","Katabathmos","Boreon","Paretonion","Berenike","Ptolemais"]
 	},
@@ -134,6 +131,7 @@
 		"adjective": ["Mithridatid"],
 	        "startBias":["Hill","Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Mithraism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -149,11 +147,9 @@
 		"uniqueName": "The Pontic Levy",
 		"uniques": [
 		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-		"[+15]% Production when constructing [Military] units [in all cities] <after discovering [Military Reforms]>",
-		"Starts with [Light Cavalry]",
-		"Starts with [Hellenistic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[+15]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
+//		"Starts with [Light Cavalry]",
+		"Starts with [Hellenistic Culture] adopted"
 		],
 		"cities": ["Amaseia","Amisos","Zela","Komana","Koloneia","Polemonion","Sebastopolis","Sebasteia","Nikopolis","Kerasous"]
 	},
@@ -163,6 +159,7 @@
 		"adjective": ["Pergamene"],
 		"startBias": ["Hill","River"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -178,10 +175,8 @@
 		"uniqueName": "The Treasury of Lysimachos",
 		"uniques": [
 		"Gain a free [National Treasury] [in capital]",
-		"Starts with [Entertainment]",
-		"Starts with [Hellenistic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+//		"Starts with [Entertainment]",
+		"Starts with [Hellenistic Culture] adopted"
 		],
 		"cities": ["Pergamos","Elaia","Attaleia","Hadramytteion","Attea","Assos","Parion","Abydos","Lampsakos","Cyzicos","Thyateira","Magnesia"]
 	},
@@ -192,6 +187,7 @@
 		"adjective": ["Seleucid"],
 	        "startBias":["Coast","Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Imperial Cult",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -209,10 +205,8 @@
 		"[-75]% unhappiness from the number of cities",
 		"[Mounted] units gain the [Charge I] promotion",
 		"Great General provides double combat bonus <for [Mounted] units>",
-		"Starts with [Light Cavalry]",
-		"Starts with [Hellenistic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Hellenistic Culture] adopted"
 		],
 		"cities": [
 		"Antioch","Seleucia Pieria","Apameia","Laodikea Paralos","Beroia","Chalkis","Nicephorion","Hierapolis Bambyke","Dura Europos","Zeugma","Edessa","Emessa","Epiphania"
@@ -224,6 +218,7 @@
 		"adjective": ["Armenian"],
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Zoroastrianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -239,11 +234,9 @@
 		"uniqueName": "Caucasian Stronghold",
 		"uniques": [
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"[-15]% maintenance costs <for [Military Land] units> <after discovering [Military Infrastructure]>",
-		"Starts with [Archery]",
-		"Starts with [Eastern Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[-15]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
+//		"Starts with [Archery]",
+		"Starts with [Eastern Culture] adopted"
 		],
 		"cities": [
 		"Armavir","Yervandashat","Artashat","Gorneae","Arxata","Daranissa","Tigranocerta","Vagharshapat","Dvin","Balalesa","Arsamosata","Carcathiocerta","Satala","Elegeia","Amida"
@@ -255,6 +248,7 @@
 		"adjective": ["Arsacid"],
 	        "startBias":["Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Zoroastrianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -266,15 +260,13 @@
 		"tradeRequest": "Let's have a trade. What do you say?",
 		"outerColor": [168,62,154],
 		"innerColor": [255,255,141],
-		"style": "Parthian",
+		"style": "Eastern",
 		"uniqueName": "Parthian Horselords",
 		"uniques": [
 		"New [Horse Archer] units start with [10] Experience [in all cities]",
 		"New [Cataphract] units start with [10] Experience [in all cities]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted"
 		],
 		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Ctesiphon","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
 	},
@@ -285,6 +277,7 @@
 		"adjective": ["Scythian"],
 	        "startBias":["Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Zoroastrianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -299,12 +292,10 @@
 		"style": "Scythian",
 		"uniqueName": "Royal Scythians",
 		"uniques": [
-		"[+50]% Happiness from luxury resources gifted by City-States",
+		"[+50]% [Happiness] from City-States",
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted"
 		],
 		"cities": [
 		"Gerrhos","Hylaia","Gelonos","Neapolis Scythike",
@@ -318,6 +309,7 @@
 		"adjective": ["Roxolanian"],
 	        "startBias":["Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Zoroastrianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -335,10 +327,8 @@
 		"[+25]% Production when constructing [Cataphract] units [in all cities]",
 		"[+25]% Production when constructing [Nomadic Herd] buildings [in all cities]",
 		"[+1 Happiness] from every [Nomadic Herd]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Eastern Culture] adopted"
 		],
 		"cities": [
 		"Roxolani","Alani","Aorsi","Iazyges","Sindi","Dandarii","Toreatae","Agri","Arrechi","Tarpetes","Obidiaceni","Sittaceni","Dosci","Aragantes","Cissianti",
@@ -350,8 +340,9 @@
 		"name": "The Carthaginians",
 		"leaderName": "Hannibal",
 		"adjective": ["Carthaginian"],
-	        "startBias":["Coast","Plains"],
+	        "startBias":["Coast","Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Canaanism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -366,11 +357,12 @@
 		"style": "Punic",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-		"Gain a free [Cothon] [in all coastal cities]",
-		"Starts with [Colonization]",
-		"Starts with [Punic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
+		"Each city founded increases culture cost of policies [15]% less than normal",
+		"[+1 Happiness] [in all cities]",
+//		"Starts with [Colonization]",
+		"Starts with [Punic Culture] adopted"
 		],
 		"cities": [
 		"Carthage","Utica","Hadr","Thapsus","Hippo Regius","Lilibeo","Kerkouane","Eryx","Panormos","Rusicade","Iol","Cartenna","Russadir","Sala","Sexi","Ibosim","Carales",
@@ -381,8 +373,9 @@
 		"name": "The Massylii",
 		"leaderName": "Massanisa",
 		"adjective": ["Massylii"],
-	        "startBias":["Hill","Plains","Avoid [Coast]"],
+	        "startBias":["Desert","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Canaanism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -399,10 +392,8 @@
 		"uniques": [
 		"New [Mounted] units start with [10] Experience [in all cities]",
 		"[+2 Gold] from [Wheat] tiles [in all cities]",
-		"Starts with [Light Cavalry]"
-		"Starts with [Numidian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]"
+		"Starts with [Numidian Culture] adopted"
 		],
 		"cities": ["Cirta","Thamugadi","Lambaesis","Theveste","Thelepte","Capsa","Sitifis","Mascula","Sicca","Tubunae","Vescera","Gemelae","Chullu",]
 	},
@@ -410,8 +401,9 @@
 		"name": "The Masaesyli",
 		"leaderName": "Syphax",
 		"adjective": ["Masaesyli"],
-	        "startBias":["Coast","Plains"],
+	        "startBias":["Desert","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Canaanism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -428,10 +420,8 @@
 		"uniques": [
 		"New [Mounted] units start with [10] Experience [in all cities]",
 		"[+1 Gold] from every [Market]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Numidian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Numidian Culture] adopted"
 		],
 		"cities": ["Siga","Auzia","Uzinaza","Sufasar","Zucchabar","Tigava","Mina","Quiza","Altava","Bida","Tipasa"]
 	},
@@ -442,6 +432,7 @@
 		"adjective": ["Lusitanian"],
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -458,10 +449,8 @@
 		"uniques": [
 		"[+25]% XP gained from combat <for [Scout] units>",
 		"[+25]% XP gained from combat <for [Sword] units>",
-		"Starts with [Infantry Training]",
-		"Starts with [Iberian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Infantry Training]",
+		"Starts with [Iberian Culture] adopted"
 		],
 		"cities": [
 		"Scallabis",
@@ -476,6 +465,7 @@
 		"adjective": ["Celtiberian"],
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -492,10 +482,8 @@
 		"uniques": [
 		"[+50]% XP gained from combat <for [Mounted] units>",
 		"Gain a free [Warrior Statue] [in capital]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Iberian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Iberian Culture] adopted"
 		],
 		"cities": [
 		"Numantia","Clunia","Okilis","Pallantia","Salmantica","Toletum","Segobriga","Belia","Turiaso","Nertobriga","Titum","Segovia","Segontia","Bilbilis","Celsa",
@@ -511,6 +499,7 @@
 		"adjective": ["Arverni"],
 	        "startBias":["Hill","Grassland","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -526,10 +515,8 @@
 		"uniqueName": "Gallic Traders",
 		"uniques": [
                 "[+15]% [Gold] [in all cities]",
-		"Starts with [Infantry Training]",
-		"Starts with [Celtic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Infantry Training]",
+		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": [
 		"Gergovia",// Cities
@@ -542,6 +529,7 @@
 		"adjective": ["Belgae"],
 	        "startBias":["Grassland"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -558,10 +546,8 @@
 		"uniques": [
                 "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
 		"[+15]% Production when constructing [Water] units [in all cities]",
-		"Starts with [Colonization]",
-		"Starts with [Celtic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Colonization]",
+		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": [
 		"Noviodunum","Samarobriva","Durocortorum","Bibrax","Nemetocena","Bratupantium","Tervanna","Gesoriacum","Augum","Briga","Bononia","Rotomagus","Aduatuca", //Cities
@@ -574,6 +560,7 @@
 		"adjective": ["Boian"],
 		"startBias": ["Grassland","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -589,10 +576,8 @@
 		"uniques": [
                 "[-25]% maintenance costs <for [Mounted] units>",
                 "[+1 Gold] from every [Pasture]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Celtic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted"
 		],
 		"style": "Celtic",
 		"cities": [
@@ -607,6 +592,7 @@
 		"adjective": ["Bastarnae"],
 	        "startBias":["Forest","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -623,10 +609,8 @@
 		"uniques": [
 		"[+15]% Production when constructing [Settler] units [in all cities]",
 		"[{Military} {Land}] units gain the [Raider I] promotion",
-		"Starts with [Light Cavalry]",
-		"Starts with [Germanic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Germanic Culture] adopted"
 		],
 		"cities": ["Bastarni","Scirii","Atmonia","Sidoni","Peucini","Carpi","Costoboces"]
 	},
@@ -637,6 +621,7 @@
 		"adjective": ["Macedonian"],
 	        "startBias":["River","Hill"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -654,10 +639,9 @@
 		"[+1 Happiness] from [Strategic resource] tiles [in all cities]",
 		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
 		"[+25]% Production when constructing [Ballista] units [in all cities]",
-		"Starts with [Infantry Training]",
-		"Starts with [Hellenistic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[Staffslinger] units gain the [Iron Darts] promotion <after discovering [Metallurgy]>"
+//		"Starts with [Infantry Training]",
+		"Starts with [Hellenistic Culture] adopted"
 		],
 		"cities": ["Pella","Aegae","Bergina","Beroiea","Edessa","Europos","Aiane","Lynkestis","Kassandreia","Philippoi","Philipoupolis","Alexandreia","Thessalonike","Dion","Pydna"]
 	},
@@ -667,6 +651,7 @@
 		"adjective": ["Spartan"],
 	        "startBias":["River","Hill","Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -679,13 +664,14 @@
 		"outerColor": [165, 20, 20],
 		"innerColor": [237, 234, 179],
 		"style": "Spartan",
-		"uniqueName": "Cleomenian Reforms",
+		"uniqueName": "Warriors and Helots",
 		"uniques": [
-		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-		"Starts with [Infantry Training]",
-		"Starts with [Hellenic Culture] adopted",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>"
+		"[Spear] units gain the [Spartan Aura] promotion <after discovering [Citizen Levy]>",
+		"[-50]% maintenance costs <for [Worker] units>",
+		"Gain a free [Syssition] [in capital]",
+		"Gain a free [Second King] [in capital]",
+//		"Starts with [Infantry Training]",
+		"Starts with [Hellenic Culture] adopted"
 		],
 		"cities": ["Sparta","Gytheion","Epidauros Limera","Tainaron","Prassiai","Selassia"]
 	},
@@ -696,6 +682,7 @@
 		"adjective": ["Odrysian"],
 	        "startBias":["Grassland","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -711,10 +698,8 @@
 		"uniqueName": "Thracian Horselords",
 		"uniques": [
 		"[-33]% maintenance costs <for [Mounted] units>",
-		"Starts with [Light Cavalry]",
-		"Starts with [Thracian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Thracian Culture] adopted"
 		],
 		"cities": ["Seuthopolis","Beroe","Kabyle","Drizipera","Uscudama","Teradea","Tylis","Tilataioi","Coelaletes","Haemoi","Nipsaioi","Tranipsai","Dentheletes","Philipoupolis"]
 	},
@@ -724,6 +709,7 @@
 		"adjective": ["Getae"],
 	        "startBias":["Grassland","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -740,10 +726,8 @@
 		"uniques": [
 		"New [Mounted] units start with [10] Experience [in all cities]",
 		"[+1 Production] from every [Stable]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Thracian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Thracian Culture] adopted"
 		],
 		"cities": ["Argedava","Sucidava","Nentidava","Acidava","Buridava","Cumidava","Arcidava","Capidava","Giridava","Singidava","Ziridava","Patridava","Tamasidava","Clepidava",]
 	},
@@ -754,6 +738,7 @@
 		"adjective": ["Dardanian"],
 	        "startBias":["Avoid [Coast]","Forest","Grassland"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Olympianism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -769,11 +754,10 @@
 		"uniqueName": "Legacy of Bardylis",
 		"uniques": [
 		"[+2 Happiness] <when at war>",
+		"[+2 Happiness] <when at war> <after discovering [Infantry Training]>",
 		"New [Spear] units start with [10] Experience [in all cities]",
-		"Starts with [Infantry Training]",
-		"Starts with [Illyrian Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Infantry Training]",
+		"Starts with [Illyrian Culture] adopted"
 		],
 		"cities": ["Dardanike","Naissos","Theranda","Margoi","Metalloi","Gallabrioi","Thunates","Ulpiana","Dardapara","Scupi","Bargala","Stobi","Bylazora"]
 	},
@@ -783,6 +767,7 @@
 		"adjective": ["Scordiscian"],
 	        "startBias":["Avoid [Coast]","Grassland"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Druidism",
 		"startIntroPart1": "BLAH BLAH",
 		"startIntroPart2": "BLAH BLAH",
 		"declaringWar": "Your nation has no place here. I declare war.",
@@ -798,10 +783,8 @@
 		"uniqueName": "Celtic Raiders",
 		"uniques": [
 		"New [Melee] units start with [10] Experience [in all cities]",
-		"Starts with [Light Cavalry]",
-		"Starts with [Celtic Culture] adopted",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>"
+//		"Starts with [Light Cavalry]",
+		"Starts with [Celtic Culture] adopted"
 		],
 		"cities": ["Singidunon","Sirmium","Domavium","Viminiacum","Tibiscum","Maluesa","Dierna","Bassiana","Cibalae","Mursa"]
 	},
@@ -821,9 +804,7 @@
 		"innerColor": [100,175,225],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Cavalry] units",
@@ -845,9 +826,7 @@
 		"innerColor": [225,100,175],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Cavalry] units",
@@ -869,9 +848,7 @@
 		"innerColor": [255,225,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Cavalry] units [in all cities]",
 		"[+25]% Production when constructing [Water] units [in all cities]",
 		"New [Cavalry] units start with [10] Experience [in all cities]",
@@ -893,9 +870,7 @@
 		"innerColor": [255,100,25],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Horseman] units [in all cities]",
 		"New [Horseman] units start with [15] Experience [in all cities]"
 		],
@@ -915,9 +890,7 @@
 		"innerColor": [150,75,175],
 		"uniques": [
 		"Starts with [Latin Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"Cannot build [Cavalry] units"
 		],
@@ -937,9 +910,7 @@
 		"innerColor": [75,125,175],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+25]% Production when constructing [Galley] units [in all cities]",
 		"New [Mounted] units start with [10] Experience [in all cities]",
@@ -961,9 +932,7 @@
 		"innerColor": [225,125,50],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Sword] units [in all cities]",
 		"[+25]% XP gained from combat <for [Sword] units>"
 		],
@@ -984,9 +953,7 @@
 		"innerColor": [255, 155, 50],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"Gain a free [The Oracle of Amun] [in capital]",
 		"[+25]% Production when constructing [Libyan Chariot Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Libyan Chariot Archer] units>"
@@ -1007,9 +974,7 @@
 		"innerColor": [200, 150, 0],
 		"uniques": [
 		"Starts with [Hellenistic Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
 		"[+50]% XP gained from combat <for [Pike Phalanx] units>"
 		"Cannot build [Royal Phalanx] units",
@@ -1035,9 +1000,7 @@
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
 		"Gain a free [Colossus] [in capital]",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Trihemiola] units [in all cities]",
 		"[+25]% Production when constructing [Rhodian Slinger] units [in all cities]",
 		"New [Trihemiola] units start with [15] Experience [in all cities]",
@@ -1060,9 +1023,7 @@
 		"innerColor": [225,100,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Melee Water] units [in all cities]",
 		"New [Melee Water] units start with [10] Experience [in all cities]"
 		"Provides [1] [Unlock Pirates]",
@@ -1084,9 +1045,7 @@
 		"innerColor": [75,200,25],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Land Grants]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Land Grants]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
 		"Provides [1] [Unlock Pirates]",
 		"Cannot build [Ballista] units"
@@ -1108,9 +1067,7 @@
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
 		"Gain a free [Mint] [in capital]",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Cavalry] units [in all cities]",
 		"New [Cavalry] units start with [15] Experience [in all cities]"
 		],
@@ -1130,9 +1087,7 @@
 		"innerColor": [50,125,150],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"Gain a free [Mausoleum of Halicarnassus] [in capital]",
 		"Gain a free [Temple of Artemis] [in capital]"
 		],
@@ -1152,12 +1107,11 @@
 		"innerColor": [200,50,175],
 		"uniques": [
 		"Starts with [Thracian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>",
-		"Provides [1] [Unlock Fleet II]",
+                "Provides [1] [Enable Trireme]",
+                "Provides [1] [Enable Pentere]",
 		"Cannot build [Swordsman] units"
 		],
 		"style": "Thracian",
@@ -1176,9 +1130,7 @@
 		"innerColor": [200,200,25],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted"
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Siege] units [in all cities]",
 		"[+25]% Production when constructing [Water] units [in all cities]"
 		],
@@ -1198,9 +1150,7 @@
 		"innerColor": [200,100,50],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Water] units [in all cities]"
 		],
 		"style": "Greek",
@@ -1219,11 +1169,7 @@
 		"innerColor": [100,150,75],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
 		"[+50]% XP gained from combat <for [Melee] units>"
 		],
@@ -1243,12 +1189,10 @@
 		"innerColor": [200,150,50],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+25]% XP gained from combat <for [Mounted] units>",
-		"Provides [1] [Unlock Cataphract]"
+                "Provides [1] [Enable Cataphract]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1268,13 +1212,13 @@
 		"innerColor": [125,100,150],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
-		"Gain a free [Harbor] [in capital]",
+//		"Starts with [Colonization]",
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		"[+25]% Production when constructing [Melee Water] units [in all cities]",
 		"New [Melee Water] units start with [15] Experience [in all cities]"
-		"Provides [1] [Unlock Fleet II]",
+                "Provides [1] [Enable Trireme]",
+                "Provides [1] [Enable Pentere]",
 		"Cannot build [Horse Archer] units"
 		],
 		"style": "Eastern",
@@ -1293,12 +1237,10 @@
 		"innerColor": [255,175,50],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"New [Mounted] units start with [15] Experience [in all cities]",
-		"Provides [1] [Unlock Cataphract]"
+                "Provides [1] [Enable Cataphract]"
 		],
 		"style": "Eastern",
 		"cities": ["Palmyra"]
@@ -1316,9 +1258,7 @@
 		"innerColor": [225,75,150],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Camel Archer] units>",
 		"Cannot build [Ballista] units"
@@ -1339,9 +1279,7 @@
 		"innerColor": [125,175,225],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		"Cannot build [Archery] units",
@@ -1365,9 +1303,7 @@
 		"innerColor": [175,100,25],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Camel Archer] units>",
 		"Cannot build [Ballista] units"
@@ -1388,9 +1324,7 @@
 		"innerColor": [255,100,0],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted"
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Camel Archer] units>",
 		"Cannot build [Ballista] units"
@@ -1412,9 +1346,7 @@
 		"innerColor": [255,225,100],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Camel Archer] units [in all cities]",
 		"Cannot build [Ballista] units"
 		],
@@ -1434,9 +1366,7 @@
 		"innerColor": [125,50,225],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"Gain a free [Hanging Gardens] [in capital]"
 		],
 		"style": "Eastern",
@@ -1455,9 +1385,7 @@
 		"innerColor": [200,50,125],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"[+25]% Production when constructing [Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Archer] units>",
 		"Cannot build [Ballista] units"
@@ -1478,12 +1406,10 @@
 		"innerColor": [255,175,50],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>",
-		"Provides [1] [Unlock Cataphract]",
+                "Provides [1] [Enable Cataphract]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1502,11 +1428,9 @@
 		"innerColor": [125,125,175],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"Provides [1] [Unlock Cataphract]",
+                "Provides [1] [Enable Cataphract]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1525,11 +1449,9 @@
 		"innerColor": [255,75,25],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"Provides [1] [Unlock Cataphract]",
+                "Provides [1] [Enable Cataphract]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1548,9 +1470,7 @@
 		"innerColor": [255,100,125],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
 		"Cannot build [Ballista] units"
 		],
@@ -1570,9 +1490,7 @@
 		"innerColor": [255,225,150],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
 		"Cannot build [Ballista] units"
 		],
@@ -1593,12 +1511,10 @@
 		"innerColor": [225,25,150],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"Gain a free [Nomadic Herd] [in capital]",
 		"[+25]% Production when constructing [Ranged] units [in all cities]",
-		"Provides [1] [Unlock Cataphract]"
+                "Provides [1] [Enable Cataphract]"
 		],
 		"style": "Greek",
 		"cities": ["Panticapeon"]
@@ -1616,9 +1532,7 @@
 		"innerColor": [150,255,50],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"[+25]% Production when constructing [Ranged] units [in all cities]"
 		],
 		"style": "Greek",
@@ -1637,9 +1551,7 @@
 		"innerColor": [255,150,0],
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spearman] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
@@ -1660,9 +1572,7 @@
 		"innerColor": [50,200,150],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"Gain a free [Parthenon] [in capital]",
 		"[+25]% Production when constructing [Melee] units [in all cities]"
 		],
@@ -1682,13 +1592,9 @@
 		"innerColor": [225,175,100],
 		"uniques": [
 		"Starts with [Hellenistic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"Gain a free [The Oracle of Dodona] [in capital]",
-		"[+25]% Production when constructing [Melee] units [in all cities]",
-		"Provides [1] [Unlock Pikemen]",
-		"Provides [1] [Unlock Pikemen II]"
+		"[+25]% Production when constructing [Melee] units [in all cities]"
 		],
 		"style": "Greek",
 		"cities": ["Passaron"]
@@ -1706,16 +1612,14 @@
 		"innerColor": [100,150,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"[+25]% Production when constructing [Archery] units [in all cities]",
 		"[+25]% Production when constructing [Hemiola] units [in all cities]",
 		"[+50]% XP gained from combat <for [Archery] units>",
 		"[+50]% XP gained from combat <for [Hemiola] units>",
 		"Cannot build [Mounted] units",
 		"Provides [1] [Unlock Pirates]",
-		"Provides [1] [Unlock Fleet III]"
+                "Provides [1] [Enable Hemiola]",
 		],
 		"style": "Greek",
 		"cities": ["Hierapytna"]
@@ -1733,13 +1637,11 @@
 		"innerColor": [125,225,50],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Mercenaries]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
 		"New [Mounted] units start with [15] Experience [in all cities] <after discovering [Military Reforms]>",
-		"Provides [1] [Unlock Pikemen] <after discovering [Military Reforms]>",
-                "Provides [1] [Unlock Spearmen II] <after discovering [Metallurgy]>",
+		"Provides [1] [Enable Pike Phalanx] <after discovering [Military Reforms]>",
+                "Provides [1] [Enable Heavy Spearman] <after discovering [Metallurgy]>",
 		"Cannot build [Cavalry] units <before discovering [Military Reforms]>"
 		],
 		"style": "Greek",
@@ -1758,9 +1660,7 @@
 		"innerColor": [200,100,0],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"Gain a free [The Oracle of Delphi] [in capital]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units> <after discovering [Equestrian Class]>"
@@ -1782,9 +1682,7 @@
 		"innerColor": [175,225,0],
 		"uniques": [
 		"Starts with [Thracian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Scout] units [in all cities]",
 		"[+25]% Production when constructing [Horseman] units [in all cities]",
 		"[+50]% XP gained from combat <for [Scout] units>",
@@ -1809,10 +1707,9 @@
 		"innerColor": [150,125,175],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
-		"Gain a free [Harbor] [in capital]",
+//		"Starts with [Mercenaries]",
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		"Cannot build [Cavalry] units"
 		],
 		"style": "Greek",
@@ -1832,9 +1729,7 @@
 		"innerColor": [255,100,175],
 		"uniques": [
 		"Starts with [Illyrian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Galley] units [in all cities]",
 		"[+50]% XP gained from combat <for [Galley] units>",
 		"Cannot build [Slinger] units",
@@ -1856,9 +1751,7 @@
 		"innerColor": [150,100,75],
 		"uniques": [
 		"Starts with [Illyrian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Galley] units [in all cities]",
 		"[+50]% XP gained from combat <for [Galley] units>",
 		"Cannot build [Slinger] units",
@@ -1880,9 +1773,7 @@
 		"innerColor": [225,50,100],
 		"uniques": [
 		"Starts with [Illyrian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Galley] units [in all cities]",
 		"[+50]% XP gained from combat <for [Galley] units>",
 		"Cannot build [Slinger] units",
@@ -1905,9 +1796,7 @@
 		"innerColor": [175,50,100],
 		"uniques": [
 		"Starts with [Germanic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spearman] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
@@ -1927,9 +1816,7 @@
 		"innerColor": [150,75,75],
 		"uniques": [
 		"Starts with [Germanic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spearman] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spearman] units>"
 		],
@@ -1949,9 +1836,7 @@
 		"innerColor": [255,75,100],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
@@ -1971,9 +1856,7 @@
 		"innerColor": [200,200,0],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
@@ -1994,9 +1877,7 @@
 		"innerColor": [255,125,25],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
@@ -2016,9 +1897,7 @@
 		"innerColor": [255,200,100],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+50]% XP gained from combat <for [Mounted] units>"
 		],
@@ -2038,9 +1917,7 @@
 		"innerColor": [75, 175, 25],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Entertainment]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Entertainment]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
 		"[+50]% XP gained from combat <for [Gaesatae] units>"
 		],
@@ -2060,9 +1937,7 @@
 		"innerColor": [255,100,125],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spear] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spear] units>"
 		],
@@ -2082,9 +1957,7 @@
 		"innerColor": [200,255,100],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spear] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spear] units>"
 		],
@@ -2104,9 +1977,7 @@
 		"innerColor": [125,200,0],
 		"uniques": [
 		"Starts with [Celtic Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [Spear] units [in all cities]",
 		"[+50]% XP gained from combat <for [Spear] units>"
 		],
@@ -2126,9 +1997,7 @@
 		"innerColor": [25,175,200],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Starts with [Colonization]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
+//		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Melee Water] units [in all cities]",
 		"[+50]% XP gained from combat <for [Melee Water] units>"
 		],
@@ -2149,9 +2018,7 @@
 		"innerColor": [255,200,25],
 		"uniques": [
 		"Starts with [Iberian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>"
 		],
@@ -2171,9 +2038,7 @@
 		"innerColor": [125,150,200],
 		"uniques": [
 		"Starts with [Iberian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"Gain a free [Walls] [in capital]",
 		"[+25]% Production when constructing [Mounted] units [in all cities]",
 		"[+25]% XP gained from combat <for [Mounted] units>"
@@ -2194,9 +2059,7 @@
 		"innerColor": [255,125,50],
 		"uniques": [
 		"Starts with [Iberian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Infantry Training]",
 		"Gain a free [Walls] [in capital]"
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>"
@@ -2217,9 +2080,7 @@
 		"innerColor": [200,75,50],
 		"uniques": [
 		"Starts with [Iberian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"Gain a free [Walls] [in capital]",
 		"[+25]% Production when constructing [Horseman] units [in all cities]",
 		"[+50]% XP gained from combat <for [Horseman] units>",
@@ -2240,10 +2101,8 @@
 		"innerColor": [225,225,50],
 		"uniques": [
 		"Starts with [Iberian Culture] adopted",
-		"Starts with [Infantry Training]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
-		"Gain a free [Walls] [in capital]"
+//		"Starts with [Infantry Training]",
+		"Gain a free [Walls] [in capital]",
 		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
 		"[+25]% XP gained from combat <for [{Melee} {Land}] units>",
 		],
@@ -2263,10 +2122,9 @@
 		"innerColor": [175,175,225],
 		"uniques": [
 		"Starts with [Punic Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
-		"Gain a free [Harbor] [in capital]",
+//		"Starts with [Mercenaries]",
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		],
 		"style": "Punic",
 		"cities": ["Gader"]
@@ -2285,9 +2143,7 @@
 		"innerColor": [255,175,100],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
-		"Starts with [Archery]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Archery]",
 		"[+25]% Production when constructing [Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Archer] units>",
 		],
@@ -2307,10 +2163,9 @@
 		"innerColor": [225,150,150],
 		"uniques": [
 		"Starts with [Punic Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
-		"Gain a free [Harbor] [in capital]"
+//		"Starts with [Mercenaries]",
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		],
 		"style": "Punic",
 		"cities": ["Iol"]
@@ -2328,9 +2183,7 @@
 		"innerColor": [255, 125, 0],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Scout] units [in all cities]",
 		"[+50]% XP gained from combat <for [Scout] units>"
 		],
@@ -2350,9 +2203,7 @@
 		"innerColor": [200, 100, 0],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Scout] units [in all cities]",
 		"[+50]% XP gained from combat <for [Scout] units>"
 		],
@@ -2372,9 +2223,7 @@
 		"innerColor": [255,175,75],
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
-		"Starts with [Light Cavalry]",
-		"Comment [Unlocks Tribal Buildings]",
-		"Provides [1] [Unlock Tribal Buildings] <hidden from users>",
+//		"Starts with [Light Cavalry]",
 		"[+25]% Production when constructing [Scout] units [in all cities]",
 		"[+50]% XP gained from combat <for [Scout] units>"
 		],
@@ -2394,10 +2243,9 @@
 		"innerColor": [0,255,200],
 		"uniques": [
 		"Starts with [Punic Culture] adopted",
-		"Starts with [Mercenaries]",
-		"Comment [Unlocks Civic Buildings]",
-		"Provides [1] [Unlock Civic Buildings] <hidden from users>",
-		"Gain a free [Harbor] [in capital]"
+//		"Starts with [Mercenaries]",
+		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		],
 		"style": "Punic",
 		"cities": ["Leptis Magna"]

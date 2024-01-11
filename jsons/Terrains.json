@@ -1,16 +1,6 @@
 [
 	// Base terrains
 	{
-		"name": "Impassable",
-		"type": "Land",
-		"impassable": true,
-		"RGB": [0, 0, 51],
-		"uniques": [
-            "Has an elevation of [2] for visibility calculations",
-            "Doesn't generate naturally",
-            "Considered [Undesirable] when determining start locations"]
-	},
-	{
 		"name": "Ocean",
 		"type": "Water",
 		"food": 1,
@@ -155,7 +145,17 @@
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"]
 	},
-
+	{
+		"name": "Impassable",
+		"type": "Land",
+		"impassable": true,
+		"RGB": [0, 0, 51],
+		"uniques": [
+		"Has an elevation of [2] for visibility calculations",
+		"Doesn't generate naturally",
+//		"Considered [Undesirable] when determining start locations"
+		]
+	},
 	// Terrain features
 	{
 		"name": "Hill",

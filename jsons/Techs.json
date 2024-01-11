@@ -1,253 +1,321 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Hellenistic Age",
+		"era": "Archaic Age",
+		"techCost": 35,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 5,
+				"uniques": ["Starting tech"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Archaic Age",
 		"techCost": 55,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Mysticism",
+				"name": "Mythology",
 				"row": 1,
-				"uniques": ["Starting tech"],
+				"prerequisites": ["Agriculture"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
-			{
-				"name": "Currency",
-				"row": 3,
-				"uniques": ["Starting tech"],
-				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
-			},
+
 			{
 				"name": "Animal Husbandry",
 				"row": 4,
-				"uniques": ["Starting tech"],
+				"prerequisites": ["Agriculture"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+			{
+				"name": "Pottery",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Mining",
-				"row": 6,
-				"uniques": ["Starting tech"],
+				"row": 7,
+				"prerequisites": ["Agriculture"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Forestry",
-				"row": 7,
-				"uniques": ["Starting tech"],
-				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
-			},
-			{
-				"name": "Shipbuilding",
 				"row": 8,
-				"uniques": ["Starting tech"],
+				"prerequisites": ["Agriculture"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Agriculture",
-				"row": 9,
-				"uniques": ["Starting tech"],
-				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
-			},
-			{
-				"name": "Warrior Class",
-				"row": 10,
-				"uniques": ["Starting tech"],
-				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
-			},
-			{
-				"name": "Strategic Imports",
-				"row": 11,
-				"uniques": ["Starting tech"],
-				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
-			},
-		]
-	},
-	{
-		"columnNumber": 1,
-		"era": "Hellenistic Age",
-		"techCost": 105,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Diplomacy",
-				"row": 1,
-				"prerequisites": ["Mysticism"],
-				"uniques": [
-				"Enables Defensive Pacts",
-				],
-				"quote": "'Solon used to say that speech was the image of actions; that laws were like cobwebs, for that if any trifling or powerless thing fell into them, they held it fast; while if it were something weightier, it broke through them and was off.' - Diogenes"
-			},
-			{
-				"name": "Entertainment",
-				"row": 2,
-				"prerequisites": ["Mysticism"],
-				"quote": "'Every generation laughs at the old fashions, but follows religiously the new.' - Henry David Thoreau"
-			},
-			{
-				"name": "Mercenaries",
-				"row": 3,
-				"prerequisites": ["Currency"],
-				"quote": "'War is not so much a matter of weapons as of money.' - Thucydides"
-			},
-			{
-				"name": "Light Cavalry",
-				"row": 4,
-				"prerequisites": ["Animal Husbandry"],
-				"quote": "'Man is the most intelligent of the animals - and the most silly.' - Diogenes"
-			},
-			{
-				"name": "Masonry",
-				"row": 6,
-				"prerequisites": ["Mining"],
-				"quote": "When someone wished to know why Sparta didn't have any walls, Agesilaus pointed to the citizens in full armour and said, 'These are the Spartans' walls.'"
-			},
-			{
-				"name": "Archery",
-				"row": 7,
-				"prerequisites": ["Forestry"],
-				"quote": "'When he had shot his bolt and had smitten one in the throng, then would that man fall where he was and give up his life.' - Homer"
-			},
-			{
-				"name": "Colonization",
-				"row": 8,
-				"prerequisites": ["Shipbuilding"],
-				"uniques": ["Enables embarkation for land units"],
-				"quote": "'It is not enough to be industrious; so are the ants. What are you industrious about?.' - Henry David Thoreau"
-			},
-			{
-				"name": "Land Grants",
+				"name": "Fishing",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-				"quote": "Diogenes once begged alms of a statue, and, when asked why he did so, replied, 'To get practice in being refused.'"
-			},
-			{
-				"name": "Infantry Training",
-				"row": 10,
-				"prerequisites": ["Warrior Class"],
-				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
-			},
-			{
-				"name": "Supply Logistics",
-				"row": 11,
-				"prerequisites": ["Strategic Imports"],
-				"uniques": ["[-20]% Culture cost of natural border growth [in all cities]"],
-				"quote": "'I will either find a way, or make one.' - Hannibal Barca"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			}
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "Hellenistic Age",
-		"techCost": 175,
-		"buildingCost": 100,
+		"era": "Archaic Age",
+		"techCost": 105,
+		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Hospitum",
+				"name": "Writing",
 				"row": 1,
-				"prerequisites": ["Diplomacy","Entertainment"],
-				"uniques": [
-				"Resting point for Influence with City-States is increased by [20]",
-				"Enables Open Borders agreements",
-				],
-				"quote": "'You will become a teacher of yourself when you criticize yourself for all those things that you would criticize others.' - Diogenes"
+				"prerequisites": ["Mythology"],
+				"quote": "'The investigation of the meaning of words is the beginning of education.' - Antisthenes"
 			},
 			{
-				"name": "Aesthetics",
+				"name": "Mysticism",
 				"row": 2,
-				"prerequisites": ["Entertainment"],
-				"uniques": [
-				"[+1 Culture] from every [Temple]"
-				],
-				"quote": "'The perception of beauty is a moral test.' - Henry David Thoreau"
+				"prerequisites": ["Mythology"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Tax Farming",
-				"row": 3,
-				"prerequisites": ["Mercenaries","Entertainment"],
-				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'The great thieves lead away the little thief.' - Diogenes"
-			},
-			{
-				"name": "Equestrian Class",
+				"name": "Barter",
 				"row": 4,
-				"prerequisites": ["Light Cavalry"],
-				"quote": "'A Man is defined as a biped and featherless animal' said Plato, and he was applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
+				"prerequisites": ["Animal Husbandry","Pottery"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Public Works",
-				"row": 5,
-				"prerequisites": ["Masonry"],
-				"uniques": [
-				"[+1 Happiness] [in all cities]"
-				],
-				"quote": "'What have the Romans ever done for us?' - Monty Python's Life of Brian"
-			},
-			{
-				"name": "Construction",
-				"row": 6,
-				"prerequisites": ["Masonry"],
-				"uniques": [
-				"[+1 Production] [in all cities]"
-				],
-				"quote": "'When I became king, I built much excellent. What had been built by my father, that I protected, and other building I added. What moreover I built, and what my father built, all that by the favor of Ahuramazda we built.' - Xerxes"
-			},
-			{
-				"name": "Engineering",
+				"name": "Bronze Working",
 				"row": 7,
-				"prerequisites": ["Archery","Masonry"],
-				"uniques": ["Roads connect tiles across rivers"],
-				"quote": "'I have found it!' - Archimedes, as he ran naked from his bath, having found a way to meassure the proportion of gold that was used in the king's crown"
+				"prerequisites": ["Mining"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Navigation",
+				"name": "Archery",
 				"row": 8,
-				"prerequisites": ["Colonization"],
-				"uniques": ["[+1] Movement <for [Embarked] units>"],
-				"quote": "'We have ploughed the vast ocean in a fragile bark.' - Ovid"
+				"prerequisites": ["Forestry"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Heavy Infantry",
-				"row": 10,
-				"prerequisites": ["Infantry Training","Supply Logistics","Land Grants"],
-				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
+				"name": "Woodworking",
+				"row": 9,
+				"prerequisites": ["Forestry","Fishing"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
-		"era": "Hellenistic Age",
-		"techCost": 275,
-		"buildingCost": 120,
+		"era": "Archaic Age",
+		"techCost": 175,
+		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Vassalage",
+				"name": "Diplomacy",
+				"row": 1,
+				"prerequisites": ["Writing","Mysticism"],
+				"uniques": [
+				"Notified of new Barbarian encampments",
+				"Enables Defensive Pacts"
+				],
+				"quote": "'Solon used to say that speech was the image of actions; that laws were like cobwebs, for that if any trifling or powerless thing fell into them, they held it fast; while if it were something weightier, it broke through them and was off.' - Diogenes"
+			},
+			{
+				"name": "The Wheel",
+				"row": 4,
+				"prerequisites": ["Barter"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+			{
+				"name": "Land Grants",
+				"row": 5,
+				"prerequisites": ["Barter"],
+				"uniques": ["Provides [1] [Nobles]"],
+				"quote": "Diogenes once begged alms of a statue, and, when asked why he did so, replied, 'To get practice in being refused.'"
+			},
+			{
+				"name": "Bronze Working",
+				"row": 7,
+				"prerequisites": ["Mining"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+			{
+				"name": "Shipbuilding",
+				"row": 9,
+				"prerequisites": ["Woodworking"],
+				"uniques": ["Provides [1] [Nobles]"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Classical Age",
+		"techCost": 275,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Hospitum",
+				"row": 1,
+				"prerequisites": ["Diplomacy"],
+				"uniques": [
+				"Resting point for Influence with City-States is increased by [20]",
+				"Enables Open Borders agreements",
+				],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+			{
+				"name": "Currency",
+				"row": 2,
+				"prerequisites": ["The Wheel","Mysticism"],
+				"uniques": [
+				"Comment [Enables Mercenary Camps]"
+				],
+				"quote": "'War is not so much a matter of weapons as of money.' - Thucydides"
+			},
+			{
+				"name": "Riding",
+				"row": 4,
+				"prerequisites": ["The Wheel"],
+				"quote": "'Man is the most intelligent of the animals - and the most silly.' - Diogenes"
+			},
+			{
+				"name": "Public Works",
+				"row": 5,
+				"prerequisites": ["Land Grants","Bronze Working"],
+				"uniques": [
+				"Roads connect tiles across rivers"
+				],
+				"quote": "'What have the Romans ever done for us?' - Monty Python's Life of Brian"
+			},
+			{
+				"name": "Citizen Levy",
+				"row": 6,
+				"prerequisites": ["Bronze Working"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
+			},
+			{
+				"name": "Masonry",
+				"row": 7,
+				"prerequisites": ["Bronze Working"],
+				"quote": "When someone wished to know why Sparta didn't have any walls, Agesilaus pointed to the citizens in full armour and said, 'These are the Spartans' walls.'"
+			},
+			{
+				"name": "Construction",
+				"row": 8,
+				"prerequisites": ["Bronze Working","Archery"],
+				"quote": "'When I became king, I built much excellent. What had been built by my father, that I protected, and other building I added. What moreover I built, and what my father built, all that by the favor of Ahuramazda we built.' - Xerxes"
+			},
+			{
+				"name": "Optics",
+				"row": 9,
+				"prerequisites": ["Shipbuilding"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'It is not enough to be industrious; so are the ants. What are you industrious about?.' - Henry David Thoreau"
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Classical Age",
+		"techCost": 485,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Philosophy",
 				"row": 1,
 				"prerequisites": ["Hospitum"],
-				"uniques": [
-				"Allied City-States will occasionally gift Great People",
-				"[-25]% City-State Influence degradation"
-				],
-				"quote": "'Aristotle dines when it seems good to King Philip, but Diogenes when he himself pleases.' - Diogenes "
+				"quote": "'You will become a teacher of yourself when you criticize yourself for all those things that you would criticize others.' - Diogenes"
 			},
 			{
-				"name": "Private Estates",
+				"name": "Entertainment",
+				"row": 2,
+				"prerequisites": ["Currency"],
+				"quote": "'Every generation laughs at the old fashions, but follows religiously the new.' - Henry David Thoreau"
+			},
+			{
+				"name": "Trade Routes",
 				"row": 3,
-				"prerequisites": ["Tax Farming","Aesthetics","Equestrian Class"],
-				"quote": "'Virtue cannot dwell with wealth either in a city or in a house.' - Diogenes"
+				"prerequisites": ["Currency"],
+				"uniques": [
+				"[+1 Gold] from each Trade Route"
+				],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Metallurgy",
+				"name": "Equestrian Class",
+				"row": 4,
+				"prerequisites": ["Riding"],
+				"uniques": ["Provides [1] [Nobles]"],
+				"quote": "'A Man is defined as a biped and featherless animal' said Plato, and he was applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
+			},
+			{
+				"name": "Infantry Training",
+				"row": 6,
+				"prerequisites": ["Citizen Levy"],
+				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Optics","Construction"],
+				"quote": "'I have found it!' - Archimedes, as he ran naked from his bath, having found a way to meassure the proportion of gold that was used in the king's crown"
+			},
+			{
+				"name": "Navigation",
+				"row": 9,
+				"prerequisites": ["Optics"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Provides [1] [Nobles]"],
+				"quote": "'We have ploughed the vast ocean in a fragile bark.' - Ovid"
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Hellenistic Age",
+		"techCost": 780,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Cultural Exchange",
+				"row": 1,
+				"prerequisites": ["Philosophy","Entertainment"],
+				"uniques": [
+				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
+				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
+				],
+				"quote": "'The most beautiful thing in the world is freedom of speech.' - Diogenes"
+			},
+			{
+				"name": "Tax Farming",
+				"row": 3,
+				"prerequisites": ["Trade Routes","Entertainment"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'The great thieves lead away the little thief.' - Diogenes"
+			},
+			{
+				"name": "Supply Logistics",
 				"row": 5,
-				"prerequisites": ["Construction","Public Works","Equestrian Class"],
-				"quote": "'Boasting, like gilded armour, is very different inside from outside.' - Diogenes "
+				"prerequisites": ["Public Works","Equestrian Class"],
+				"uniques": ["[-25]% Gold cost of acquiring tiles [in all cities]","Improves movement speed on roads"],
+				"quote": "'I will either find a way, or make one.' - Hannibal Barca"
+			},
+			{
+				"name": "Heavy Infantry",
+				"row": 6,
+				"prerequisites": ["Infantry Training"],
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Torsion Engines",
 				"row": 7,
-				"prerequisites": ["Engineering"],
+				"prerequisites": ["Engineering","Masonry"],
 				"uniques": [
 //				"[+50]% Strength <for [Siege] units> <vs cities>",
 //				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
@@ -258,84 +326,102 @@
 			},
 			{
 				"name": "Naval Artillery",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Navigation","Engineering"],
 				"quote": "'Children ought to be provided with property and resources of a kind that could swim with them even out of a shipwreck.' - Vitruvius"
-			},
-			{
-				"name": "Military Reforms",
-				"row": 10,
-				"prerequisites": ["Heavy Infantry"],
-				"quote": "'The man who despairs in the face of difficulties and hardships, or of public censure and opinion, is defeated by his own feebleness.' - Cleomenes III"
-			},
-			{
-				"name": "Military Infrastructure",
-				"row": 11,
-				"prerequisites": ["Supply Logistics"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'Ah! The generals! They are numerous but not good for much!' - Aristophanes"
 			}
+
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 7,
 		"era": "Hellenistic Age",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 300,
+		"techCost": 1150,
+		"buildingCost": 200,
+		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Cultural Exchange",
-				"row": 2,
-				"prerequisites": ["Vassalage","Private Estates"],
+				"name": "Vassalage",
+				"row": 1,
+				"prerequisites": ["Cultural Exchange","Tax Farming"],
 				"uniques": [
-				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
-				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
+				"Comment [Increased Bonuses from friendly and allied City-States]",
+				"Allied City-States will occasionally gift Great People",
+				"[-25]% City-State Influence degradation"
 				],
-				"quote": "'The most beautiful thing in the world is freedom of speech.' - Diogenes"
+				"quote": "'Aristotle dines when it seems good to King Philip, but Diogenes when he himself pleases.' - Diogenes "
 			},
 			{
+				"name": "Private Estates",
+				"row": 4,
+				"prerequisites": ["Tax Farming","Equestrian Class"],
+				"uniques": ["Provides [1] [Nobles]"],
+				"quote": "'Virtue cannot dwell with wealth either in a city or in a house.' - Diogenes"
+			},
+			{
+				"name": "Metallurgy",
+				"row": 6,
+				"prerequisites": ["Heavy Infantry","Supply Logistics"],
+				"quote": "'Boasting, like gilded armour, is very different inside from outside.' - Diogenes "
+			},
+
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Hellenistic Age",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 400,
+		"techs": [
+			{
 				"name": "Social Reforms",
-				"row": 3,
-				"prerequisites": ["Private Estates"],
-				"uniques": ["Enables conversion of city production to [Culture]"],
+				"row": 2,
+				"prerequisites": ["Private Estates","Vassalage"],
+				"uniques": ["Enables conversion of city production to [Culture]","[-10]% Culture cost of adopting new Policies",],
 				"quote": "'The rulers of the States are the only ones who should have the privilege of lying' - Plato, promoting an early manifestation of fascism"
 			},
 			{
+				"name": "Aesthetics",
+				"row": 4,
+				"prerequisites": ["Private Estates"],
+				"uniques": [
+				"[+1 Culture] from every [Temple]"
+				],
+				"quote": "'The perception of beauty is a moral test.' - Henry David Thoreau"
+			},
+			{
+				"name": "Military Reforms",
+				"row": 6,
+				"prerequisites": ["Metallurgy"],
+				"quote": "'The man who despairs in the face of difficulties and hardships, or of public censure and opinion, is defeated by his own feebleness.' - Cleomenes III"
+			},
+			{
 				"name": "Mass Production",
-				"row": 5,
-				"prerequisites": ["Private Estates","Torsion Engines","Metallurgy"],
+				"row": 7,
+				"prerequisites": ["Torsion Engines","Metallurgy"],
 				"quote": "'It is the privilege of the gods to want nothing, and of godlike men to want little.' - Diogenes"
 			},
 			{
 				"name": "Exploration",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Naval Artillery"],
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
-				"quote": "'The investigation of the meaning of words is the beginning of education.' - Antisthenes"
-			},
-			{
-				"name": "Combined Arms",
-				"row": 10,
-				"prerequisites": ["Military Infrastructure","Military Reforms"],
-				"uniques": [
-				"[+15]% Strength <for [{Melee} {Land}] units> <when adjacent to a [{Military} {Land}] unit>",				
-				],
-				"quote": "'It is better to fight with a few good men against all the wicked, than with many wicked men against a few good men.' - Antisthenes"
+				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			}
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 4100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 2350,
+		"buildingCost": 300,
+		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "End of History?",
-				"row": 6,
-				"prerequisites": ["Combined Arms","Social Reforms","Exploration","Mass Production","Cultural Exchange"],
+				"name": "Imperial Decay",
+				"row": 5,
+				"prerequisites": ["Exploration","Mass Production","Military Reforms","Aesthetics","Social Reforms"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]

@@ -37,7 +37,7 @@
     {
         "name": "discover a lost technology",
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Hellenistic Age]"],
+        "uniques": ["[1] free random researchable Tech(s) from the [Archaic Age]"],
 		"color": "#7f7fff"
     },
     {

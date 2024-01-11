@@ -14,10 +14,10 @@
         "religiousPressureAdjacentCity": 9,
         "peaceDealDuration": 10,
         "dealDuration": 25,
-        "startYear": -280,
+        "startYear": -800,
         "turns": [
-            {"yearsPerTurn": 0.3333333, "untilTurn":  1500}
-        ]
+            {"yearsPerTurn": 2, "untilTurn":  400} // 0
+        ] 
     },
     {
         "name": "Standard",
@@ -35,9 +35,10 @@
         "religiousPressureAdjacentCity": 6,
         "peaceDealDuration": 10,
         "dealDuration": 30,
-        "startYear": -280,
+        "startYear": -800,
         "turns": [
-            {"yearsPerTurn": 0.25, "untilTurn":  1500}
+            {"yearsPerTurn": 2, "untilTurn":  200}, // -400
+            {"yearsPerTurn": 1, "untilTurn":  600} // 0
         ]
     },
     {
@@ -56,9 +57,11 @@
         "religiousPressureAdjacentCity": 4,
         "peaceDealDuration": 15,
         "dealDuration": 45,
-        "startYear": -280,
+        "startYear": -800,
         "turns": [
-            {"yearsPerTurn": 0.1666667, "untilTurn":  1500}
+            {"yearsPerTurn": 2, "untilTurn":  100}, // -600
+            {"yearsPerTurn": 1, "untilTurn":  450}, // -250
+            {"yearsPerTurn": 0.5, "untilTurn":  900} // -25
         ]
     },
     {
@@ -77,9 +80,11 @@
         "religiousPressureAdjacentCity": 2,
         "peaceDealDuration": 30,
         "dealDuration": 90,
-        "startYear": -280,
+        "startYear": -800,
         "turns": [
-            {"yearsPerTurn": 0.0833333, "untilTurn":  1500}
+            {"yearsPerTurn": 1, "untilTurn":  350}, // -450
+            {"yearsPerTurn": 0.5, "untilTurn":  900}, // -175
+            {"yearsPerTurn": 0.25, "untilTurn":  1500} // -25
         ]
     }
 ]

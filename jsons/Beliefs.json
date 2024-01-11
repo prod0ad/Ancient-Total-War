@@ -146,7 +146,8 @@
         "name": "Cult of Poseidon",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Culture] from every [Harbor]"
+        "[+1 Culture] from every [Harbor]",
+        "[+2 Culture] from every [Great Harbor]",
         "New [Mounted] units start with [5] Experience [in this city]",
         "New [Melee Water] units start with [5] Experience [in this city]",
         "Only available <after adopting [Hellenic Culture]>"
@@ -182,7 +183,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Culture] from [Wine] tiles [in this city]",
-        "[+1 Happiness] [in cities following this religion] <in cities with at least [5] [Population]>",
+        "[+1 Happiness] from every [Banquet Hall]",
         "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
@@ -266,7 +267,7 @@
         "name": "Cult of Andinus",
         "type": "Pantheon",
         "uniques": [
-        "Earn [50]% of [Military] unit's [Strength] as [Gold] when killed within 4 tiles of a city following this religion",
+        "All newly-trained [Spear] units [in this city] receive the [Morale] promotion",
         "Only available <after adopting [Illyrian Culture]>"
         ]
     },
@@ -308,6 +309,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Food] from every [Harbor]",
+        "[+2 Food] from every [Great Harbor]",
         "[+10]% Production when constructing [Water] units [in this city]",
         "Only available <after adopting [Latin Culture]>"
         ]
@@ -317,8 +319,8 @@
         "name": "Cult of Baal Hammon",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Happiness] from every [Temple]",
-        "Only available <after adopting [Punic Culture]>"
+//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
     {
@@ -326,8 +328,9 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Gold] from every [Harbor]",
-        "[+10]% Production when constructing [Water] units [in this city]",
-        "Only available <after adopting [Punic Culture]>"
+        "[+2 Gold] from every [Great Harbor]",
+//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
     {
@@ -335,16 +338,16 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Culture] from every [Barracks]",
-        "[+10]% Production when constructing [Settler] units [in this city]",
-        "Only available <after adopting [Punic Culture]>"
+//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
     {
         "name": "Cult of Astarte",
         "type": "Pantheon",
         "uniques": [
-        "New [Mounted] units start with [15] Experience [in this city]",
-        "Only available <after adopting [Punic Culture]>"
+//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
     {
@@ -353,7 +356,8 @@
         "uniques": [
         "[+1 Food] from every [Granary]",
         "[+1 Gold] from every [Grain Exports]",
-        "Only available <after adopting [Punic Culture]>"
+//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
 // Thracian
@@ -361,7 +365,7 @@
         "name": "Cult of The Cabeiri",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Happiness, +1 Culture, +1 Science] [in capital]",
+        "[+1 Happiness, +1 Culture, +1 Science, +1 Production] [in capital]",
         "Only available <for [The Odrysians]>"
         ]
     },
@@ -369,7 +373,8 @@
         "name": "Cult of Zalmoxis",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Happiness] from every [Walls]",
+        "[+33]% Production when constructing [Hill Fort] buildings [in this city]",
+        "All newly-trained [Falxman] units [in this city] receive the [Morale] promotion",
         "Only available <for [The Getae]>"
         ]
     },
@@ -386,7 +391,7 @@
         "name": "Cult of Salenos",
         "type": "Pantheon",
         "uniques": [
-        "All newly-trained [Cavalry] units [in this city] receive the [Morale] promotion",
+        "All newly-trained [Mounted] units [in this city] receive the [Morale] promotion",
         "Only available <after adopting [Thracian Culture]>"
         ]
     },

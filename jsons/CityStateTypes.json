@@ -2,43 +2,62 @@
     {
         "name": "Cultured",
         "friendBonusUniques": [
-            "[+3 Culture]"
+            "[+3 Culture] <before discovering [Vassalage]>",
+            "[+6 Culture] <after discovering [Vassalage]>",
         ],
         "allyBonusUniques": [
-            "[+6 Culture]"
+            "[+6 Culture] <before discovering [Vassalage]>"
+            "[+6 Culture] <after discovering [Vassalage]>",
+            "[+2 Happiness]"
         ],
         "color": [139, 96, 255]
     },
     {
         "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "friendBonusUniques": [
+            "[+2 Food] [in capital]"
+            ],
+        "allyBonusUniques": [
+            "[+2 Food] [in capital]",
+             "[+1 Food] [in all cities]",
+            "[+2 Happiness]"
+            ],
         "color": [56, 255, 112]
     },
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness]"
+            "[+2 Happiness] <before discovering [Vassalage]>",
+            "[+4 Happiness] <after discovering [Vassalage]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness]",
-            "Provides a unique luxury"
+            "[+4 Happiness] <before discovering [Vassalage]>",
+            "[+6 Happiness] <after discovering [Vassalage]>"
+//            "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "friendBonusUniques": [
+            "Provides military units every ≈[20] turns"
+            ],
+        "allyBonusUniques": [
+            "Provides military units every ≈[17] turns",
+            "[+2 Happiness]"
+            ],
         "color": [255, 0, 0]
     },
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+3 Faith]"
+            "[+3 Faith] <before discovering [Vassalage]>"
+            "[+6 Faith] <after discovering [Vassalage]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith]"
+            "[+6 Faith] <before discovering [Vassalage]>"
+            "[+12 Faith] <after discovering [Vassalage]>"
+            "[+2 Happiness]"
         ],
         "color": [255, 255, 255]
     }

@@ -10,7 +10,7 @@
 	// Rank 1
 	{
 		"name": "Medic I",
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+5] HP when healing","All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Elephant"],
         "column": 1,
         "row": 1
@@ -18,7 +18,7 @@
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic I"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+5] HP when healing","All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Elephant"],
         "column": 1,
         "row": 2
@@ -26,7 +26,7 @@
 	{
 		"name": "Medic III",
 		"prerequisites": ["Medic II"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+5] HP when healing","All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Elephant"],
         "column": 1,
         "row": 3
@@ -34,7 +34,7 @@
 	// Rank 2
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing", "[+20]% Strength <when defending>"],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 1
@@ -42,7 +42,7 @@
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing", "[+20]% Strength <when defending>"],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 2
@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Foraging I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>"],
+		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Siege","Archery","Elephant"],
         "column": 3,
         "row": 1
@@ -65,7 +65,7 @@
 	{
 		"name": "Foraging II",
 		"prerequisites": ["Foraging I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>"],
+		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Mounted","Mounted Archery"],
         "column": 3,
         "row": 2
@@ -297,7 +297,7 @@
 	},
 	{
 		"name": "Assault I",
-		"uniques": ["[+20]% Strength <vs cities>"],
+		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 1
@@ -305,7 +305,7 @@
 	{
 		"name": "Assault II",
 		"prerequisites": ["Assault I"],
-		"uniques": ["[+20]% Strength <vs cities>"],
+		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 2
@@ -313,7 +313,7 @@
 	{
 		"name": "Assault III",
 		"prerequisites": ["Assault II"],
-		"uniques": ["[+20]% Strength <vs cities>"],
+		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 3
@@ -413,16 +413,26 @@
 	},
 	// Rank 9
 	{
-		"name": "Amphibious",
+		"name": "Amphibious I",
 		"uniques": [
 		"Eliminates combat penalty for attacking over a river",
-		"Eliminates combat penalty for attacking across a coast"
-		"[1] Movement point cost to disembark",
-		"[1] Movement point cost to embark"
+		"Eliminates combat penalty for attacking across a coast",
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout"],
         "column": 20,
         "row": 1
+	},
+	{
+		"name": "Amphibious II",
+		"prerequisites": ["Amphibious I"],
+		"uniques": [
+		"[1] Movement point cost to disembark",
+		"[1] Movement point cost to embark",
+		"Defense bonus when embarked"
+		],
+		"unitTypes": ["Sword","Spear","Archery","Scout"],
+        "column": 20,
+        "row": 2
 	},
 	{
 		"name": "Blitz",
@@ -457,12 +467,11 @@
         "row": 1
 	},
 	// Rank 12
-	// Rank 13
 	{
 		"name": "Raider I",
 		"uniques": ["No movement cost to pillage"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water"],
-        "column": 28,
+        "column": 25,
         "row": 1
 	},
 	{
@@ -470,7 +479,7 @@
 		"prerequisites": ["Raider I"],
 		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
-        "column": 28,
+        "column": 25,
         "row": 2
 	},
 	{
@@ -478,8 +487,30 @@
 		"prerequisites": ["Raider II"],
 		"uniques": ["Upon capturing a city, receive [2] times its [Gold] production as [Gold] immediately"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
-        "column": 28,
+        "column": 25,
         "row": 3
+	},
+	// Rank 13
+
+	{
+		"name": "Bronze Ram",
+		"unitTypes": ["Melee Water"],
+		"uniques": [
+		"[+10]% Strength <vs [Water] units>",
+		"Only available <if [Bronze Works] is constructed>",
+		],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Improved Equipment",
+		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Siege","Archery","Elephant"],
+		"uniques": [
+		"[+10]% Strength",
+		"Only available <if [Forge] is constructed>",
+		],
+        "column": 27,
+        "row": 1
 	},
 	// Base Units
 	{
@@ -487,27 +518,27 @@
 		"uniques": [
 		"Ignores terrain cost",
 		"May withdraw before melee ([25]%)"
-		],
+		]
 	},
 	{
 		"name": "[Archer] ability",
 		"uniques": [
-		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>"
-		],
+		"[+15]% Strength <when fighting in [Hill] tiles> <when defending>"
+		]
 	},
 	{
 		"name": "[Slinger] ability",
 		"uniques": [
-		"[+25]% Strength <vs [Archery] units>",
-		"[+25]% Strength <vs [Mounted Archery] units>",
-		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>"
-		],
+		"[+15]% Strength <vs [Archery] units>",
+		"[+15]% Strength <vs [Mounted Archery] units>",
+		"[+15]% Strength <when fighting in [Hill] tiles> <when defending>"
+		]
 	},
 	{
 		"name": "[Spearman] ability",
 		"uniques": [
 		"[+25]% Strength <vs [Mounted] units>",
-		],
+		]
 	},
 	{
 		"name": "[Pike Phalanx] ability",
@@ -515,7 +546,7 @@
 		"[+25]% Strength <vs [Mounted] units>",
 		"[+15]% Strength <vs [Melee] units>",
 		"[-25]% Strength <when fighting in [Rough terrain] tiles>"
-		],
+		]
 	},
 	{
 		"name": "[Royal Phalanx] ability",
@@ -523,7 +554,7 @@
 		"[+25]% Strength <vs [Mounted] units>",
 		"[+15]% Strength <vs [Melee] units>",
 		"[+15]% Strength <vs cities>"
-		],
+		]
 	},
 	{
 		"name": "[Horseman] ability",
@@ -531,7 +562,7 @@
 		"[-33]% Strength <vs cities> <when attacking>",
 		"May withdraw before melee ([75]%)",
 		"No defensive terrain bonus"
-		],
+		]
 	},
 	{
 		"name": "[Camel Archer] ability",
@@ -540,7 +571,7 @@
 		"[-33]% Strength <vs cities> <when attacking>",
 		"May withdraw before melee ([50]%)",
 		"No defensive terrain bonus"
-		],
+		]
 	},
 	{
 		"name": "Chariot ability",
@@ -549,7 +580,7 @@
 		"[-33]% Strength <vs cities> <when attacking>"
 		"No defensive terrain bonus", 
 		"Rough terrain penalty"
-		],
+		]
 	},
 	{
 		"name": "[Cavalry] ability",
@@ -557,14 +588,14 @@
 		"[-25]% Strength <vs cities> <when attacking>",
 		"Can move after attacking",
 		"No defensive terrain bonus"
-		],
+		]
 	},
 	{
 		"name": "[Cataphract] ability",
 		"uniques": [
 		"[-25]% Strength <vs cities> <when attacking>",
 		"No defensive terrain bonus"
-		],
+		]
 	},
 	{
 		"name": "[War Elephant] ability",
@@ -572,7 +603,7 @@
 		"No defensive terrain bonus", 
 		"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"[+50]% Strength <vs [Mounted] units>",
-		],
+		]
 	},
 	// Weapons Armor Training
 	{
@@ -580,67 +611,47 @@
 		"uniques": ["[+10]% Strength"]
 	},
 	{
-		"name": "Improved Weapons",
-		"uniques": [
-		"[+10]% Strength <when attacking>",
-		"[+10]% Strength <when defending> <vs [Melee] units>"
-		],
-	},
-	{
-		"name": "Improved Missiles",
-		"uniques": [
-		"[+10]% Strength <when attacking>",
-		"[+10]% Strength <when defending> <vs [Melee] units>"
-		],
-	},
-	{
-		"name": "Improved Armor",
-		"uniques": [
-		"[+10]% Strength"
-		],
-	},
-	{
 		"name": "Infantry Shield I",
 		"uniques": [
 		"[+15]% Strength <vs [Ranged] units>"
-		],
+		]
 	},
 	{
 		"name": "Infantry Shield II",
 		"uniques": [
 		"[+25]% Strength <vs [Ranged] units>"
-		],
+		]
 	},
 	{
 		"name": "Infantry Shield III",
 		"uniques": [
 		"[+33]% Strength <vs [Ranged] units>"
-		],
+		]
 	},
 	{
 		"name": "Cavalry Shield I",
 		"uniques": [
 		"[+15]% Strength <vs [Ranged] units>"
-		],
+		]
 	},
 	{
 		"name": "Cavalry Shield II",
 		"uniques": [
 		"[+25]% Strength <vs [Ranged] units>"
-		],
+		]
 	},
 	{
 		"name": "Armored Lancer",
 		"uniques": [
 		"[+5]% Strength <vs [Ranged] units>"
 		"[+15]% Strength <vs [Melee] units>"
-		],
+		]
 	},
 	{
 		"name": "Lancer",
 		"uniques": [
 		"[+15]% Strength <vs [Melee] units>"
-		],
+		]
 	},
 	// Ships
 	{
@@ -648,20 +659,20 @@
 		"uniques": [
 		"Ignores Zone of Control",
 		"May withdraw before melee ([50]%)"
-		],
+		]
 	},
 	{
 		"name": "War Trasports",
 		"uniques": [
 		"May attack when embarked",
 		"[-33]% Strength <when fighting in [Water] tiles>"
-		],
+		]
 	},
 	{
 		"name": "Warship",
 		"uniques": [
 		"[+25]% Strength <vs [Embarked] units>"
-		],
+		]
 	},
 	// Uniques Units and Civ uniques
 	{
@@ -670,7 +681,10 @@
 	},
 	{
 		"name": "Spartan Aura",
-		"uniques": ["[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles"]
+		"uniques": [
+		"[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		]
 	},
 	{
 		"name": "Camels Scare Horses",
@@ -685,47 +699,40 @@
 		"uniques": [
 		"[+25]% Strength <vs [Sword] units>",
 		"[+25]% Strength <vs [Spear] units>"
-		],
+		]
 	},
 	{
 		"name": "[Thracian Warband] ability",
 		"uniques": [
-		"[+25]% Strength <vs [Sword] units>",
+		"[+33]% Strength <vs [Sword] units>",
 		"[+25]% Strength <vs [Mounted] units>"
-		],
+		]
 	},
 	{
 		"name": "[Falxman] ability",
 		"uniques": [
 		"[+50]% Strength <vs [Sword] units>",
-		],
+		]
 	},
 	{
 		"name": "Iron Darts",
 		"uniques": [
 		"[+25]% Strength <vs [Sword] units>",
 		"[+25]% Strength <vs [Spear] units>"
-		],
+		]
 	},
 	{
 		"name": "Forester",
 		"uniques": [
 		"[+25]% Strength <when fighting in [Forest] tiles>",
-		],
-	},
-	// Uniques that should be kept on upgrades
-	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
-		"uniques": ["[Great General] is earned [50]% faster"]
+		]
 	},
 	{
-		"name": "Great Generals II", // only for Samurai and subsequent upgrades
-		"uniques": ["[Great General] is earned [100]% faster"]
-	},
-	{
-		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"name": "Art of War",
 		"uniques": ["[+50]% XP gained from combat"]
 	},
+	// Uniques that should be kept on upgrades
+
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
@@ -753,10 +760,6 @@
 	{
 		"name": "[Persian Immortal] ability",
 		"uniques": ["[+10] HP when healing"]
-	},
-	{
-		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
 	},
 	{
 		"name": "[Janissary] ability",

@@ -1,5 +1,7 @@
 A Hellenistic/Roman Republic era mod for Unciv. In early alpha stage, expect missing features.<br>
 
+The mod can finally be downloaded directly in game! Many recent changes are higly experimental and unbalanced for now though. Feedback is welcome in the Unciv Discord -> Mods -> Ancient Total War<br>
+
 The main features include:<br>
 - Revised, ancient-only tech tree.<br>
 - About 25 civs and 70 city-states from the Hellenistic/Roman Republican era.<br>
