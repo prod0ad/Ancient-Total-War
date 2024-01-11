@@ -1,15 +1,1 @@
-{
-    "isBaseRuleset": true,
-    "constants":
-    {
-    "maxXPfromBarbarians":30,//30
-    "cityStrengthBase":5,//8
-    "cityStrengthPerPop":1,//0.4
-    "cityStrengthFromTechsMultiplier":1,// 5.5,
-    "cityStrengthFromTechsExponent":1,// 2.8,
-    "cityStrengthFromTechsFullMultiplier":0,//1.0
-    "cityStrengthFromGarrison":0.2,
-    "naturalWonderCountMultiplier":0.124,
-    "naturalWonderCountAddedConstant":0.1
-    }
-}
+{"isBaseRuleset":true,"lastUpdated":"2024-01-11T19:01:57Z","modUrl":"https://github.com/prod0ad/Ancient-Total-War","defaultBranch":"main","author":"prod0ad","modSize":4968,"topics":["unciv-mod"],"constants":{"cityStrengthBase":5,"cityStrengthPerPop":1,"cityStrengthFromTechsMultiplier":1,"cityStrengthFromTechsExponent":1,"cityStrengthFromTechsFullMultiplier":0,"unitUpgradeCost":{}}}
