@@ -116,10 +116,10 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Remove extra unhappiness from annexed cities",
-		"[-15]% [Production] <before adopting [Mass Culture]>",
-		"[-15]% [Food] <before adopting [Mass Culture]>"
-		"[-10]% [Production] <in cities without a [Colony]>",
-		"[-10]% [Food] <in cities without a [Colony]>"
+		"[-15]% [Production] <in this city> <before adopting [Mass Culture]>",
+		"[-15]% [Food] <in this city> <before adopting [Mass Culture]>",
+		"[-10]% [Production] <in this city> <in cities without a [Colony]>",
+		"[-10]% [Food] <in this city> <in cities without a [Colony]>",
 		"Can only be built [in annexed cities]",
 		"Cannot be purchased"
 		],
