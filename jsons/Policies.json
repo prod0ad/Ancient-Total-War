@@ -406,7 +406,6 @@
                 "uniques": [
                     "[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
                     "[+50]% Production when constructing [Barracks] buildings [in all cities]",
-                    "Provides [2] [Manpower]",
                     "Provides [2] [Bronze]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -439,7 +438,6 @@
                 "requires": ["Hellenic Colonists"],
                 "uniques": [
                     "[+25]% Production when constructing [Water] units [in all cities]",
-                    "Provides [2] [Manpower]",
                     "Provides [2] [Timber]",
                     "[+1 Happiness] [in capital]"
                 ],

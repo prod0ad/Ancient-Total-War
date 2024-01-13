@@ -12,9 +12,9 @@
 //		"greatPersonPoints": {"Great Courtesan":500},
 //		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-		"Provides [2] [Decadence] <during the [Classical Age]>",
-		"Provides [3] [Decadence] <during the [Hellenistic Age]>",
-		"Provides [5] [Decadence] <during the [Imperial Age]>",
+		"Provides [1] [Decadence] <during the [Classical Age]>",
+		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
+		"Provides [3] [Decadence] <during the [Imperial Age]>",
 //		"Provides [2] [Manpower]",
 		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
@@ -163,6 +163,9 @@
 		"cityStrength": 3,
 		"cityHealth": 15,
 		"greatPersonPoints": {"Great General": 1},
+		"uniques": [
+		"Only available <in cities with a [Palace]>"
+		],
 		"requiredTech": "Diplomacy"
 	},
 	// Hospitum
@@ -674,6 +677,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [2] [Decadence]",
+		"Consumes [2] [Manpower]",
 		"[Gold] cost of purchasing [Civilian] units [-50]%","Limited to [1] per Civilization"
 		"[-8 Happiness] <after adopting [Land Reform]>",
 		"Unbuildable <after adopting [Slave Liberation]>",

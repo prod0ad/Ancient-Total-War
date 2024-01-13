@@ -249,7 +249,7 @@
 		"cost": 90,
 		"uniques": [
 		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
-		"Unbuildable <before discovering [Navigation]>",
+		"Only available <starting from the [Hellenistic era]>",
 		"Can move immediately once bought",
 //		"Unbuildable <for [Human player]> <hidden from users>",
 		"Unbuildable",
@@ -304,7 +304,7 @@
 		"cost": 90,
 //		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Unbuildable <after discovering [Metallurgy]>",
+		"Only available <before the [Hellenistic era]>",
 		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
 		"Can move immediately once bought",
 //		"Unbuildable <for [Human player]> <hidden from users>",
@@ -324,7 +324,7 @@
 //		"requiredTech": "Mercenaries",
 		"uniques": [
 		"Ignores terrain cost",
-		"Unbuildable <before discovering [Metallurgy]>",
+		"Only available <starting from the [Hellenistic era]>",
 		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
 		"Can move immediately once bought",
 //		"Unbuildable <for [Human player]> <hidden from users>",
@@ -466,7 +466,7 @@
 		"Consumes [1] [Bronze]"
 		"Only available <in cities with a [Syssition]>"
 		],
-		"promotions": ["[Spearman] ability","Infantry Shield II"],
+		"promotions": ["[Spearman] ability","Spartan Aura","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1344,6 +1344,7 @@
 		"Cannot be purchased",
 		"Never appears as a Barbarian unit"
 		],
+		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "horse"
 	},
 	{

@@ -666,8 +666,8 @@
 		"style": "Spartan",
 		"uniqueName": "Warriors and Helots",
 		"uniques": [
-		"[Spear] units gain the [Spartan Aura] promotion <after discovering [Citizen Levy]>",
-		"[-50]% maintenance costs <for [Worker] units>",
+		"[Royal Phalanx] units gain the [Spartan Aura] promotion",
+		"[-50]% maintenance costs <for [Worker] units> <before adopting [Slave Liberation]>",
 		"Gain a free [Syssition] [in capital]",
 		"Gain a free [Second King] [in capital]",
 //		"Starts with [Infantry Training]",

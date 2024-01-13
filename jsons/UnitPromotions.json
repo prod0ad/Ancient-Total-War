@@ -104,7 +104,7 @@
 	// Rank 4
 	{
 		"name": "Marksman I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 1
@@ -112,7 +112,7 @@
 	{
 		"name": "Marksman II",
 		"prerequisites": ["Marksman I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 2
@@ -120,7 +120,7 @@
 	{
 		"name": "Marksman III",
 		"prerequisites": ["Marksman II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 3
@@ -197,7 +197,7 @@
 	// Rank 5
 	{
 		"name": "Positioning I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 1
@@ -205,7 +205,7 @@
 	{
 		"name": "Positioning II",
 		"prerequisites": ["Positioning I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 2
@@ -213,7 +213,7 @@
 	{
 		"name": "Positioning III",
 		"prerequisites": ["Positioning II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 3
@@ -243,7 +243,7 @@
 	},
 	{
 		"name": "Bombardment I",
-		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 11,
         "row": 1
@@ -251,7 +251,7 @@
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 11,
         "row": 2
@@ -259,7 +259,7 @@
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 11,
         "row": 3
@@ -452,7 +452,7 @@
 	// Rank 10
 	{
 		"name": "Flanking",
-		"prerequisites": ["Charge II","Drill III","Ramming Tactics III"],
+		"prerequisites": ["Charge II","Drill III","Ramming Tactics III","Scouting III"],
 		"uniques": ["[+50]% to Flank Attack bonuses"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Melee Water"],
         "column": 23,
@@ -496,7 +496,7 @@
 		"name": "Bronze Ram",
 		"unitTypes": ["Melee Water"],
 		"uniques": [
-		"[+10]% Strength <vs [Water] units>",
+		"[+20]% Strength <vs [Water] units>",
 		"Only available <if [Bronze Works] is constructed>",
 		],
         "column": 26,
@@ -523,7 +523,8 @@
 	{
 		"name": "[Archer] ability",
 		"uniques": [
-		"[+15]% Strength <when fighting in [Hill] tiles> <when defending>"
+		"[+15]% Strength <when fighting in [Hill] tiles> <when defending>",
+		"[+15]% Strength <vs [Military] units> <when fighting in [City center] tiles>"
 		]
 	},
 	{
@@ -683,7 +684,7 @@
 		"name": "Spartan Aura",
 		"uniques": [
 		"[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles",
-		"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]"
 		]
 	},
 	{
@@ -705,7 +706,7 @@
 		"name": "[Thracian Warband] ability",
 		"uniques": [
 		"[+33]% Strength <vs [Sword] units>",
-		"[+25]% Strength <vs [Mounted] units>"
+		"[+15]% Strength <vs [Mounted] units>"
 		]
 	},
 	{
