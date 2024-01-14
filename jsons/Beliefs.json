@@ -191,7 +191,9 @@
         "name": "Cult of Heracles",
         "type": "Pantheon",
         "uniques": [
-        "Gain [50] [Culture] <upon gaining a [Great General] unit>",
+        "New [Foot Guard] units start with [10] Experience [in this city]",
+        "New [Mounted Guard] units start with [10] Experience [in this city]",
+        "[+25]% [Culture] [in annexed cities]",
         "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
@@ -319,7 +321,8 @@
         "name": "Cult of Baal Hammon",
         "type": "Pantheon",
         "uniques": [
-//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "[+1 Happiness] from every [Temple]",
+        "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
@@ -329,7 +332,8 @@
         "uniques": [
         "[+1 Gold] from every [Harbor]",
         "[+2 Gold] from every [Great Harbor]",
-//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "[+10]% Production when constructing [Water] units [in this city]",
+        "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
@@ -338,7 +342,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Culture] from every [Barracks]",
-//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
@@ -346,7 +350,8 @@
         "name": "Cult of Astarte",
         "type": "Pantheon",
         "uniques": [
-//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "New [Mounted] units start with [10] Experience [in this city]",
+        "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
@@ -356,7 +361,7 @@
         "uniques": [
         "[+1 Food] from every [Granary]",
         "[+1 Gold] from every [Grain Exports]",
-//        "Comment [Only available after adopting Punic or Numidian Culture]",
+        "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
     },
