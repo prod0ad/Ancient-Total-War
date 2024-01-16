@@ -14,7 +14,6 @@
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Celtic)] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -133,7 +132,6 @@
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Eastern)] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -253,7 +251,6 @@
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>"
-                    "Provides [1] [Unlock Mercenary Camp (Germanic)] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -370,7 +367,6 @@
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -505,9 +501,7 @@
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Hellenic)] <hidden from users>",        
-                    "Provides [1] [Unlock Mercenary Camp (Egyptian)] <for [The Ptolemies]> <hidden from users>",        
+                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",  
                     "Comment [Enables Chariot Archer] <for [The Ptolemies]>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies]> <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -570,6 +564,7 @@
                     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
                     "Comment [Enables Cataphract] <for [The Mithridatids]>","Provides [1] [Enable Cataphract] <for [The Mithridatids]> <hidden from users>",
                     "Comment [Enables Cataphract] <for [The Seleucids]>","Provides [1] [Enable Cataphract] <for [The Seleucids]> <hidden from users>",
+                    "Comment [Enables Slinger] <for [The Macedonians]>","Provides [1] [Enable Slinger] <for [The Macedonians]> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Macedonians]>","Provides [1] [Enable Royal Agema] <for [The Macedonians]> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Ptolemies]>","Provides [1] [Enable Royal Agema] <for [The Pergamenes]> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Pergamenes]>","Provides [1] [Enable Royal Agema] <for [The Ptolemies]> <hidden from users>",              
@@ -644,7 +639,6 @@
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Iberian)] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -757,8 +751,6 @@
                     "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>"
-                    "Provides [1] [Unlock Pirates]",
-                    "Provides [1] [Unlock Mercenary Camp (Illyrian)] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -877,15 +869,14 @@
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Italic)] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
             {
                 "name": "The Latin League",
                 "uniques": [
-                    "Military Units gifted from City-States start with [+15] XP",
-                    "Provides [2] [Manpower] <while the empire is happy>",
+                    "Provides [3] [Manpower] <while the empire is happy>",
+                    "[-10]% City-State Influence degradation",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -894,8 +885,9 @@
             {
                 "name": "Socii",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "Provides [2] [Manpower] <while the empire is happy>",
+                    "Provides [4] [Mercenary (Oscan)] <while the empire is happy>",
+                    "Provides [3] [Manpower] <while the empire is happy>",
+                    "[-10]% City-State Influence degradation",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["The Latin League"],
@@ -908,7 +900,6 @@
                 "uniques": [
                     "[+25]% Production when constructing [Melee] units [in capital]",
                     "[2] free [Swordsman] units appear",
-                    "Provides [2] [Manpower]",
                     "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -920,8 +911,8 @@
                 "requires": ["Socii"],
                 "uniques": [
                     "[-15]% maintenance costs <for [Mounted] units>",
+                    "[-15]% maintenance costs <for [Archery] units>",
                     "[-15]% maintenance costs <for [Scout] units>",
-                    "[-25]% City-State Influence degradation",
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -937,7 +928,7 @@
                     "[+50]% Production when constructing [Army Barracks] buildings [in all cities]",
                     "[+15]% Production when constructing [Sword] units [in all cities]",
                     "[2] free [Swordsman] units appear",
-                    "Provides [2] [Manpower]",
+                    "Provides [4] [Manpower]",
                     "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1000,7 +991,6 @@
                     "Earn [33]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -1132,7 +1122,6 @@
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Numidian)] <hidden from users>",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -1257,7 +1246,6 @@
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
-                    "Provides [1] [Unlock Mercenary Camp (Thracian)] <hidden from users>",        
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -1342,7 +1330,8 @@
                 "requires": ["Thracian Raiders"],
                 "uniques": [
                     "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
-                    "[+50]% [Happiness] from City-States",
+                    "[+100]% [Happiness] from City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States",
                     "[+1 Happiness] [in capital]"
                 ],
 

@@ -189,6 +189,7 @@
 		"name": "Nobles",
 		"resourceType": "Strategic",
 		"uniques": [
+//		"Cannot be traded <for [City-states]> <hidden from users>",
 		"Cannot be traded",
 		"Doesn't generate naturally",
 		"Comment [Required to generate Great Generals and Great Admirals]",
@@ -201,7 +202,6 @@
 		"Cannot be traded",
 		"Comment [Required to train Military Units]",
 		"Doesn't generate naturally"
-//		"Stockpiled"
 		]
     },
     {
@@ -213,6 +213,7 @@
 		"improvement": "Lumber mill",
 		"improvementStats": {"production": 1},
 		"uniques": [
+		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [Forest] tiles>",
 		"Generated with weight [50] <in [Jungle] tiles>",
@@ -232,6 +233,7 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
+		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
 		"Generated with weight [100] <in [Featureless] [Plains] tiles>",
@@ -249,6 +251,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
 		"uniques": [
+		"Cannot be traded",
 		"Doesn't generate naturally"
 		],
     },
@@ -260,6 +263,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
+		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 		"Minor deposits generated with weight [40] <in [Hill] tiles>",
@@ -275,6 +279,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Mining",
 		"uniques": [
+		"Cannot be traded",
 		"Doesn't generate naturally"
 		],
     },
@@ -286,6 +291,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
+		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
 		"Generated with weight [25] <in [Featureless] [Snow] tiles>",
@@ -829,74 +835,84 @@
     },
 	// Other hidden resources
     {
-		"name": "Unlock Pirates",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-    },
-    {
 		"name": "PunicOrNumidian",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
 	// Mercenary hidden resources
     {
-		"name": "Has Mercenary Camp",
+		"name": "Mercenary (Celtic)",
 		"resourceType": "Bonus",
-		"uniques": ["City-level resource","Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Celtic)",
+		"name": "Mercenary (Eastern)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Eastern)",
+		"name": "Mercenary (Mesopotamian)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Egyptian)",
+		"name": "Mercenary (Judean)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Galatian)",
+		"name": "Mercenary (Cilician)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Germanic)",
+		"name": "Mercenary (Germanic)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Hellenic)",
+		"name": "Mercenary (Hellenic)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Iberian)",
+		"name": "Mercenary (Rhodian)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Illyrian)",
+		"name": "Mercenary (Cretan)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Italic)",
+		"name": "Mercenary (Iberian)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Numidian)",
+		"name": "Mercenary (Illyrian)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Unlock Mercenary Camp (Thracian)",
+		"name": "Mercenary (Oscan)",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
+    },
+    {
+		"name": "Mercenary (Numidian)",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
+    },
+    {
+		"name": "Mercenary (Libyan)",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
+    },
+    {
+		"name": "Mercenary (Thracian)",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
 ]

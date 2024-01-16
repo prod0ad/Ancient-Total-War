@@ -87,7 +87,6 @@
 		"style": "Egyptian",
 		"uniqueName": "Riches of the Nile",
 		"uniques": [
-		"Provides [1] [Unlock Mercenary Camp (Egyptian)] <hidden from users>",
 		"Gain a free [The Great Lighthouse] [in capital]",
 //		"Starts with [Colonization]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -146,7 +145,9 @@
 		"style": "Eastern",
 		"uniqueName": "The Pontic Levy",
 		"uniques": [
-		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+		"Provides [4] [Mercenary (Hellenic)]",
+		"Provides [4] [Mercenary (Eastern)]",
+		"Provides [4] [Manpower]",
 		"[+15]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -292,7 +293,8 @@
 		"style": "Scythian",
 		"uniqueName": "Royal Scythians",
 		"uniques": [
-		"[+50]% [Happiness] from City-States",
+		"[+100]% [Happiness] from City-States",
+		"[+50]% Happiness from luxury resources gifted by City-States",
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
@@ -357,10 +359,10 @@
 		"style": "Punic",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-		"[+50]% Production when constructing [Anchorage] buildings [in all cities]",
-		"[+50]% Production when constructing [Market] buildings [in all cities]",
-		"Each city founded increases culture cost of policies [15]% less than normal",
+		"[+100]% Production when constructing [Anchorage] buildings [in all cities]",
+		"[+100]% Production when constructing [Market] buildings [in all cities]",
 		"[+1 Happiness] [in all cities]",
+		"Each city founded increases culture cost of policies [10]% less than normal",
 //		"Starts with [Colonization]",
 		"Starts with [Punic Culture] adopted"
 		],
@@ -639,7 +641,7 @@
 		"[+1 Happiness] from [Strategic resource] tiles [in all cities]",
 		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
 		"[+25]% Production when constructing [Ballista] units [in all cities]",
-		"[Staffslinger] units gain the [Iron Darts] promotion <after discovering [Metallurgy]>"
+		"[Slinger] units gain the [Iron Darts] promotion <after discovering [Metallurgy]>"
 //		"Starts with [Infantry Training]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -794,7 +796,7 @@
 	{
 		"name": "The Samnites",
 		"adjective": ["Samnite"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Oscan",
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -816,7 +818,7 @@
 	{
 		"name": "The Bruttii",
 		"adjective": ["Bruttian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Oscan",
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -838,7 +840,7 @@
 	{
 		"name": "The Syracusans",
 		"adjective": ["Syracusan"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 	        "startBias":["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -860,7 +862,7 @@
 	{
 		"name": "The Tarentines",
 		"adjective": ["Tarentine"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -880,7 +882,7 @@
 	{
 		"name": "The Etruscans",
 		"adjective": ["Etruscan"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Etruscan",
 		"startBias": ["Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -900,7 +902,7 @@
 	{
 		"name": "The Veneti",
 		"adjective": ["Venetic"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Celtic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -922,7 +924,7 @@
 	{
 		"name": "The Nori",
 		"adjective": ["Noric"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Hill","Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -943,7 +945,7 @@
 	{
 		"name": "The Libyans",
 		"adjective": ["Libyan"],
-		"cityStateType": "Religious",
+		"cityStateType": "Libyan",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -964,7 +966,7 @@
 	{
 		"name": "The Thebans",
 		"adjective": ["Theban"],
-		"cityStateType": "Religious",
+		"cityStateType": "Egyptian",
 		"startBias": ["Desert","River","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -989,7 +991,7 @@
 	{
 		"name": "The Rhodians",
 		"adjective": ["Rhodian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Rhodian",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1013,7 +1015,7 @@
 	{
 		"name": "The Cilicians",
 		"adjective": ["Cilician"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Cilician",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1026,7 +1028,6 @@
 //		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Melee Water] units [in all cities]",
 		"New [Melee Water] units start with [10] Experience [in all cities]"
-		"Provides [1] [Unlock Pirates]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Eastern",
@@ -1035,7 +1036,7 @@
 	{
 		"name": "The Pamphylians",
 		"adjective": ["Pamphylian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1047,7 +1048,6 @@
 		"Starts with [Hellenic Culture] adopted",
 //		"Starts with [Land Grants]",
 		"[+25]% Production when constructing [Melee] units [in all cities]",
-		"Provides [1] [Unlock Pirates]",
 		"Cannot build [Ballista] units"
 		],
 		"style": "Hellenistic",
@@ -1077,7 +1077,7 @@
 	{
 		"name": "The Ionians",
 		"adjective": ["Ionian"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1097,7 +1097,7 @@
 	{
 		"name": "The Bithynians",
 		"adjective": ["Bithynian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Thracian",
 		"startBias": ["Coast","Forest","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1120,7 +1120,7 @@
 	{
 		"name": "The Sinopians",
 		"adjective": ["Sinopian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1140,7 +1140,7 @@
 	{
 		"name": "The Trapezountians",
 		"adjective": ["Trapezountian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1159,7 +1159,7 @@
 	{
 		"name": "The Galatians",
 		"adjective": ["Galatian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Avoid [Coast]","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1179,7 +1179,7 @@
 	{
 		"name": "The Cappadocians",
 		"adjective": ["Cappadocian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Avoid [Coast]","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1202,7 +1202,7 @@
 	{
 		"name": "The Phoenicians",
 		"adjective": ["Phoenician"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Phoenician",
 		"startBias": ["Coast","Plains","Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1227,7 +1227,7 @@
 	{
 		"name": "The Palmyrans",
 		"adjective": ["Palmyran"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Eastern",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1248,7 +1248,7 @@
 	{
 		"name": "The Arameans",
 		"adjective": ["Aramean"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Eastern",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1269,7 +1269,7 @@
 	{
 		"name": "The Judeans",
 		"adjective": ["Judean"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Judean",
 		"startBias": ["Avoid [Coast]","Plains","Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1293,7 +1293,7 @@
 	{
 		"name": "The Quedarites",
 		"adjective": ["Quedarite"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Arabic",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1314,7 +1314,7 @@
 	{
 		"name": "The Nabateans",
 		"adjective": ["Nabatean"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Arabic",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1336,7 +1336,7 @@
 	{
 		"name": "The Assyrians",
 		"adjective": ["Assyrian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mesopotamian",
 		"startBias": ["Desert","River","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1356,7 +1356,7 @@
 	{
 		"name": "The Babylonians",
 		"adjective": ["Babylonian"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Mesopotamian",
 		"startBias": ["River","Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1375,7 +1375,7 @@
 	{
 		"name": "The Elamites",
 		"adjective": ["Elamite"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["River","Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1396,7 +1396,7 @@
 	{
 		"name": "The Medes",
 		"adjective": ["Median"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1418,7 +1418,7 @@
 	{
 		"name": "The Atropatines",
 		"adjective": ["Atropatine"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1439,7 +1439,7 @@
 	{
 		"name": "The Albanians",
 		"adjective": ["Albanian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1460,7 +1460,7 @@
 	{
 		"name": "The Iberians",
 		"adjective": ["Iberian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1480,7 +1480,7 @@
 	{
 		"name": "The Colchians",
 		"adjective": ["Colchian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Eastern",
 		"startBias": ["Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1501,7 +1501,7 @@
 	{
 		"name": "The Bosphorans",
 		"adjective": ["Bosphoran"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1522,7 +1522,7 @@
 	{
 		"name": "The Olbians",
 		"adjective": ["Olbian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1541,7 +1541,7 @@
 	{
 		"name": "The Siraces",
 		"adjective": ["Siracean"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Scythian",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1562,7 +1562,7 @@
 	{
 		"name": "The Athenians",
 		"adjective": ["Athenian"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains","Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1582,7 +1582,7 @@
 	{
 		"name": "The Epirots", // + Tymphaians, Paraueans
 		"adjective": ["Epirot"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Hellenic",
 		"startBias": ["Hill","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1602,7 +1602,7 @@
 	{
 		"name": "The Cretan Pirates",
 		"adjective": ["Cretan"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Cretan",
 		"startBias": ["Coast","Hill","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1618,7 +1618,6 @@
 		"[+50]% XP gained from combat <for [Archery] units>",
 		"[+50]% XP gained from combat <for [Hemiola] units>",
 		"Cannot build [Mounted] units",
-		"Provides [1] [Unlock Pirates]",
                 "Provides [1] [Enable Hemiola]",
 		],
 		"style": "Greek",
@@ -1627,7 +1626,7 @@
 	{
 		"name": "The Achaeans",
 		"adjective": ["Achaean"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains","Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1650,7 +1649,7 @@
 	{
 		"name": "The Aetolians",
 		"adjective": ["Aetolian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Hellenic",
 		"startBias": ["Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1672,7 +1671,7 @@
 	{
 		"name": "The Paeonians",
 		"adjective": ["Paeonian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Thracian",
 		"startBias": ["Plains","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1697,7 +1696,7 @@
 	{
 		"name": "The Byzantines",
 		"adjective": ["Byzantine"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1719,7 +1718,7 @@
 	{
 		"name": "The Ardiaei",
 		"adjective": ["Ardiaean"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Illyrian",
 		"startBias": ["Coast","Hill","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1741,7 +1740,7 @@
 	{
 		"name": "The Dalmatae",
 		"adjective": ["Dalmatian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Illyrian",
 		"startBias": ["Coast","Hill","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1763,7 +1762,7 @@
 	{
 		"name": "The Liburnians",
 		"adjective": ["Liburnian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Illyrian",
 		"startBias": ["Coast","Hill","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1786,7 +1785,7 @@
 	{
 		"name": "The Lugii",
 		"adjective": ["Lugian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Germanic",
 		"startBias": ["Forest","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1806,7 +1805,7 @@
 	{
 		"name": "The Chatti",
 		"adjective": ["Lugian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Germanic",
 		"startBias": ["Forest","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1826,7 +1825,7 @@
 	{
 		"name": "The Treveri",
 		"adjective": ["Treveran"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1846,7 +1845,7 @@
 	{
 		"name": "The Mediomatrici",
 		"adjective": ["Mediomatrician"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1867,7 +1866,7 @@
 	{
 		"name": "The Aedui",
 		"adjective": ["Aeduian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1887,7 +1886,7 @@
 	{
 		"name": "The Bituriges",
 		"adjective": ["Biturigian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1907,7 +1906,7 @@
 	{
 		"name": "The Carnutes",
 		"adjective": ["Carnutian"],
-		"cityStateType": "Religious",
+		"cityStateType": "Druidic",
 		"startBias": ["Forest","Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1927,7 +1926,7 @@
 	{
 		"name": "The Allobroges",
 		"adjective": ["Allobrogian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1947,7 +1946,7 @@
 	{
 		"name": "The Aquitani",
 		"adjective": ["Aquitanian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1967,7 +1966,7 @@
 	{
 		"name": "The Volcae",
 		"adjective": ["Volcan"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Celtic",
 		"startBias": ["Grassland","Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1987,7 +1986,7 @@
 	{
 		"name": "The Massalians",
 		"adjective": ["Massalian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Hellenic",
 		"startBias": ["Coast","Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2008,7 +2007,7 @@
 	{
 		"name": "The Ilergetes",
 		"adjective": ["Ilergetian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Iberian",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2028,7 +2027,7 @@
 	{
 		"name": "The Edetani",
 		"adjective": ["Edetanian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Iberian",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2049,7 +2048,7 @@
 	{
 		"name": "The Oretani",
 		"adjective": ["Oretanian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Iberian",
 		"startBias": ["Hill","Plains","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2070,7 +2069,7 @@
 	{
 		"name": "The Cantabri",
 		"adjective": ["Cantabrian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Iberian",
 		"startBias": ["Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2091,7 +2090,7 @@
 	{
 		"name": "The Gallaeci",
 		"adjective": ["Gallaecian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Iberian",
 		"startBias": ["Hill","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2112,7 +2111,7 @@
 	{
 		"name": "The Gadirans",
 		"adjective": ["Gadiran"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Phoenician",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2133,7 +2132,7 @@
 	{
 		"name": "The Mauritani",
 		"adjective": ["Mauritanian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Numidian",
 		"startBias": ["Hill","Plains","Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2153,7 +2152,7 @@
 	{
 		"name": "The Iolians",
 		"adjective": ["Iolian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Phoenician",
 		"startBias": ["Coast","Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2173,7 +2172,7 @@
 	{
 		"name": "The Musilamii",
 		"adjective": ["Musilamii"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Numidian",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2193,7 +2192,7 @@
 	{
 		"name": "The Gaetuli",
 		"adjective": ["Gaetulian"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Numidian",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2212,8 +2211,8 @@
 	},
 	{
 		"name": "The Garamantes",
-		"adjective": ["Hadrumetan"],
-		"cityStateType": "Mercantile",
+		"adjective": ["Garamantian"],
+		"cityStateType": "Numidian",
 		"startBias": ["Desert","Avoid [Coast]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2233,7 +2232,7 @@
 	{
 		"name": "The Leptians",
 		"adjective": ["Leptian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Phoenician",
 		"startBias": ["Coast","Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",

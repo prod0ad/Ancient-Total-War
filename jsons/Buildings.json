@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"name": "Pirate Haven",
+		"name": "Pirate Haven (Illyrian)",
 		"cost": 40,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -43,11 +43,41 @@
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
-		"Only available <with [Unlock Pirates]> <hidden from users>",
-		"New [Galley] units start with [15] Experience [in this city]",
-		"New [Hemiola] units start with [15] Experience [in this city]",
-		"Provides [1] [Manpower]","Provides [1] [Timber]",
-		"Never destroyed when the city is captured"
+		"Only available <starting from the [Classical Age]>",
+		"Only available <with [Mercenary (Illyrian)]> <hidden from users>",
+		"New [Galley] units start with [20] Experience [in this city]",
+		],
+	},
+	{
+		"name": "Pirate Haven (Cretan)",
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"gold": 1,
+		"happiness": 1,
+		"cityHealth": 5,
+		"uniques": [
+		"Must be next to [Coast]"
+		"Only available <starting from the [Classical Age]>",
+		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+		"Only available <with [Mercenary (Cretan)]> <hidden from users>",
+		"New [Hemiola] units start with [20] Experience [in this city]",
+		],
+	},
+	{
+		"name": "Pirate Haven (Cilician)",
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"gold": 1,
+		"happiness": 1,
+		"cityHealth": 5,
+		"uniques": [
+		"Must be next to [Coast]"
+		"Only available <starting from the [Hellenistic Age]>",
+		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+		"Only available <with [Mercenary (Cilician)]> <hidden from users>",
+		"New [Hemiola] units start with [20] Experience [in this city]",
 		],
 	},
 	// Agriculture
@@ -461,145 +491,29 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Mercenary Camp (Celtic)",
-		"requiredBuilding": "Market",
+		"name": "Mercenary Camp",
 		"cost": 75,
 		"maintenance": 1,
 		"uniques": [
-		"Comment [Enables Celtic Mercenary Units]",
+		"Comment [Enables Mercenary Units]",
+		"Comment [Provides 2 Mercenary Units]",
 		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Celtic)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Eastern)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 0,
-		"cityHealth": 5,
-		"uniques": [
-		"Comment [Enables Eastern Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Eastern)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Egyptian)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Egyptian Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Egyptian)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Germanic)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Germanic Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Germanic)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Hellenic)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Hellenic Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Hellenic)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Iberian)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Iberian Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Iberian)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Illyrian)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Illyrian Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Illyrian)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Italic)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Italic Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Italic)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Numidian)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Numidian Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Numidian)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mercenary Camp (Thracian)", 
-		"requiredBuilding": "Market",
-		"cost": 75,
-		"maintenance": 1,
-		"uniques": [
-		"Comment [Enables Thracian Mercenary Units]",
-		"Provides [1] [Decadence]",
-		"Only available <with [Unlock Mercenary Camp (Thracian)]> <hidden from users>",
-		"Only available <without [Has Mercenary Camp]> <hidden from users>",
-		"Provides [1] [Has Mercenary Camp] <hidden from users>",
-		"Never destroyed when the city is captured"
-		]
+		"Limited to [1] per Civilization <before the [Hellenistic Age]>",
+		"Limited to [3] per Civilization <during the [Hellenistic Age]>",
+		"Limited to [5] per Civilization <during the [Imperial Age]>",
+		"Provides [2] [Mercenary (Celtic)] <after adopting [Celtic Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Eastern)] <after adopting [Eastern Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Germanic)] <after adopting [Germanic Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Hellenic)] <after adopting [Hellenic Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Hellenic)] <after adopting [Hellenistic Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Iberian)] <after adopting [Iberian Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Illyrian)] <after adopting [Illyrian Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Oscan)] <after adopting [Latin Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Numidian)] <after adopting [Numidian Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Numidian)] <after adopting [Punic Culture]> <hidden from users>",
+		"Provides [2] [Mercenary (Thracian)] <after adopting [Thracian Culture]> <hidden from users>"
+		],
+		"requiredTech": "Currency"
 	},
 	// Trade Routes
 	{
@@ -1416,7 +1330,7 @@
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Gain a free [Garden] [in this city]"],
+		"uniques": ["Provides [3] [Mercenary (Mesopotamian)]","Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
@@ -1438,7 +1352,7 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["Provides [8] [Mercenary (Rhodian)]","Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 

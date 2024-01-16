@@ -52,7 +52,7 @@
 		],
 //		"upgradesTo": "Peltast",
 //		"obsoleteTech": "Combined Arms",
-		"attackSound": "nonmetalhit", //arrow
+		"attackSound": "nonmetalhit",
 		"uniques": ["Consumes [1] [Manpower]"],
 		"promotions": ["[Skirmisher] ability","Infantry Shield I"],
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
@@ -68,7 +68,7 @@
 		"requiredTech": "Agriculture",
 		"uniques": ["Consumes [1] [Manpower]"],
 		"promotions": ["[Skirmisher] ability","Raider I","Infantry Shield I"],
-		"attackSound": "arrow",
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
 	{
@@ -82,7 +82,7 @@
 		"requiredTech": "Agriculture",
 		"uniques": ["Consumes [1] [Manpower]"],
 		"promotions": ["[Skirmisher] ability","Survivalism I","Infantry Shield I"],
-		"attackSound": "arrow",
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
 	{
@@ -91,17 +91,29 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 56,
-//		"requiredTech": "Colonization",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Illyrian)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Illyrian)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Skirmisher] ability","Amphibious I","Amphibious II","Infantry Shield I"],
-		"attackSound": "arrow",
+		"promotions": ["[Skirmisher] ability","Amphibious I","Amphibious II","Infantry Shield I","Raider I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
+	},
+	{
+		"name": "Cilician Pirate",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 9,
+		"cost": 45,
+		"uniques": [
+		"Consumes [1] [Mercenary (Cilician)]",
+		"Only available <starting from the [Hellenistic Age]>",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Skirmisher] ability","Amphibious I","Amphibious II","Raider I"],
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "This is your basic, club-swinging fighter."}]
 	},
 	/* Archers */
@@ -173,23 +185,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Staffslinger",
-		"unitType": "Archery",
-		"replaces": "Archer",
-		"uniqueTo": "The Macedonians",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 9,
-		"cost": 75,
-		"requiredTech": "Archery",
-		"uniques": [
-		"Consumes [1] [Manpower]",
-		"Only available <in cities with a [Archery Range]>"
-		],
-		"promotions": ["[Slinger] ability"],
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Forester Warband",
 		"unitType": "Archery",
 		"replaces": "Slinger",
@@ -232,12 +227,12 @@
 		"rangedStrength": 10,
 		"cost": 75,
 		"uniques": [
-		"Consumes [1] [Manpower]",
-		"Can move immediately once bought",
-		"Only available <in cities with a [Colossus]>",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Rhodian)]",
+		"Only available <starting from the [Hellenistic Age]>",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Slinger] ability"],
+		"promotions": ["[Slinger] ability","Amphibious I","Amphibious II"],
 		"attackSound": "arrow"
 	},
 	{
@@ -248,32 +243,25 @@
 		"rangedStrength": 11,
 		"cost": 90,
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
-		"Only available <starting from the [Hellenistic era]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Cretan)]",
+		"Only available <starting from the [Hellenistic Age]>",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Archer] ability","Amphibious I","Infantry Shield I"],
 		"attackSound": "arrow"
 	},
-	/* Mercenaries */
+	/* Sword & Spear Mercenaries */
 	{
 		"name": "Mercenary Warband",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
 		"cost": 75,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Celtic)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Celtic)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Shock I","Infantry Shield II"],
 		"attackSound": "metalhit"
@@ -284,14 +272,10 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 75,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Germanic)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Germanic)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Forester","Infantry Shield I"],
 		"attackSound": "metalhit"
@@ -302,15 +286,11 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 90,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <before the [Hellenistic era]>",
-		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Only available <before the [Hellenistic Age]>",
+		"Consumes [1] [Mercenary (Hellenic)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
@@ -321,34 +301,40 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 75,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
 		"Ignores terrain cost",
-		"Only available <starting from the [Hellenistic era]>",
-		"Only available <in cities with a [Mercenary Camp (Hellenic)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Only available <starting from the [Hellenistic Age]>",
+		"Consumes [1] [Mercenary (Hellenic)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Spearman] ability","Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Thracian Mercenary",
+		"name": "Mercenary Judean Spearman",
 		"unitType": "Spear",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"uniques": [
+		"Consumes [1] [Mercenary (Judean)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Spearman] ability","Desert Warrior","Infantry Shield II"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Thracian Mercenary",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 13,
 		"cost": 100,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Thracian)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Thracian)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Thracian Warband] ability","Raider I","Infantry Shield II"],
 		"attackSound": "metalhit"
@@ -359,32 +345,24 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 90,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Iberian)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Iberian)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Italic Mercenary",
+		"name": "Oscan Mercenary",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 90,
-//		"requiredTech": "Mercenaries",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Latin)]>"
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Oscan)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Infantry Shield II"],
 		"attackSound": "metalhit"
@@ -476,7 +454,7 @@
 		"uniqueTo": "The Dardanians",
 		"movement": 2,
 		"strength": 13,
-		"cost": 70,
+		"cost": 75,
 		"requiredTech": "Citizen Levy",
 		"uniques": [
 		"Consumes [1] [Manpower]",
@@ -754,15 +732,10 @@
 		"cost": 90,
 		"movement": 5,
 		"strength": 11,
-//		"requiredTech": "Riding",
-//		"requiredResource": "Horses",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Numidian)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Numidian)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Horseman] ability","Scouting I","Cavalry Shield I"],
 		"attackSound": "horse"
@@ -793,15 +766,10 @@
 		"movement": 5,
 		"strength": 7,
 		"rangedStrength": 10,
-//		"requiredTech": "Riding",
-//		"requiredResource": "Horses",
 		"uniques": [
-		"Only available <in cities with a [Mercenary Camp (Eastern)]>",
-		"Can move immediately once bought",
-//		"Unbuildable <for [Human player]> <hidden from users>",
-		"Unbuildable",
-		"Can be purchased with [Gold] [in all cities]",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Eastern)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Horseman] ability"],
 		"attackSound": "horse"
@@ -870,10 +838,9 @@
 		"strength": 7,
 		"rangedStrength": 10,
 		"uniques": [
-		"Consumes [1] [Manpower]",
-		"Consumes [1] [Horses]",
-		"Only available <in cities with a [The Oracle of Amun]>",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Libyan)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Chariot ability"],
 		"attackSound": "horse"
@@ -938,11 +905,9 @@
 		"movement": 4,
 		"strength": 12,
 		"uniques": [
-		"Consumes [1] [Manpower]",
-		"Consumes [1] [Horses]",
-		"Only available <in cities with a [Stable]>",
-		"Only available <in cities with a [Hanging Gardens]>",
-		"Never appears as a Barbarian unit"
+		"Consumes [1] [Mercenary (Mesopotamian)]",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["Chariot ability","Charge I","Shock I"],
 		"attackSound": "horse"
@@ -1136,11 +1101,11 @@
 		"strength": 11,
 		"cost": 45,
 		"uniques": [
-		"Consumes [1] [Manpower]",
+		"Consumes [1] [Mercenary (Rhodian)]",
 		"Consumes [1] [Timber]",
 		"Cannot enter ocean tiles",
-		"Never appears as a Barbarian unit",
-		"Only available <in cities with a [Colossus]>",
+		"Only available <in cities with a [Mercenary Camp]>","Unbuildable <for [Human player]> <hidden from users>","Can be purchased with [Gold] [in all cities]",
+		"Can move immediately once bought","Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Hemiola] ability","Boarding Tactics"],
 		"attackSound": "nonmetalhit"
@@ -1348,6 +1313,46 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Royal Spartan",
+		"unitType": "Spear",
+		"uniqueTo": "The Spartans",
+		"replaces": "Foot Guard",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"uniques": [
+		"Limited to [1] per Civilization",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Only available <in cities with a [Palace]>",
+		"Only available <before discovering [Riding]>",
+		"Cannot be purchased"
+		],
+		"promotions": [
+		"[Spearman] ability","Spartan Aura","Infantry Shield II"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hypaspist",
+		"unitType": "Spear",
+		"uniqueTo": "The Macedonians",
+		"replaces": "Foot Guard",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"uniques": [
+		"Limited to [1] per Civilization",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Only available <in cities with a [Palace]>",
+		"Only available <before discovering [Riding]>",
+		"Cannot be purchased"
+		],
+		"promotions": [
+		"[Spearman] ability","Infantry Shield II","Assault I"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Mounted Guard",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1385,25 +1390,5 @@
 //		"[Cavalry] ability"
 		],
 		"attackSound": "horse"
-	},
-	{
-		"name": "Royal Spartan",
-		"unitType": "Spear",
-		"uniqueTo": "The Spartans",
-		"replaces": "Foot Guard",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"uniques": [
-		"Limited to [1] per Civilization",
-		"[+15]% Strength bonus for [Military] units within [2] tiles",
-		"Only available <in cities with a [Palace]>",
-		"Only available <before discovering [Riding]>",
-		"Cannot be purchased"
-		],
-		"promotions": [
-		"Spartan Aura"
-		],
-		"attackSound": "metalhit"
 	},
 ]

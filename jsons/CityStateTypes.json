@@ -1,13 +1,385 @@
 [
+// Celtic
+    {
+        "name": "Celtic",
+        "friendBonusUniques": [
+            "Provides [1] [Manpower] <before discovering [Vassalage]>",
+            "Provides [2] [Manpower] <after discovering [Vassalage]>",
+            "Provides [1] [Horses]",
+            "Provides [2] [Mercenary (Celtic)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "Provides [2] [Manpower] <before discovering [Vassalage]>",
+            "Provides [4] [Manpower] <after discovering [Vassalage]>",
+            "Provides [1] [Horses]",
+            "Provides [3] [Mercenary (Celtic)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Druidic",
+        "friendBonusUniques": [
+            "[+2 Faith] <before discovering [Vassalage]>",
+            "[+4 Faith] <after discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Celtic)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Faith] <before discovering [Vassalage]>",
+            "[+8 Faith] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Celtic)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Eastern
+    {
+        "name": "Eastern",
+        "friendBonusUniques": [
+            "[+1 Gold, +1 Culture] <before discovering [Vassalage]>",
+            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Eastern)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "[+4 Gold, +4 Culture] <before discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Eastern)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Mesopotamian",
+        "friendBonusUniques": [
+            "[+1 Science, +1 Culture] <before discovering [Vassalage]>",
+            "[+2 Science, +2 Culture] <before discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Mesopotamian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Science, +2 Culture] <before discovering [Vassalage]>",
+            "[+4 Science, +4 Culture] <before discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Mesopotamian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Scythian",
+        "friendBonusUniques": [
+            "Provides [1] [Horses] <before discovering [Vassalage]>",
+            "Provides [2] [Horses] <after discovering [Vassalage]>",
+            "[+1 Food] [in capital]",
+            "Provides [1] [Mercenary (Eastern)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "Provides [2] [Horses] <before discovering [Vassalage]>",
+            "Provides [4] [Horses] <after discovering [Vassalage]>",
+            "[+1 Food] [in all cities]",
+            "Provides [2] [Horses]",
+            "Provides [2] [Mercenary (Eastern)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Judean",
+        "friendBonusUniques": [
+            "[+2 Faith] <before discovering [Vassalage]>",
+            "[+4 Faith] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Judean)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Faith] <before discovering [Vassalage]>",
+            "[+8 Faith] <after discovering [Vassalage]>",
+            "Provides [3] [Mercenary (Judean)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Arabic",
+        "friendBonusUniques": [
+            "[+1 Gold] <before discovering [Vassalage]>",
+            "[+2 Gold] <before discovering [Vassalage]>",
+            "Provides [1] [Spices]",
+            "Provides [1] [Mercenary (Eastern)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold] <before discovering [Vassalage]>",
+            "[+4 Gold] <before discovering [Vassalage]>",
+            "Provides [2] [Spices]",
+            "Provides [2] [Mercenary (Eastern)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Cilician",
+        "friendBonusUniques": [
+            "[+1 Gold, +1 Culture] <before discovering [Vassalage]>",
+            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "[+10]% Production when constructing [Water] units [in all cities]",
+            "Provides [1] [Horses]",
+            "Provides [1] [Mercenary (Cilician)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "[+4 Gold, +4 Culture] <before discovering [Vassalage]>",
+            "[+20]% Production when constructing [Water] units [in all cities]",
+            "Provides [2] [Horses]",
+            "Provides [2] [Mercenary (Cilician)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Germanic
+    {
+        "name": "Germanic",
+        "friendBonusUniques": [
+            "[+1 Gold] <before discovering [Vassalage]>",
+            "[+2 Gold] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Germanic)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold] <before discovering [Vassalage]>",
+            "[+4 Gold] <after discovering [Vassalage]>",
+            "Provides [3] [Mercenary (Germanic)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Hellenic
+    {
+        "name": "Hellenic",
+        "friendBonusUniques": [
+            "[+2 Culture] <before discovering [Vassalage]>",
+            "[+4 Culture] <after discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Hellenic)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before discovering [Vassalage]>"
+            "[+8 Culture] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Hellenic)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Rhodian",
+        "friendBonusUniques": [
+            "[+1 Food] [in capital] <before discovering [Vassalage]>",
+            "[+2 Food] [in capital] <after discovering [Vassalage]>",
+            "[+10]% City Strength from defensive buildings",
+            "Provides [1] [Timber]",
+            "Provides [1] [Mercenary (Rhodian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+1 Food] [in all cities] <before discovering [Vassalage]>",
+            "[+2 Food] [in all cities] <after discovering [Vassalage]>",
+            "[+20]% City Strength from defensive buildings",
+            "Provides [2] [Timber]",
+            "Provides [2] [Mercenary (Rhodian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Cretan",
+        "friendBonusUniques": [
+            "Provides [1] [Manpower] <before discovering [Vassalage]>",
+            "Provides [2] [Manpower] <after discovering [Vassalage]>",
+            "[+100]% Production when constructing [Archery Range] buildings [in all cities]",
+            "[+100]% Production when constructing [Skirmisher Barracks] buildings [in all cities]",
+            "Provides [1] [Mercenary (Cretan)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "Provides [2] [Manpower] <before discovering [Vassalage]>",
+            "Provides [4] [Manpower] <after discovering [Vassalage]>",
+            "[+100]% Production when constructing [Archery Range] buildings [in all cities]",
+            "[+100]% Production when constructing [Skirmisher Barracks] buildings [in all cities]",
+            "Provides [2] [Mercenary (Cretan)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Iberian
+    {
+        "name": "Iberian",
+        "friendBonusUniques": [
+            "[+1 Production] [in capital] <before discovering [Vassalage]>",
+            "[+2 Production] [in capital] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Iberian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+1 Production] [in all cities] <before discovering [Vassalage]>",
+            "[+2 Production] [in all cities] <after discovering [Vassalage]>",
+            "Provides [3] [Mercenary (Iberian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Illyrian
+    {
+        "name": "Illyrian",
+        "friendBonusUniques": [
+            "[+1 Gold] <before discovering [Vassalage]>",
+            "[+2 Gold] <after discovering [Vassalage]>",
+            "[+25]% Production when constructing [Galley] units [in all cities]",
+            "Provides [1] [Mercenary (Illyrian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold] <before discovering [Vassalage]>",
+            "[+4 Gold] <after discovering [Vassalage]>",
+            "[+50]% Production when constructing [Galley] units [in all cities]",
+            "Provides [2] [Mercenary (Illyrian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Italic
+    {
+        "name": "Oscan",
+        "friendBonusUniques": [
+            "[+1 Culture] <before discovering [Vassalage]>",
+            "[+2 Culture] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Oscan)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Culture] <before discovering [Vassalage]>",
+            "[+4 Culture] <after discovering [Vassalage]>",
+            "Provides [3] [Mercenary (Oscan)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Etruscan",
+        "friendBonusUniques": [
+            "[+2 Culture] <before discovering [Vassalage]>",
+            "[+4 Culture] <after discovering [Vassalage]>",
+            "Provides [1] [Ceramics]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before discovering [Vassalage]>",
+            "[+8 Culture] <after discovering [Vassalage]>",
+            "Provides [2] [Ceramics]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// African
+    {
+        "name": "Libyan",
+        "friendBonusUniques": [
+            "[+2 Faith] <before discovering [Vassalage]>",
+            "[+4 Faith] <after discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Libyan)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Faith] <before discovering [Vassalage]>",
+            "[+8 Faith] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Libyan)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Egyptian",
+        "friendBonusUniques": [
+            "[+1 Food] [in capital] <before discovering [Vassalage]>",
+            "[+2 Food] [in capital] <after discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Libyan)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+1 Food] [in all cities] <before discovering [Vassalage]>",
+            "[+2 Food] [in all cities] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Libyan)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Numidian",
+        "friendBonusUniques": [
+            "[+1 Food] [in capital] <before discovering [Vassalage]>",
+            "[+2 Food] [in capital] <after discovering [Vassalage]>",
+            "Provides [1] [Mercenary (Numidian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+1 Food] [in all cities] <before discovering [Vassalage]>",
+            "[+2 Food] [in all cities] <after discovering [Vassalage]>",
+            "Provides [2] [Mercenary (Numidian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+    {
+        "name": "Phoenician",
+        "friendBonusUniques": [
+            "[+2 Gold] <before discovering [Vassalage]>",
+            "[+4 Gold] <after discovering [Vassalage]>",
+            "[+10]% Production when constructing [Water] units [in all cities]",
+            "Provides [1] [Timber]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Gold] <before discovering [Vassalage]>",
+            "[+8 Gold] <after discovering [Vassalage]>",
+            "[+20]% Production when constructing [Water] units [in all cities]",
+            "Provides [2] [Timber]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+// Thracian
+    {
+        "name": "Thracian",
+        "friendBonusUniques": [
+            "Provides [1] [Manpower] <before discovering [Vassalage]>",
+            "Provides [2] [Manpower] <after discovering [Vassalage]>",
+            "Provides [1] [Horses]",
+            "Provides [2] [Mercenary (Thracian)]",
+            "[+1 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "Provides [2] [Manpower] <before discovering [Vassalage]>",
+            "Provides [4] [Manpower] <after discovering [Vassalage]>",
+            "Provides [2] [Horses]",
+            "Provides [3] [Mercenary (Thracian)]",
+            "[+2 Happiness]"
+        ],
+        "color": [100, 100, 100]
+    },
+
     {
         "name": "Cultured",
         "friendBonusUniques": [
             "[+3 Culture] <before discovering [Vassalage]>",
             "[+6 Culture] <after discovering [Vassalage]>",
+            "[+1 Happiness]"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before discovering [Vassalage]>"
-            "[+6 Culture] <after discovering [Vassalage]>",
+            "[+12 Culture] <after discovering [Vassalage]>",
             "[+2 Happiness]"
         ],
         "color": [139, 96, 255]
@@ -15,11 +387,12 @@
     {
         "name": "Maritime",
         "friendBonusUniques": [
-            "[+2 Food] [in capital]"
+            "[+2 Food] [in capital]",
+            "[+1 Happiness]"
             ],
         "allyBonusUniques": [
             "[+2 Food] [in capital]",
-             "[+1 Food] [in all cities]",
+            "[+1 Food] [in all cities]",
             "[+2 Happiness]"
             ],
         "color": [56, 255, 112]
@@ -27,12 +400,14 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness] <before discovering [Vassalage]>",
-            "[+4 Happiness] <after discovering [Vassalage]>"
+            "[+4 Gold] <before discovering [Vassalage]>",
+            "[+8 Gold] <after discovering [Vassalage]>",
+            "[+1 Happiness]"
         ],
         "allyBonusUniques": [
-            "[+4 Happiness] <before discovering [Vassalage]>",
-            "[+6 Happiness] <after discovering [Vassalage]>"
+            "[+8 Gold] <before discovering [Vassalage]>",
+            "[+16 Gold] <after discovering [Vassalage]>",
+            "[+2 Happiness]"
 //            "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -40,10 +415,14 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": [
-            "Provides military units every ≈[20] turns"
+//            "Provides military units every ≈[20] turns",
+            "Provides [2] [Manpower]",
+            "[+1 Happiness]"
             ],
         "allyBonusUniques": [
-            "Provides military units every ≈[17] turns",
+//            "Provides military units every ≈[17] turns",
+            "Provides [2] [Manpower]",
+            "Provides [1] [Nobles]",
             "[+2 Happiness]"
             ],
         "color": [255, 0, 0]
@@ -51,12 +430,13 @@
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+3 Faith] <before discovering [Vassalage]>"
-            "[+6 Faith] <after discovering [Vassalage]>"
+            "[+3 Faith] <before discovering [Vassalage]>",
+            "[+6 Faith] <after discovering [Vassalage]>",
+            "[+1 Happiness]"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before discovering [Vassalage]>"
-            "[+12 Faith] <after discovering [Vassalage]>"
+            "[+6 Faith] <before discovering [Vassalage]>",
+            "[+12 Faith] <after discovering [Vassalage]>",
             "[+2 Happiness]"
         ],
         "color": [255, 255, 255]

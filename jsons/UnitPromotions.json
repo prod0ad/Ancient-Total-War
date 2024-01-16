@@ -614,37 +614,43 @@
 	{
 		"name": "Infantry Shield I",
 		"uniques": [
-		"[+15]% Strength <vs [Ranged] units>"
+		"[+15]% Strength <vs [Ranged] units>",
+		"[+15]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Infantry Shield II",
 		"uniques": [
-		"[+25]% Strength <vs [Ranged] units>"
+		"[+25]% Strength <vs [Ranged] units>",
+		"[+25]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Infantry Shield III",
 		"uniques": [
-		"[+33]% Strength <vs [Ranged] units>"
+		"[+33]% Strength <vs [Ranged] units>",
+		"[+33]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Cavalry Shield I",
 		"uniques": [
-		"[+15]% Strength <vs [Ranged] units>"
+		"[+15]% Strength <vs [Ranged] units>",
+		"[+15]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Cavalry Shield II",
 		"uniques": [
-		"[+25]% Strength <vs [Ranged] units>"
+		"[+25]% Strength <vs [Ranged] units>",
+		"[+25]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Armored Lancer",
 		"uniques": [
-		"[+5]% Strength <vs [Ranged] units>"
+		"[+5]% Strength <vs [Ranged] units>",
+		"[+5]% Strength <vs cities> <when defending>",
 		"[+15]% Strength <vs [Melee] units>"
 		]
 	},
@@ -718,14 +724,20 @@
 	{
 		"name": "Iron Darts",
 		"uniques": [
-		"[+25]% Strength <vs [Sword] units>",
-		"[+25]% Strength <vs [Spear] units>"
+		"[+25]% Strength <vs [{Melee} {Land}] units>"
 		]
 	},
 	{
 		"name": "Forester",
 		"uniques": [
 		"[+25]% Strength <when fighting in [Forest] tiles>",
+		]
+	},
+	{
+		"name": "Desert Warrior",
+		"uniques": [
+		"[+25]% Strength <when fighting in [Desert] tiles>",
+		"[+25]% Strength <when fighting in [Hill] tiles>"
 		]
 	},
 	{

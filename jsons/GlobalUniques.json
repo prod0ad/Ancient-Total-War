@@ -6,7 +6,7 @@
         "[+100]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "Gain a free [Muster Field] [in all cities]",
-        "[-100]% resources gifted by City-States",
+//        "[-100]% resources gifted by City-States",
 // Happiness
         "[-10]% growth [in all cities] <when below [0] Happiness>",
         "[-10]% growth [in all cities] <when below [-2] Happiness>",
