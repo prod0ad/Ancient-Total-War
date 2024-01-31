@@ -6,6 +6,7 @@
         "[+100]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "Gain a free [Muster Field] [in all cities]",
+        "May buy items in puppet cities",
 //        "[-100]% resources gifted by City-States",
 // Happiness
         "[-10]% growth [in all cities] <when below [0] Happiness>",
@@ -65,7 +66,7 @@
         "[Great Merchant] is earned [+5]% faster <when above [7] [Decadence]>",
         "[Great Merchant] is earned [+5]% faster <when above [9] [Decadence]>",
 
-        "May not generate great prophet equivalents naturally <before adopting [Centralization]>",
+        "[Great Prophet] is earned [-500]% faster <before adopting [Centralization]>",
         "[Great Prophet] is earned [+5]% faster <when above [1] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [3] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [5] [Decadence]>",

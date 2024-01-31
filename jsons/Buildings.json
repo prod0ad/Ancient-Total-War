@@ -44,7 +44,7 @@
 		"uniques": [
 		"Must be next to [Coast]"
 		"Only available <starting from the [Classical Age]>",
-		"Only available <with [Mercenary (Illyrian)]> <hidden from users>",
+		"Consumes [1] [Mercenary (Illyrian)]","Only available <with [Mercenary (Illyrian)]> <hidden from users>",
 		"New [Galley] units start with [20] Experience [in this city]",
 		],
 	},
@@ -60,7 +60,7 @@
 		"Must be next to [Coast]"
 		"Only available <starting from the [Classical Age]>",
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
-		"Only available <with [Mercenary (Cretan)]> <hidden from users>",
+		"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
 		"New [Hemiola] units start with [20] Experience [in this city]",
 		],
 	},
@@ -76,7 +76,7 @@
 		"Must be next to [Coast]"
 		"Only available <starting from the [Hellenistic Age]>",
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
-		"Only available <with [Mercenary (Cilician)]> <hidden from users>",
+		"Consumes [1] [Mercenary (Cilician)]","Only available <with [Mercenary (Cilician)]> <hidden from users>",
 		"New [Hemiola] units start with [20] Experience [in this city]",
 		],
 	},
@@ -481,12 +481,12 @@
 	{
 		"name": "Mint",
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper","Iron"],
-		"maintenance": 0,
-		"gold": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 		"Provides [1] [Decadence]",
-		"[+2 Gold] from [Gold Ore] tiles [in this city]", "[+1 Gold] from [Silver] tiles [in this city]"
+		"[Gold] cost of purchasing items in cities [-5]%",
+		"[+3 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+1 Gold] from [Copper] tiles [in this city]"
 		],
 		"requiredTech": "Currency"
 	},

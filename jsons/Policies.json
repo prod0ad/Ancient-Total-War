@@ -938,8 +938,9 @@
             {
                 "name": "Latifundia",
                 "uniques": [
-                    "[+2 Gold] from every [Plantation]",
-                    "[+1 Gold] from every [Farm] <after adopting [Bread and Circuses]>",
+                    "[+1 Gold] from every [Plantation]",
+                    "[+1 Gold] from every [Plantation] <after adopting [Bread and Circuses]>",
+                    "[+1 Gold] from [Wheat] tiles [in all cities] <after adopting [Bread and Circuses]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1360,7 +1361,6 @@
         "uniques": [
             "Only available <before adopting [Land Reform]>",
             "Only available <before adopting [Centralization]>",
-            "[-10]% [Production] <in cities with at least [10] [Population]>",
             "[+2 Happiness] [in all cities]",
             "[+1 Happiness] [in capital]"
         ],

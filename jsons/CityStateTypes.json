@@ -21,14 +21,14 @@
     {
         "name": "Druidic",
         "friendBonusUniques": [
-            "[+2 Faith] <before discovering [Vassalage]>",
-            "[+4 Faith] <after discovering [Vassalage]>",
+            "[+1 Faith, +1 Science] <before discovering [Vassalage]>",
+            "[+2 Faith, +2 Science] <after discovering [Vassalage]>",
             "Provides [1] [Mercenary (Celtic)]",
             "[+1 Happiness]"
         ],
         "allyBonusUniques": [
-            "[+4 Faith] <before discovering [Vassalage]>",
-            "[+8 Faith] <after discovering [Vassalage]>",
+            "[+2 Faith, +2 Science] <before discovering [Vassalage]>",
+            "[+4 Faith, +4 Science] <after discovering [Vassalage]>",
             "Provides [2] [Mercenary (Celtic)]",
             "[+2 Happiness]"
         ],
@@ -39,13 +39,13 @@
         "name": "Eastern",
         "friendBonusUniques": [
             "[+1 Gold, +1 Culture] <before discovering [Vassalage]>",
-            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "[+2 Gold, +2 Culture] <after discovering [Vassalage]>",
             "Provides [1] [Mercenary (Eastern)]",
             "[+1 Happiness]"
         ],
         "allyBonusUniques": [
             "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
-            "[+4 Gold, +4 Culture] <before discovering [Vassalage]>",
+            "[+4 Gold, +4 Culture] <after discovering [Vassalage]>",
             "Provides [2] [Mercenary (Eastern)]",
             "[+2 Happiness]"
         ],
@@ -55,13 +55,13 @@
         "name": "Mesopotamian",
         "friendBonusUniques": [
             "[+1 Science, +1 Culture] <before discovering [Vassalage]>",
-            "[+2 Science, +2 Culture] <before discovering [Vassalage]>",
+            "[+2 Science, +2 Culture] <after discovering [Vassalage]>",
             "Provides [1] [Mercenary (Mesopotamian)]",
             "[+1 Happiness]"
         ],
         "allyBonusUniques": [
             "[+2 Science, +2 Culture] <before discovering [Vassalage]>",
-            "[+4 Science, +4 Culture] <before discovering [Vassalage]>",
+            "[+4 Science, +4 Culture] <after discovering [Vassalage]>",
             "Provides [2] [Mercenary (Mesopotamian)]",
             "[+2 Happiness]"
         ],
@@ -106,14 +106,14 @@
         "name": "Arabic",
         "friendBonusUniques": [
             "[+1 Gold] <before discovering [Vassalage]>",
-            "[+2 Gold] <before discovering [Vassalage]>",
+            "[+2 Gold] <after discovering [Vassalage]>",
             "Provides [1] [Spices]",
             "Provides [1] [Mercenary (Eastern)]",
             "[+1 Happiness]"
         ],
         "allyBonusUniques": [
             "[+2 Gold] <before discovering [Vassalage]>",
-            "[+4 Gold] <before discovering [Vassalage]>",
+            "[+4 Gold] <after discovering [Vassalage]>",
             "Provides [2] [Spices]",
             "Provides [2] [Mercenary (Eastern)]",
             "[+2 Happiness]"
@@ -124,7 +124,7 @@
         "name": "Cilician",
         "friendBonusUniques": [
             "[+1 Gold, +1 Culture] <before discovering [Vassalage]>",
-            "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
+            "[+2 Gold, +2 Culture] <after discovering [Vassalage]>",
             "[+10]% Production when constructing [Water] units [in all cities]",
             "Provides [1] [Horses]",
             "Provides [1] [Mercenary (Cilician)]",
@@ -132,7 +132,7 @@
         ],
         "allyBonusUniques": [
             "[+2 Gold, +2 Culture] <before discovering [Vassalage]>",
-            "[+4 Gold, +4 Culture] <before discovering [Vassalage]>",
+            "[+4 Gold, +4 Culture] <after discovering [Vassalage]>",
             "[+20]% Production when constructing [Water] units [in all cities]",
             "Provides [2] [Horses]",
             "Provides [2] [Mercenary (Cilician)]",
