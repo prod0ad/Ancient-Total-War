@@ -66,6 +66,7 @@
         "[Great Merchant] is earned [+5]% faster <when above [7] [Decadence]>",
         "[Great Merchant] is earned [+5]% faster <when above [9] [Decadence]>",
 
+        "May not generate great prophet equivalents naturally <before adopting [Centralization]>",
         "[Great Prophet] is earned [-500]% faster <before adopting [Centralization]>",
         "[Great Prophet] is earned [+5]% faster <when above [1] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [3] [Decadence]>",
