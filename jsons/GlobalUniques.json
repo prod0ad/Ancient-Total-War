@@ -3,6 +3,7 @@
     "uniques": [
         "[-1] Sight <for [Embarked] units>",
         "[-25]% growth [in all cities]",
+        "[+25]% Natural religion spread [in all cities]",
         "[+100]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "Gain a free [Muster Field] [in all cities]",
@@ -67,7 +68,7 @@
         "[Great Merchant] is earned [+5]% faster <when above [9] [Decadence]>",
 
         "May not generate great prophet equivalents naturally <before adopting [Centralization]>",
-        "[Great Prophet] is earned [-500]% faster <before adopting [Centralization]>",
+//        "[Great Prophet] is earned [-500]% faster <before adopting [Centralization]>",
         "[Great Prophet] is earned [+5]% faster <when above [1] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [3] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [5] [Decadence]>",
