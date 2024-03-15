@@ -412,7 +412,7 @@
                 "name": "Local Hegemony",
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
-                    "+30% Strength when fighting City-State units and cities",
+                    "[+30]% Strength <vs [City-States]>",
                     "[+1 Gold, +1 Happiness] from every [Hill Fort]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -422,7 +422,7 @@
             {
                 "name": "Hellenic Colonists",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "[+33]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears",
                     "[+1 Happiness] [in capital]"
                 ],

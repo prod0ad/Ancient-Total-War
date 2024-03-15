@@ -150,7 +150,7 @@
 		"[-15]% [Food] <in this city> <before adopting [Mass Culture]>",
 		"[-10]% [Production] <in this city> <in cities without a [Colony]>",
 		"[-10]% [Food] <in this city> <in cities without a [Colony]>",
-		"Can only be built [in annexed cities]",
+		"Can only be built <in [Annexed] cities>",
 		"Cannot be purchased"
 		],
 		"requiredTech": "Writing"
@@ -620,7 +620,7 @@
 		"specialistSlots": {"Priest": 2},
 		"uniques": [
 		"Provides [2] [Decadence]",
-		"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"
+		"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"
 		],
 		"requiredTech": "Aesthetics",
 		"isNationalWonder": true
@@ -701,7 +701,7 @@
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
-		"Can only be built [in annexed cities] <before adopting [Hellenistic Culture]>"
+		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
 		],
 		"requiredTech": "Land Grants"
 	},
@@ -778,7 +778,7 @@
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"[+10]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
-		"Can only be built [in capital] <before adopting [Centralization]>",
+		"Can only be built <in [Capital] cities> <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -1177,7 +1177,7 @@
 		"uniques": [
 		"Provides [2] [Horses]",
 		"[+5]% Production when constructing [Mounted] units [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Only available <for [Major]> <hidden from users>"
 		],
 		"requiredTech": "The Wheel"
@@ -1190,7 +1190,7 @@
 		"uniques": [
 		"Provides [2] [Copper]",
 		"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Only available <for [Major]> <hidden from users>"
 		],
 		"requiredTech": "Bronze Working"
@@ -1203,7 +1203,7 @@
 		"uniques": [
 		"Provides [2] [Bronze]",
 		"[+5]% Production when constructing [Spear] units [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Only available <for [Major]> <hidden from users>"
 		],
 		"requiredTech": "Citizen Levy"
@@ -1216,7 +1216,7 @@
 		"uniques": [
 		"Provides [2] [Iron]",
 		"[+5]% Production when constructing [Sword] units [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Only available <for [Major]> <hidden from users>"
 		],
 		"requiredTech": "Heavy Infantry"
@@ -1229,7 +1229,7 @@
 		"uniques": [
 		"Provides [2] [Timber]",
 		"[+5]% Production when constructing [Water] units [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Only available <for [Major]> <hidden from users>"
 		],
 		"requiredTech": "Woodworking"
@@ -1242,7 +1242,7 @@
 		"uniques": [
 		"Provides [2] [Elephants]",
 		"[+5]% Production when constructing [Elephant] units [in all cities]",
-		"Can only be built [in capital]",
+		"Can only be built <in [Capital] cities>",
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
 		"Never destroyed when the city is captured"
 		],
