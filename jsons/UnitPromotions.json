@@ -50,7 +50,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([25]%)"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [25]% chance>"],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 3
@@ -517,7 +517,7 @@
 		"name": "[Skirmisher] ability",
 		"uniques": [
 		"Ignores terrain cost",
-		"May withdraw before melee ([25]%)"
+		"Withdraws before melee combat <with [25]% chance>"
 		]
 	},
 	{
@@ -561,7 +561,7 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"[-33]% Strength <vs cities> <when attacking>",
-		"May withdraw before melee ([75]%)",
+		"Withdraws before melee combat <with [75]% chance>",
 		"No defensive terrain bonus"
 		]
 	},
@@ -570,7 +570,7 @@
 		"uniques": [
 		"[+25]% Strength <when fighting in [Desert] tiles>",
 		"[-33]% Strength <vs cities> <when attacking>",
-		"May withdraw before melee ([50]%)",
+		"Withdraws before melee combat <with [50]% chance>",
 		"No defensive terrain bonus"
 		]
 	},
@@ -665,7 +665,7 @@
 		"name": "[Hemiola] ability",
 		"uniques": [
 		"Ignores Zone of Control",
-		"May withdraw before melee ([50]%)"
+		"Withdraws before melee combat <with [50]% chance>"
 		]
 	},
 	{
@@ -684,7 +684,7 @@
 	// Uniques Units and Civ uniques
 	{
 		"name": "Berserker",
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Spartan Aura",
